@@ -59,8 +59,8 @@ int main() {
         return 1;
     }
 
-    const char *ap_name = "cherry tomatoes";
-    const char *password = "password1.";
+    const char *ap_name = "PICO TEST";
+    const char *password = "password";
     uint32_t channels[] = {1, 6, 11};
     uint8_t chan_idx = 0;
     cyw43_arch_enable_ap_mode(ap_name, password, CYW43_AUTH_WPA2_AES_PSK);
