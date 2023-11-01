@@ -1,0 +1,53 @@
+Reference links
+https://github.com/seemoo-lab/pico-nexmon/
+https://github.com/seemoo-lab/nexmon
+
+1. add in to patch folder https://github.com/seemoo-lab/pico-nexmon/blob/ee955dfbc44d807a99ac3b9ecffdc36e66d3725d/patches/002_cyw43-add_monitor_mode_support.patch
+
+2. edit patch file:
+line 6:
+PATCH_002="$PATCH_DIR/002_cyw43-add_monitor_mode_support.patch"
+
+line 30 onwards: 
+# check if patch 002 exists
+if ! [ -f $PATCH_002 ]; then
+    printf "Patchfile 2 not found, expected: %s\n" $PATCH_002
+    exit 2
+fi
+
+# apply patch 002
+printf "applying patch %s\n" $PATCH_002
+cd $CYW43_DRIVER_DIR && git apply ../$PATCH_002 && cd ..
+
+3. Basic setup in Ubuntu 22.04.3 LTS:
+
+sudo apt update && \
+sudo apt install -y git && \
+git clone --recursive https://github.com/seemoo-lab/pico-nexmon.git && \
+cd pico-nexmon && \
+./script/patch && \
+./script/setup_pico && \
+./script/setup_nexmon && \
+source ~/.bashrc
+
+mkdir build && \
+cd build && \
+cmake .. && \
+make
+
+4. add monitor_mode folder stuff to pico-nexmon:
+
+	a. Edit content in CMakeLists:
+	https://github.com/seemoo-lab/pico-nexmon/blob/9ac9df13f4500a0493957707ea4120bfe770c4d6/monitor_mode/CMakeLists.txt
+
+	b. Add picow_monitor_mode.c content:
+	https://github.com/seemoo-lab/pico-nexmon/blob/9ac9df13f4500a0493957707ea4120bfe770c4d6/monitor_mode/picow_monitor_mode.c
+
+5. Edit main CMakeLists.txt:
+line 49: add_subdirectory(monitor_mode)
+
+6. Add environment variable to CMake Tools:
+DNEXMON_ROOT --> /path/to/pico-nexmon/nexmon
+
+7. Use Compiler:
+GCC 10.3.1 arm-none-eabi
