@@ -63,4 +63,5 @@ if (PICO_CYW43_SUPPORTED)
         # specific projects in subdirectories
 	    add_subdirectory(driver/wifi)
     endif()
+    add_subdirectory(sd_card)
 endif()

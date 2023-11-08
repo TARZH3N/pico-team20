@@ -10,7 +10,7 @@ int main() {
     FIL fil;
     int ret;
     char buf[100];
-    char filename[] = "test02.txt";
+    char filename[] = "DriverTesting.txt";
 
     // Initialize chosen serial port
     stdio_init_all();
@@ -37,7 +37,7 @@ int main() {
     }
 
     // Write something to file
-    ret = f_printf(&fil, "This is another test\r\n");
+    ret = f_printf(&fil, "Testing Testing the driver is working\r\n");
     if (ret < 0) {
         printf("ERROR: Could not write to file (%d)\r\n", ret);
         f_close(&fil);
