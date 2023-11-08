@@ -384,30 +384,29 @@ int main() {
         return 1;
     }
 
-    state->complete = false;
-    while(!state->complete) {
-        // the following #ifdef is only here so this same example can be used in multiple modes;
-        // you do not need it in your code
-#if PICO_CYW43_ARCH_POLL
-        // if you are using pico_cyw43_arch_poll, then you must poll periodically from your
-        // main loop (not from a timer interrupt) to check for Wi-Fi driver or lwIP work that needs to be done.
-        cyw43_arch_poll();
-        // you can poll as often as you like, however if you have nothing else to do you can
-        // choose to sleep until either a specified time, or cyw43_arch_poll() has work to do:
-        cyw43_arch_wait_for_work_until(make_timeout_time_ms(1000));
-#else
-        // if you are not using pico_cyw43_arch_poll, then Wi-FI driver and lwIP work
-        // is done via interrupt in the background. This sleep is just an example of some (blocking)
-        // work you might be doing.
-        sleep_ms(1000);
-#endif
-    }
-
     uint32_t channels[] = {1, 6, 11};
     uint8_t chan_idx = 0;
-    cyw43_set_monitor_mode(&cyw43_state, MONITOR_IEEE80211, monitor_mode_cb);
 
-    while(true) {
+    state->complete = false;
+//     while(!state->complete) {
+//         // the following #ifdef is only here so this same example can be used in multiple modes;
+//         // you do not need it in your code
+// #if PICO_CYW43_ARCH_POLL
+//         // if you are using pico_cyw43_arch_poll, then you must poll periodically from your
+//         // main loop (not from a timer interrupt) to check for Wi-Fi driver or lwIP work that needs to be done.
+//         cyw43_arch_poll();
+//         // you can poll as often as you like, however if you have nothing else to do you can
+//         // choose to sleep until either a specified time, or cyw43_arch_poll() has work to do:
+//         cyw43_arch_wait_for_work_until(make_timeout_time_ms(1000));
+// #else
+//         // if you are not using pico_cyw43_arch_poll, then Wi-FI driver and lwIP work
+//         // is done via interrupt in the background. This sleep is just an example of some (blocking)
+//         // work you might be doing.
+//         sleep_ms(1000);
+// #endif
+//    }
+    cyw43_set_monitor_mode(&cyw43_state, MONITOR_IEEE80211, monitor_mode_cb);
+    while(true){
         cyw43_wifi_ap_set_channel(&cyw43_state, channels[chan_idx]);
         chan_idx = (chan_idx + chan_idx) % (sizeof(channels)/sizeof(channels[0]));
         sleep_ms(200);
