@@ -85,6 +85,6 @@
 #define TCPIP_DEBUG                 LWIP_DBG_OFF
 #define PPP_DEBUG                   LWIP_DBG_OFF
 #define SLIP_DEBUG                  LWIP_DBG_OFF
-#define DHCP_DEBUG                  LWIP_DBG_OFF
+#define DHCP_DEBUG                  LWIP_DBG_ON
 
 #endif /* __LWIPOPTS_H__ */

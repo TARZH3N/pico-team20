@@ -32,6 +32,34 @@
 #define MONITOR_RADIOTAP        2
 #define MONITOR_LOG_ONLY        16
 
+const char *frame_type_names[3] = {
+            "Management",
+            "Control",
+            "Data"
+        };
+const char *frame_subtype_names[4][16] = {
+        {
+            "Association Request", "Association Response", "Reassociation Request", "Reassociation Response",
+            "Probe Request", "Probe Response", "Timing Advertisement", "Reserved",
+            "Beacon", "ATIM", "Disassociation", "Authentication", "Deauthentication", "Action", "Action No Ack (NACK)", "Reserved"
+        },
+        {
+            "Reserved", "Reserved", "Trigger[3]", "TACK",
+            "Beamforming Report Poll", "VHT/HE NDP Announcement", "Control Frame Extension", "Control Wrapper",
+            "Block Ack Request (BAR)", "Block Ack (BA)", "PS-Poll", "RTS", "CTS", "ACK", "CF-End", "CF-End + CF-ACK"
+        },
+        {
+            "Data", "Reserved", "Reserved", "Reserved",
+            "Null (no data)", "Reserved", "QoS Data", "QoS Data + CF-ACK",
+            "QoS Data + CF-Poll", "QoS Data + CF-ACK + CF-Poll", "QoS Null (no data)", "Reserved", "QoS CF-Poll (no data)", "QoS CF-ACK + CF-Poll (no data)", "Reserved", "Reserved"
+        },
+        {
+            "DMG Beacon", "S1G Beacon", "Reserved", "Reserved",
+            "Reserved", "Reserved", "Reserved", "Reserved",
+            "Reserved", "Reserved", "Reserved", "Reserved", "Reserved", "Reserved", "Reserved", "Reserved"
+        }
+    };
+
 typedef struct TCP_SERVER_T_ {
     struct tcp_pcb *server_pcb;
     bool complete;
@@ -296,34 +324,6 @@ void key_pressed_func(void *param) {
     }
 }
 
-const char *frame_type_names[3] = {
-            "Management",
-            "Control",
-            "Data"
-        };
-const char *frame_subtype_names[4][16] = {
-        {
-            "Association Request", "Association Response", "Reassociation Request", "Reassociation Response",
-            "Probe Request", "Probe Response", "Timing Advertisement", "Reserved",
-            "Beacon", "ATIM", "Disassociation", "Authentication", "Deauthentication", "Action", "Action No Ack (NACK)", "Reserved"
-        },
-        {
-            "Reserved", "Reserved", "Trigger[3]", "TACK",
-            "Beamforming Report Poll", "VHT/HE NDP Announcement", "Control Frame Extension", "Control Wrapper",
-            "Block Ack Request (BAR)", "Block Ack (BA)", "PS-Poll", "RTS", "CTS", "ACK", "CF-End", "CF-End + CF-ACK"
-        },
-        {
-            "Data", "Reserved", "Reserved", "Reserved",
-            "Null (no data)", "Reserved", "QoS Data", "QoS Data + CF-ACK",
-            "QoS Data + CF-Poll", "QoS Data + CF-ACK + CF-Poll", "QoS Null (no data)", "Reserved", "QoS CF-Poll (no data)", "QoS CF-ACK + CF-Poll (no data)", "Reserved", "Reserved"
-        },
-        {
-            "DMG Beacon", "S1G Beacon", "Reserved", "Reserved",
-            "Reserved", "Reserved", "Reserved", "Reserved",
-            "Reserved", "Reserved", "Reserved", "Reserved", "Reserved", "Reserved", "Reserved", "Reserved"
-        }
-    };
-
 void monitor_mode_cb(void *data, int itf, size_t len, const uint8_t *buf) {
     uint16_t offset_80211 = 0;
     if (cyw43_state.is_monitor_mode == MONITOR_RADIOTAP)
@@ -358,9 +358,9 @@ int main() {
     async_context_add_when_pending_worker(cyw43_arch_async_context(), &key_pressed_worker);
     stdio_set_chars_available_callback(key_pressed_func, state);
 
-    const char *ap_name = "picow_test";
+    const char *ap_name = "pico test";
 #if 1
-    const char *password = "password";
+    const char *password = "12345678";
 #else
     const char *password = NULL;
 #endif
@@ -402,6 +402,17 @@ int main() {
         sleep_ms(1000);
 #endif
     }
+
+    uint32_t channels[] = {1, 6, 11};
+    uint8_t chan_idx = 0;
+    cyw43_set_monitor_mode(&cyw43_state, MONITOR_IEEE80211, monitor_mode_cb);
+
+    while(true) {
+        cyw43_wifi_ap_set_channel(&cyw43_state, channels[chan_idx]);
+        chan_idx = (chan_idx + chan_idx) % (sizeof(channels)/sizeof(channels[0]));
+        sleep_ms(200);
+    }
+
     tcp_server_close(state);
     dns_server_deinit(&dns_server);
     dhcp_server_deinit(&dhcp_server);

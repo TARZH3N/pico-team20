@@ -1,5 +1,4 @@
 add_executable(wifi_driver
-        # picow_monitor_mode.c
         picow_access_point.c
         dhcpserver/dhcpserver.c
         dnsserver/dnsserver.c
