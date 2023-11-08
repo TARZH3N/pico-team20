@@ -1,4 +1,5 @@
 add_subdirectory(no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI build)
+add_subdirectory(driver/pico-nexmon)
 
 add_executable(sdcard sd_card.c)
 
