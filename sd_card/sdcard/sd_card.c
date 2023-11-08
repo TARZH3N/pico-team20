@@ -29,33 +29,33 @@ int main() {
         while (true);
     }
 
-    // Open file for writing ()
-    fr = f_open(&fil, filename, FA_WRITE | FA_CREATE_ALWAYS);
-    if (fr != FR_OK) {
-        printf("ERROR: Could not open file (%d)\r\n", fr);
-        while (true);
-    }
+    // // Open file for writing ()
+    // fr = f_open(&fil, filename, FA_WRITE | FA_CREATE_ALWAYS);
+    // if (fr != FR_OK) {
+    //     printf("ERROR: Could not open file (%d)\r\n", fr);
+    //     while (true);
+    // }
 
-    // Write something to file
-    ret = f_printf(&fil, "Testing Testing the driver is working\r\n");
-    if (ret < 0) {
-        printf("ERROR: Could not write to file (%d)\r\n", ret);
-        f_close(&fil);
-        while (true);
-    }
-    ret = f_printf(&fil, "of writing to an SD card.\r\n");
-    if (ret < 0) {
-        printf("ERROR: Could not write to file (%d)\r\n", ret);
-        f_close(&fil);
-        while (true);
-    }
+    // // Write something to file
+    // ret = f_printf(&fil, "This is a Testing of the driver is working hehehaha\r\n");
+    // if (ret < 0) {
+    //     printf("ERROR: Could not write to file (%d)\r\n", ret);
+    //     f_close(&fil);
+    //     while (true);
+    // }
+    // ret = f_printf(&fil, "of writing to an SD card.\r\n");
+    // if (ret < 0) {
+    //     printf("ERROR: Could not write to file (%d)\r\n", ret);
+    //     f_close(&fil);
+    //     while (true);
+    // }
 
-    // Close file
-    fr = f_close(&fil);
-    if (fr != FR_OK) {
-        printf("ERROR: Could not close file (%d)\r\n", fr);
-        while (true);
-    }
+    // // Close file
+    // fr = f_close(&fil);
+    // if (fr != FR_OK) {
+    //     printf("ERROR: Could not close file (%d)\r\n", fr);
+    //     while (true);
+    // }
 
     // Open file for reading
     fr = f_open(&fil, filename, FA_READ);
