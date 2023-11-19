@@ -104,3 +104,154 @@ for i in range(len(filenames)):
 
 output.write("\n#define FS_ROOT file{}\n".format(varnames[-1])) 
 output.write("#define FS_NUMFILES {}\n".format(len(filenames)))
+
+#Uncomment if Code is implemented in C
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+# // Define the file structure
+# struct fsdata_file {
+#     const char *name;
+#     const unsigned char *data;
+#     const int len;
+#     int flags;
+# };
+
+# // Define constants for file flags
+# #define FS_FILE_FLAGS_HEADER_INCLUDED  0x01
+# #define FS_FILE_FLAGS_HEADER_PERSISTENT 0x02
+
+# // Function to generate HTTP headers
+# const char *generate_http_header(const char *file) {
+#     const char *header;
+#     if (strstr(file, "404") != NULL) {
+#         header = "HTTP/1.0 404 File not found\r\n";
+#     } else {
+#         header = "HTTP/1.0 200 OK\r\n";
+#     }
+
+#     header = strcat(header, "Server: lwIP/pre-0.6 (http://www.sics.se/~adam/lwip/)\r\n");
+
+#     if (strstr(file, ".html") != NULL || strstr(file, ".shtml") != NULL) {
+#         header = strcat(header, "Content-type: text/html\r\n");
+#     } else if (strstr(file, ".jpg") != NULL) {
+#         header = strcat(header, "Content-type: image/jpeg\r\n");
+#     } else if (strstr(file, ".gif") != NULL) {
+#         header = strcat(header, "Content-type: image/gif\r\n");
+#     } else if (strstr(file, ".png") != NULL) {
+#         header = strcat(header, "Content-type: image/png\r\n");
+#     } else if (strstr(file, ".class") != NULL) {
+#         header = strcat(header, "Content-type: application/octet-stream\r\n");
+#     } else if (strstr(file, ".js") != NULL) {
+#         header = strcat(header, "Content-type: text/javascript\r\n");
+#     } else if (strstr(file, ".css") != NULL) {
+#         header = strcat(header, "Content-type: text/css\r\n");
+#     } else if (strstr(file, ".svg") != NULL) {
+#         header = strcat(header, "Content-type: image/svg+xml\r\n");
+#     } else {
+#         header = strcat(header, "Content-type: text/plain\r\n");
+#     }
+
+#     return header;
+# }
+
+# int main() {
+#     // Create a file to write output into
+#     FILE *output = fopen("htmldata.c", "w");
+
+#     // Traverse directory, generate a list of files
+#     char *files[1024]; // Assuming a maximum of 1024 files
+#     int numFiles = 0;
+#     FILE *dir;
+#     char command[1024];
+
+#     system("cd ./html_files");
+#     dir = popen("find ./ -type f", "r");
+
+#     while (fgets(command, sizeof(command), dir) != NULL) {
+#         files[numFiles] = strdup(command);
+#         numFiles++;
+#     }
+#     pclose(dir);
+
+#     char *filenames[1024];
+#     char *varnames[1024];
+
+#     // Generate appropriate HTTP headers and C data arrays
+#     for (int i = 0; i < numFiles; i++) {
+#         const char *file = files[i];
+#         const char *header = generate_http_header(file);
+
+#         char fvar[1024];
+#         strcpy(fvar, file + 1); // Remove leading dot in filename
+#         for (int j = 0; fvar[j]; j++) {
+#             if (fvar[j] == '/' || fvar[j] == '\\') {
+#                 fvar[j] = '_'; // Replace path separators with underscores
+#             }
+#             if (fvar[j] == '.') {
+#                 fvar[j] = '_'; // Replace file extension dot with underscore
+#             }
+#         }
+
+#         fprintf(output, "static const unsigned char data%s[] = {\n", fvar);
+#         fprintf(output, "\t/* %s */\n\t", file);
+
+#         // First set of hex data encodes the filename
+#         int len = strlen(file);
+#         for (int j = 0; j < len; j++) {
+#             fprintf(output, "0x%02X, ", file[j]);
+#         }
+#         fprintf(output, "0,\n\t");
+
+#         // Second set of hex data is the HTTP header/mime type we generated above
+#         len = strlen(header);
+#         int count = 0;
+#         for (int j = 0; j < len; j++) {
+#             fprintf(output, "0x%02X, ", header[j]);
+#             count++;
+#             if (count == 10) {
+#                 fprintf(output, "\n\t");
+#                 count = 0;
+#             }
+#         }
+#         fprintf(output, "\n\t");
+
+#         // Finally, dump raw hex data from files
+#         FILE *f = fopen(file, "rb");
+#         int byte;
+#         count = 0;
+#         while ((byte = fgetc(f)) != EOF) {
+#             fprintf(output, "0x%02X, ", byte);
+#             count++;
+#             if (count == 10) {
+#                 fprintf(output, "\n\t");
+#                 count = 0;
+#             }
+#         }
+#         fprintf(output, "};\n\n");
+
+#         filenames[i] = strdup(file + 1);
+#         varnames[i] = strdup(fvar);
+#     }
+
+#     for (int i = 0; i < numFiles; i++) {
+#         const char *prevfile = "NULL";
+#         if (i > 0) {
+#             prevfile = varnames[i - 1];
+#         }
+
+#         fprintf(output, "const struct fsdata_file file%s[] = {{{ {1}, data%s, ", varnames[i], prevfile);
+#         fprintf(output, "data%s + %d, ", varnames[i], strlen(filenames[i]) + 1);
+#         fprintf(output, "sizeof(data%s) - %d, ", varnames[i], strlen(filenames[i]) + 1);
+#         fprintf(output, "FS_FILE_FLAGS_HEADER_INCLUDED | FS_FILE_FLAGS_HEADER_PERSISTENT}};\n", varnames[i]);
+#     }
+
+#     fprintf(output, "\n#define FS_ROOT file%s\n", varnames[numFiles - 1]);
+#     fprintf(output, "#define FS_NUMFILES %d\n", numFiles);
+
+#     fclose(output);
+
+#     return 0;
+# }

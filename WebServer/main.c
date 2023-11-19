@@ -9,6 +9,7 @@
 const char WIFI_SSID[] = "Family1";
 const char WIFI_PASSWORD[] = "Familycsst1";
 
+
 //Main Function
 int main(){
     stdio_init_all();
@@ -18,6 +19,7 @@ int main(){
 
     cyw43_arch_enable_sta_mode();
 
+    //Connecting to Wifi Network as set up above
     while(cyw43_arch_wifi_connect_timeout_ms(WIFI_SSID, WIFI_PASSWORD, CYW43_AUTH_WPA2_AES_PSK, 30000)){
         printf("Connecting...\n");
     }
@@ -34,6 +36,6 @@ int main(){
     cgi_init();
     printf("CGI Handler initialised\n");
     
-    // Infinite loop
+    // Infinite loop to keep the server running
     while(1);
 }

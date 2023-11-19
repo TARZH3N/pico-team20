@@ -3,16 +3,17 @@
     <head> 
         <title>PicoW Webserver</title> 
     </head>
-    <body> <h1>PicoW Webserver Tutorial</h1>
+    <body style="background-color: lightskyblue"> 
+        <h1 style="font-family:">PicoW Webserver Tutorial</h1>
         <br>
-        <h2>This bit is SSI:</h2>
-        <p>Voltage: <!--#volt--></p>
-        <p>Temp: <!--#temp--> C</p>
-        <p>LED is: <!--#led--></p>
+        <h2 style="font-family: 'Times New Roman', Times, serif;">This bit is SSI:</h2>
+        <p style="font-family:'Courier New'"><b>Voltage: <!--#volt--></b></p>
+        <p style="font-family:'Courier New'"><b>Temp: <!--#temp--> C</b></p>
+        <p style="font-family:'Courier New'"><b>LED is: <!--#led--></b></p>
         <br>
-        <h2>This bit is CGI:</h2>
-        <a href="/led.cgi?led=1"><button>LED ON</button></a>
-        <a href="/led.cgi?led=0"><button>LED OFF</button></a>
+        <h2 style="font-family: 'Times New Roman', Times, serif;">This bit is CGI:</h2>
+        <a href="/led.cgi?led=1"><button><b>LED ON</b></button></a>
+        <a href="/led.cgi?led=0"><button><b>LED OFF</b></button></a>
         <br>
         <br>
         <a href="/index.shtml">Refresh</a>
