@@ -14,4 +14,4 @@ pico_enable_stdio_uart(sdcarddriver 1)
 pico_add_extra_outputs(sdcarddriver)
 
 # add url via pico_set_program_url
-#example_auto_set_url(sdcarddriver)
+example_auto_set_url(sdcarddriver)
