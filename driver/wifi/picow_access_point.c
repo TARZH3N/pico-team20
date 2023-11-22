@@ -14,6 +14,10 @@
 
 #include "dhcpserver.h"
 #include "dnsserver.h"
+#include <stdio.h>
+#include "sd_card.h"
+#include "ff.h"
+
 
 #define TCP_PORT 80
 #define DEBUG_printf printf
@@ -59,6 +63,31 @@ const char *frame_subtype_names[4][16] = {
             "Reserved", "Reserved", "Reserved", "Reserved", "Reserved", "Reserved", "Reserved", "Reserved"
         }
     };
+
+
+void write_to_file(const char *filename, const uint8_t *data, size_t len) {
+    FIL fil;
+    FRESULT fr = f_open(&fil, filename, FA_OPEN_APPEND | FA_WRITE);
+    if (fr != FR_OK) {
+        printf("ERROR: Could not open file (%d)\r\n", fr);
+        return;
+    }
+
+    for (size_t i = 0; i < len; ++i) {
+        if (f_printf(&fil, "%02x ", data[i]) < 0) {
+            printf("ERROR: Could not write to file\r\n");
+            break;
+        }
+    }
+
+    f_printf(&fil, "\n"); // Add a newline after writing the data
+
+    fr = f_close(&fil);
+    if (fr != FR_OK) {
+        printf("ERROR: Could not close file (%d)\r\n", fr);
+    }
+}
+
 
 typedef struct TCP_SERVER_T_ {
     struct tcp_pcb *server_pcb;
@@ -323,23 +352,35 @@ void key_pressed_func(void *param) {
         async_context_set_work_pending(((TCP_SERVER_T*)param)->context, &key_pressed_worker);
     }
 }
-
 void monitor_mode_cb(void *data, int itf, size_t len, const uint8_t *buf) {
     uint16_t offset_80211 = 0;
     if (cyw43_state.is_monitor_mode == MONITOR_RADIOTAP)
         offset_80211 = *(uint16_t*)(buf+2);
     uint8_t frame_type = buf[offset_80211] >> 2 & 3;
     uint8_t frame_subtype = buf[offset_80211] >> 4;
-    printf("Frame type=%d (%s) subtype=%d (%s) len=%d data=", frame_type, frame_type_names[frame_type], frame_subtype, frame_subtype_names[frame_type][frame_subtype], len);
+
+    printf("Frame type=%d (%s) subtype=%d (%s) len=%d data=", 
+           frame_type, frame_type_names[frame_type], frame_subtype, 
+           frame_subtype_names[frame_type][frame_subtype], len);
+
     for (size_t i = 0; i < len; ++i) {
         printf("%02x ", buf[i]);
     }
     printf("\n");
-    return;
+
+    // Call function to write data to file
+    write_to_file("output.txt", buf, len);
 }
 
 int main() {
     stdio_init_all();
+    FRESULT fr;
+    DIR dir;
+    FATFS fs;
+    FIL fil;
+    int ret;
+    char buf[100];
+    static FILINFO fno;
 
     TCP_SERVER_T *state = calloc(1, sizeof(TCP_SERVER_T));
     if (!state) {
@@ -386,6 +427,19 @@ int main() {
 
     uint32_t channels[] = {1, 6, 11};
     uint8_t chan_idx = 0;
+    if (!sd_init_driver()) {
+        printf("ERROR: Could not initialize SD card\r\n");
+        while (true);
+    }
+
+    // Mount drive
+    fr = f_mount(&fs, "0:", 1);
+    if (fr != FR_OK) {
+        printf("ERROR: Could not mount filesystem (%d)\r\n", fr);
+        while (true);
+    }
+
+    printf("SD DRIVER INITIALIZED!\n");
 
     state->complete = false;
 //     while(!state->complete) {
