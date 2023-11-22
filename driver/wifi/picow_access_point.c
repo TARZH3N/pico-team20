@@ -368,9 +368,14 @@ void monitor_mode_cb(void *data, int itf, size_t len, const uint8_t *buf) {
     }
     printf("\n");
 
+    // Determine the appropriate file based on frame subtype
+    char filename[20];
+    snprintf(filename, sizeof(filename), "packet_%d.txt", frame_subtype);
+
     // Call function to write data to file
-    write_to_file("output.txt", buf, len);
+    write_to_file(filename, buf, len);
 }
+
 
 int main() {
     stdio_init_all();

@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Snow/OneDrive/Poly/SIDM/Documents/SIT Staff/Year 2/Tri 1/Embedded/pico-team20-main
+# Install script for directory: /home/ubuntu/Documents/GitHub/pico-team20
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/pico20Proj")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,13 +34,13 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/gcc-arm-none-eabi/bin/arm-none-eabi-objdump.exe")
+  set(CMAKE_OBJDUMP "/usr/bin/arm-none-eabi-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Snow/OneDrive/Poly/SIDM/Documents/SIT Staff/Year 2/Tri 1/Embedded/pico-team20-main/build/pico-sdk/cmake_install.cmake")
-  include("C:/Users/Snow/OneDrive/Poly/SIDM/Documents/SIT Staff/Year 2/Tri 1/Embedded/pico-team20-main/build/build/cmake_install.cmake")
+  include("/home/ubuntu/Documents/GitHub/pico-team20/build/pico-sdk/cmake_install.cmake")
+  include("/home/ubuntu/Documents/GitHub/pico-team20/build/build/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Snow/OneDrive/Poly/SIDM/Documents/SIT Staff/Year 2/Tri 1/Embedded/pico-team20-main/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ubuntu/Documents/GitHub/pico-team20/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

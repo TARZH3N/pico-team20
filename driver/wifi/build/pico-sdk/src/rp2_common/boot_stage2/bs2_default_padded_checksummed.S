@@ -1,4 +1,4 @@
-// Padded and checksummed version of: C:/Users/Snow/OneDrive/Poly/SIDM/Documents/SIT Staff/Year 2/Tri 1/Embedded/pico-team20-main/driver/wifi/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: /home/ubuntu/Documents/GitHub/pico-team20/driver/wifi/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

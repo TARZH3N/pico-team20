@@ -9,8 +9,8 @@
 #include "ff.h"
 
 //WIFI CONNECTION DETAILS
-const char WIFI_SSID[] = "SINGTEL-6882";
-const char WIFI_PASSWORD[] = "ohbiecazew";
+const char WIFI_SSID[] = "TYMD1946";
+const char WIFI_PASSWORD[] = "wifi1111";
 
 void list_files(const char *path) {
     FRESULT fr;
