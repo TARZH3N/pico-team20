@@ -6,8 +6,8 @@
 #include "cgi.h"
 
 //WIFI CONNECTION DETAILS
-const char WIFI_SSID[] = "Seth's Galaxy S21 FE 5G";
-const char WIFI_PASSWORD[] = "wvme6694";
+const char WIFI_SSID[] = "Family1";
+const char WIFI_PASSWORD[] = "Familycsst1";
 
 
 //Main Function

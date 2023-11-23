@@ -4,7 +4,7 @@
         <title>PicoW Webserver</title> 
     </head>
     <body style="background-color: lightskyblue"> 
-        <h1>PicoW Webserver Tutorial</h1>
+        <h1 style="font-family:">PicoW Webserver Tutorial</h1>
         <br>
         <h2 style="font-family: 'Times New Roman', Times, serif;">This bit is SSI:</h2>
         <p style="font-family:'Courier New'"><b>Voltage: <!--#volt--></b></p>
@@ -17,17 +17,5 @@
         <br>
         <br>
         <a href="/index.shtml">Refresh</a>
-        <h2 style="font-family: 'Times New Roman', Times, serif;">Download files here:</h2>
-        <a href = "/downloads/packet_0.txt" download>
-            <img src="/downloads/download.png" alt="W3Schools" width="104" height="142">
-        </a>
-        <a href = "/downloads/packet_5.txt" download>
-            <img src="/downloads/download.png" alt="W3Schools" width="104" height="142">
-        </a>
-        <a href = "/downloads/packet_8.txt" download>
-            <img src="/downloads/download.png" alt="W3Schools" width="104" height="142">
-        </a>
-        
-        
    </body>
 </html>
