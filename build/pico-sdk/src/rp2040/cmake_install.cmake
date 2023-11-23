@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2040
+# Install script for directory: C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2040
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/project_name")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,13 +34,13 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/arm-none-eabi-objdump")
+  set(CMAKE_OBJDUMP "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/gcc-arm-none-eabi/bin/arm-none-eabi-objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ubuntu/Documents/GitHub/pico-team20/build/pico-sdk/src/rp2040/hardware_regs/cmake_install.cmake")
-  include("/home/ubuntu/Documents/GitHub/pico-team20/build/pico-sdk/src/rp2040/hardware_structs/cmake_install.cmake")
+  include("C:/Users/tanzh/Documents/School/INF 2004/Project/build/pico-sdk/src/rp2040/hardware_regs/cmake_install.cmake")
+  include("C:/Users/tanzh/Documents/School/INF 2004/Project/build/pico-sdk/src/rp2040/hardware_structs/cmake_install.cmake")
 
 endif()
 
