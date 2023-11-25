@@ -1,3 +1,5 @@
+cmake_minimum_required(VERSION 3.25)
+
 add_subdirectory(no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI build)
 set(PROGRAM_NAME sdcarddriver)
 project(sdcarddriver)
