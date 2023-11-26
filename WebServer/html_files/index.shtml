@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head> 
-        <title>PicoW Webserver</title> 
+        <title>INF2004 Team 20</title> 
     </head>
     <body style="background-color: lightskyblue"> 
-        <h1>PicoW Webserver Tutorial</h1>
+        <h1>PicoW Webserver for Team 20</h1>
         <br>
         <h2 style="font-family: 'Times New Roman', Times, serif;">This bit is SSI:</h2>
         <p style="font-family:'Courier New'"><b>Voltage: <!--#volt--></b></p>
@@ -16,17 +16,21 @@
         <a href="/led.cgi?led=0"><button><b>LED OFF</b></button></a>
         <br>
         <br>
-        <a href="/index.shtml">Refresh</a>
         <h2 style="font-family: 'Times New Roman', Times, serif;">Download files here:</h2>
+        <p>packet_0.txt</p>
         <a href = "/downloads/packet_0.txt" download>
             <img src="/downloads/download.png" alt="packet_0.txt" width="104" height="142">
         </a>
+        <p>packet_5.txt</p>
         <a href = "/downloads/packet_5.txt" download>
             <img src="/downloads/download.png" alt="packet_5.txt" width="104" height="142">
         </a>
+        <p>packet_8.txt</p>
         <a href = "/downloads/packet_8.txt" download>
             <img src="/downloads/download.png" alt="packet_8.txt" width="104" height="142">
         </a>
+        <br>
+        <a href="/index.shtml">Refresh</a>
         
         
    </body>
