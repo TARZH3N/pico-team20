@@ -83,3 +83,4 @@ pico_generate_pio_header(pico_rmii_ethernet ${CMAKE_CURRENT_LIST_DIR}/src/rmii_e
 target_link_libraries(pico_rmii_ethernet INTERFACE hardware_pio hardware_dma pico_stdlib pico_unique_id pico_lwip)
 
 add_subdirectory("examples/httpd")
+add_subdirectory("i2c_slave")

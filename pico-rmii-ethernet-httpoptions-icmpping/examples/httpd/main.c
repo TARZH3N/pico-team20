@@ -17,24 +17,51 @@
 #include "lwip/raw.h"
 #include "lwip/icmp.h"
 #include "lwip/ip.h"
+#include <i2c_fifo.h>
+#include <i2c_slave.h>
+#include <string.h>
 
 #define ICMP_FLOOD_RATE 15
-#define OPTION_ICMP_FLOOD 'A'
-#define OPTION_UDP_FLOOD 'B'
 
-#define UART_ID uart0
-#define BAUD_RATE 115200
-#define UART_TX_PIN 16
-
+static const uint I2C_SLAVE_ADDRESS = 0x17;
+static const uint I2C_BAUDRATE = 100000; // 100 kHz
+static const uint I2C_MASTER_SDA_PIN = 4;
+static const uint I2C_MASTER_SCL_PIN = 5;
 uint8_t timer_started = false;
 uint8_t icmp_rate = 0;
+
+char *ip_address;
+
+static void run_master() {
+    gpio_init(I2C_MASTER_SDA_PIN);
+    gpio_set_function(I2C_MASTER_SDA_PIN, GPIO_FUNC_I2C);
+    // pull-ups are already active on slave side, this is just a fail-safe in case the wiring is faulty
+    gpio_pull_up(I2C_MASTER_SDA_PIN);
+
+    gpio_init(I2C_MASTER_SCL_PIN);
+    gpio_set_function(I2C_MASTER_SCL_PIN, GPIO_FUNC_I2C);
+    gpio_pull_up(I2C_MASTER_SCL_PIN);
+
+    i2c_init(i2c0, I2C_BAUDRATE);
+}
 
 // Alarm to detect ICMP Flood
 //
 int64_t alarm_callback(alarm_id_t id, void *user_data) {
-    // printf("Timer %d fired!\n", (int) id);
     if (icmp_rate > ICMP_FLOOD_RATE){
-        uart_putc(UART_ID, OPTION_ICMP_FLOOD);
+        const char *message = " ICMP FLOODED from ";
+        
+        // Calculate buffer size (include space for null terminator)
+        size_t buffer_size = strlen(message) + strlen(ip_address) + 2; // +1 for newline, +1 for null terminator
+        char buffer[buffer_size];
+
+        // Concatenate strings and add newline
+        strcpy(buffer, message);
+        strcat(buffer, ip_address);
+        strcat(buffer, "\n"); // Append newline character
+
+        // Send the message over I2C
+        i2c_write_blocking(i2c0, I2C_SLAVE_ADDRESS, buffer, sizeof(buffer), false);
     }
     icmp_rate = 0;
     timer_started = false;
@@ -53,6 +80,7 @@ static u8_t icmp_recv(void *arg, struct raw_pcb *pcb, struct pbuf *p, const ip_a
 
     // Iterate through the pbuf chain and print each byte
     //
+    ip_address = ip4addr_ntoa(addr);
     struct pbuf *q;
     for (q = p; q != NULL; q = q->next) {
         for (int i = 0; i < q->len; i++) {
@@ -62,7 +90,7 @@ static u8_t icmp_recv(void *arg, struct raw_pcb *pcb, struct pbuf *p, const ip_a
         }
     pbuf_free(q);
     }
-
+    printf("\n%s\n", ip_address);
     // Extract the ICMP type from byte 21 (offset 20) in the packet
     //
     u8_t icmp_type = ((u8_t *)p->payload)[20];
@@ -115,6 +143,7 @@ void netif_status_callback(struct netif *netif)
     printf("netif status changed %s\n", ip4addr_ntoa(netif_ip4_addr(netif)));
 }
 
+
 #include <stdio.h>
 #include "hardware/spi.h"
 #include "pico/binary_info.h"
@@ -144,8 +173,7 @@ int main() {
 
     // initialize stdio after the clock change
     stdio_init_all();
-    uart_init(UART_ID, BAUD_RATE);
-    gpio_set_function(UART_TX_PIN, GPIO_FUNC_UART);
+    run_master();
     sleep_ms(5000);
     
     printf("pico rmii ethernet - httpd\n");
