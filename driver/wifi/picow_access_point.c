@@ -75,13 +75,19 @@ const char *frame_subtype_names[4][16] = {
 // Function to write data to a file
 //
 void write_to_file(const char *filename, const uint8_t *data, size_t len) {
+
     FIL fil;
     FRESULT fr = f_open(&fil, filename, FA_OPEN_APPEND | FA_WRITE);
+
+    // Check if the file could be opened successfully
+    //
     if (fr != FR_OK) {
         printf("ERROR: Could not open file (%d)\r\n", fr);
         return;
     }
 
+    // Iterate through the binary data and write it to the file as hexadecimal values
+    //
     for (size_t i = 0; i < len; ++i) {
         if (f_printf(&fil, "%02x ", data[i]) < 0) {
             printf("ERROR: Could not write to file\r\n");
@@ -93,7 +99,12 @@ void write_to_file(const char *filename, const uint8_t *data, size_t len) {
     //
     f_printf(&fil, "\n"); 
 
+    // Close the file
+    //
     fr = f_close(&fil);
+
+    // Check if the file could be closed successfully
+    //
     if (fr != FR_OK) {
         printf("ERROR: Could not close file (%d)\r\n", fr);
     }
@@ -124,40 +135,78 @@ typedef struct TCP_CONNECT_STATE_T_ {
 // Function to handle closing a client connection
 //
 static err_t tcp_close_client_connection(TCP_CONNECT_STATE_T *con_state, struct tcp_pcb *client_pcb, err_t close_err) {
+    
+    // Check if the client PCB is valid
+    //
     if (client_pcb) {
+
+        // Ensure that the connection state matches the client PCB
+        //
         assert(con_state && con_state->pcb == client_pcb);
+
+        // Remove callback functions and references to the client PCB
+        //
         tcp_arg(client_pcb, NULL);
         tcp_poll(client_pcb, NULL, 0);
         tcp_sent(client_pcb, NULL);
         tcp_recv(client_pcb, NULL);
         tcp_err(client_pcb, NULL);
+
+        // Attempt to close the client PCB
+        //
         err_t err = tcp_close(client_pcb);
+
+        // Check if the close operation failed
+        //
         if (err != ERR_OK) {
+
+            // Print an error message and abort the connection if closing fails
+            //
             DEBUG_printf("close failed %d, calling abort\n", err);
             tcp_abort(client_pcb);
             close_err = ERR_ABRT;
         }
+
+        // Free the memory allocated for the connection state
+        //
         if (con_state) {
             free(con_state);
         }
     }
+
+    // Return the final error status after attempting to close the connection
+    //
     return close_err;
 }
 
 // Function to close the TCP server
 //
 static void tcp_server_close(TCP_SERVER_T *state) {
+
+    // Check if the server PCB is valid
+    //
     if (state->server_pcb) {
+
+        // Remove callback functions and references to the server PCB
+        //
         tcp_arg(state->server_pcb, NULL);
         tcp_close(state->server_pcb);
+
+        // Set the server PCB to NULL after closing
+        //
         state->server_pcb = NULL;
+        
     }
 }
 
 // Callback function when data is sent from the server to the client
 //
 static err_t tcp_server_sent(void *arg, struct tcp_pcb *pcb, u16_t len) {
+
     TCP_CONNECT_STATE_T *con_state = (TCP_CONNECT_STATE_T*)arg;
+
+    // Print debug information about the sent data length
+    //
     DEBUG_printf("tcp_server_sent %u\n", len);
 
     // Track the amount of data sent
@@ -170,13 +219,20 @@ static err_t tcp_server_sent(void *arg, struct tcp_pcb *pcb, u16_t len) {
         DEBUG_printf("all done\n");
         return tcp_close_client_connection(con_state, pcb, ERR_OK);
     }
+
+    // Return ERR_OK to signal successful handling of the sent data
+    //
     return ERR_OK;
 }
 
 // Function to test server content based on HTTP request
 //
 static int test_server_content(const char *request, const char *params, char *result, size_t max_result_len) {
+   
     int len = 0;
+
+    // Check if the request is for LED testing
+    //
     if (strncmp(request, LED_TEST, sizeof(LED_TEST) - 1) == 0) {
 
         // Get the state of the LED
@@ -185,7 +241,7 @@ static int test_server_content(const char *request, const char *params, char *re
         cyw43_gpio_get(&cyw43_state, LED_GPIO, &value);
         int led_state = value;
 
-        // Check if the user changed the LED state
+        // Check if the user provided parameters
         //
         if (params) {
             int led_param = sscanf(params, LED_PARAM, &led_state);
@@ -215,24 +271,35 @@ static int test_server_content(const char *request, const char *params, char *re
             len = snprintf(result, max_result_len, LED_TEST_BODY, "OFF", 1, "ON");
         }
     }
+
+    // Return the length of the generated result
+    //
     return len;
 }
 
 // Callback function when data is received by the server
 //
 err_t tcp_server_recv(void *arg, struct tcp_pcb *pcb, struct pbuf *p, err_t err) {
+
     TCP_CONNECT_STATE_T *con_state = (TCP_CONNECT_STATE_T*)arg;
 
-    // Check if the connection is closed
+    // Check if the received data buffer is empty, indicating the client has closed the connection
     //
     if (!p) {
         DEBUG_printf("connection closed\n");
         return tcp_close_client_connection(con_state, pcb, ERR_OK);
     }
 
+    // Ensure that the connection state matches the client PCB
+    //
     assert(con_state && con_state->pcb == pcb);
+
     if (p->tot_len > 0) {
+
+        // Print debug information about the received data
+        //
         DEBUG_printf("tcp_server_recv %d err %d\n", p->tot_len, err);
+
 #if 0
         for (struct pbuf *q = p; q != NULL; q = q->next) {
             DEBUG_printf("in: %.*s\n", q->len, q->payload);
@@ -242,11 +309,14 @@ err_t tcp_server_recv(void *arg, struct tcp_pcb *pcb, struct pbuf *p, err_t err)
         //
         pbuf_copy_partial(p, con_state->headers, p->tot_len > sizeof(con_state->headers) - 1 ? sizeof(con_state->headers) - 1 : p->tot_len, 0);
 
-        // Handle GET request
+        // Handle the HTTP GET request
         //
         if (strncmp(HTTP_GET, con_state->headers, sizeof(HTTP_GET) - 1) == 0) {
             char *request = con_state->headers + sizeof(HTTP_GET); // + space
             char *params = strchr(request, '?');
+
+            // Parse parameters from the request
+            //
             if (params) {
                 if (*params) {
                     char *space = strchr(request, ' ');
@@ -259,7 +329,7 @@ err_t tcp_server_recv(void *arg, struct tcp_pcb *pcb, struct pbuf *p, err_t err)
                 }
             }
 
-            // Generate content based on the request
+            // Generate content based on the request and parameters
             //
             con_state->result_len = test_server_content(request, params, con_state->result, sizeof(con_state->result));
             DEBUG_printf("Request: %s?%s\n", request, params);
@@ -289,14 +359,14 @@ err_t tcp_server_recv(void *arg, struct tcp_pcb *pcb, struct pbuf *p, err_t err)
                 }
             } else {
 
-                // Send redirect
+                // Send a redirect response
                 //
                 con_state->header_len = snprintf(con_state->headers, sizeof(con_state->headers), HTTP_RESPONSE_REDIRECT,
                     ipaddr_ntoa(con_state->gw));
                 DEBUG_printf("Sending redirect %s", con_state->headers);
             }
 
-            // Send the headers to the client
+            // Send the HTTP response headers to the client
             //
             con_state->sent_len = 0;
             err_t err = tcp_write(pcb, con_state->headers, con_state->header_len, 0);
@@ -305,7 +375,7 @@ err_t tcp_server_recv(void *arg, struct tcp_pcb *pcb, struct pbuf *p, err_t err)
                 return tcp_close_client_connection(con_state, pcb, err);
             }
 
-            // Send the body to the client
+            // Send the HTTP response body to the client
             //
             if (con_state->result_len) {
                 err = tcp_write(pcb, con_state->result, con_state->result_len, 0);
@@ -316,22 +386,31 @@ err_t tcp_server_recv(void *arg, struct tcp_pcb *pcb, struct pbuf *p, err_t err)
             }
         }
 
-        // Notify lwIP that data has been received
+        // Notify the TCP stack that data has been received
         //
         tcp_recved(pcb, p->tot_len);
     }
 
+    // Free the received data buffer
+    //
     pbuf_free(p);
+
+    // Return ERR_OK to indicate successful handling of the received data
+    //
     return ERR_OK;
 }
 
 // Callback function when a poll event occurs on the server
 //
 static err_t tcp_server_poll(void *arg, struct tcp_pcb *pcb) {
+
     TCP_CONNECT_STATE_T *con_state = (TCP_CONNECT_STATE_T*)arg;
+
+    // Print debug information about the polling event
+    //
     DEBUG_printf("tcp_server_poll_fn\n");
 
-    // Disconnect client
+    // Close the client connection by disconnecting
     //
     return tcp_close_client_connection(con_state, pcb, ERR_OK); // Just disconnect clent?
 }
@@ -339,19 +418,29 @@ static err_t tcp_server_poll(void *arg, struct tcp_pcb *pcb) {
 // Callback function when an error occurs on the server
 //
 static void tcp_server_err(void *arg, err_t err) {
+
     TCP_CONNECT_STATE_T *con_state = (TCP_CONNECT_STATE_T*)arg;
 
-    // Close client connection on error
+    // Check if the error is not an abort error
     //
     if (err != ERR_ABRT) {
+
+        // Print debug information about the error
+        //
         DEBUG_printf("tcp_client_err_fn %d\n", err);
+
+        // Close the client connection due to the error
+        //
         tcp_close_client_connection(con_state, con_state->pcb, err);
+
     }
+
 }
 
 // Callback function when a client connection is accepted by the server
 //
 static err_t tcp_server_accept(void *arg, struct tcp_pcb *client_pcb, err_t err) {
+
     TCP_SERVER_T *state = (TCP_SERVER_T*)arg;
 
     // Check for errors in accepting the client connection
@@ -360,6 +449,9 @@ static err_t tcp_server_accept(void *arg, struct tcp_pcb *client_pcb, err_t err)
         DEBUG_printf("failure in accept\n");
         return ERR_VAL;
     }
+
+    // Print debug information about the new client connection
+    //
     DEBUG_printf("client connected\n");
 
     // Create the state for the connection
@@ -383,27 +475,42 @@ static err_t tcp_server_accept(void *arg, struct tcp_pcb *client_pcb, err_t err)
     tcp_poll(client_pcb, tcp_server_poll, POLL_TIME_S * 2);
     tcp_err(client_pcb, tcp_server_err);
 
+    // Return ERR_OK to indicate successful handling of the new connection
+    //
     return ERR_OK;
+
 }
 
-// Function to open the TCP server
+// Function to initialize and open the TCP server
 //
 static bool tcp_server_open(void *arg, const char *ap_name) {
+
     TCP_SERVER_T *state = (TCP_SERVER_T*)arg;
+
+    // Print debug information about starting the server on a specific port
+    //
     DEBUG_printf("starting server on port %d\n", TCP_PORT);
 
+    // Create a new TCP PCB (Protocol Control Block) with IP type set to IPADDR_TYPE_ANY
+    //
     struct tcp_pcb *pcb = tcp_new_ip_type(IPADDR_TYPE_ANY);
+
     if (!pcb) {
         DEBUG_printf("failed to create pcb\n");
         return false;
     }
 
+    // Bind the PCB to the specified IP address and port
+    //
     err_t err = tcp_bind(pcb, IP_ANY_TYPE, TCP_PORT);
+
     if (err) {
         DEBUG_printf("failed to bind to port %d\n",TCP_PORT);
         return false;
     }
 
+    // Set up the server PCB to listen for incoming connections with a backlog of 1
+    //
     state->server_pcb = tcp_listen_with_backlog(pcb, 1);
     if (!state->server_pcb) {
         DEBUG_printf("failed to listen\n");
@@ -413,23 +520,43 @@ static bool tcp_server_open(void *arg, const char *ap_name) {
         return false;
     }
 
+    // Set the argument and callback function for the server PCB
+    //
     tcp_arg(state->server_pcb, state);
     tcp_accept(state->server_pcb, tcp_server_accept);
 
+    // Print information for the user to connect to the server
+    //
     printf("Try connecting to '%s' (press 'd' to disable access point)\n", ap_name);
+
+    // Return true to indicate successful server initialization
+    //
     return true;
 }
 
 // Worker function for handling key press events
 //
 void key_pressed_worker_func(async_context_t *context, async_when_pending_worker_t *worker) {
+
+    // Ensure the worker has valid user data
+    //
     assert(worker->user_data);
+
+    // Print a message indicating that Wi-Fi is being disabled
+    //
     printf("Disabling wifi\n");
+
+    // Disable access point mode in the Wi-Fi module
+    //
     cyw43_arch_disable_ap_mode();
+
+    // Set the 'complete' flag in the TCP server state to true
+    //
     ((TCP_SERVER_T*)(worker->user_data))->complete = true;
+
 }
 
-// Structure for key pressed worker
+// Definition of the key_pressed_worker structure
 //
 static async_when_pending_worker_t key_pressed_worker = {
         .do_work = key_pressed_worker_func
@@ -438,14 +565,23 @@ static async_when_pending_worker_t key_pressed_worker = {
 // Function to handle key press events
 //
 void key_pressed_func(void *param) {
+
+    // Ensure the parameter is not NULL
+    //
     assert(param);
 
-    // Get any pending key press but do not wait
+    // Get any pending key press without waiting
     //
     int key = getchar_timeout_us(0); 
 
+    // Check if the key pressed is 'd' or 'D'
+    //
     if (key == 'd' || key == 'D') {
+
+        // Create a worker event to disable access point mode in the Wi-Fi module
+        //
         async_context_set_work_pending(((TCP_SERVER_T*)param)->context, &key_pressed_worker);
+    
     }
 }
 
