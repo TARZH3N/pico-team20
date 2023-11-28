@@ -1,4 +1,4 @@
-// Padded and checksummed version of: /home/ubuntu/Documents/GitHub/pico-team20/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: C:/Users/chari/Desktop/SIT/YEAR 2/TRI 1/INF2004 EMBEDDED SYSTEMS PROGRAMMING/pico-team20/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

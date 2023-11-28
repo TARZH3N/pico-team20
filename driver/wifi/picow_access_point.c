@@ -4,6 +4,9 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
+
+// Import required libraries
+//
 #include <string.h>
 
 #include "pico/cyw43_arch.h"
@@ -18,7 +21,8 @@
 #include "sd_card.h"
 #include "ff.h"
 
-
+// Define constants
+//
 #define TCP_PORT 80
 #define DEBUG_printf printf
 #define POLL_TIME_S 5
@@ -30,12 +34,16 @@
 #define LED_GPIO 0
 #define HTTP_RESPONSE_REDIRECT "HTTP/1.1 302 Redirect\nLocation: http://%s" LED_TEST "\n\n"
 
+// Enumeration for monitor mode types
+//
 #define MONITOR_DISABLED        0
 #define MONITOR_IEEE80211       1
 /* RADIOTAP MODE REQUIRES A NEXMON FW! */
 #define MONITOR_RADIOTAP        2
 #define MONITOR_LOG_ONLY        16
 
+// Arrays for frame type and subtype names
+//
 const char *frame_type_names[3] = {
             "Management",
             "Control",
@@ -64,7 +72,8 @@ const char *frame_subtype_names[4][16] = {
         }
     };
 
-
+// Function to write data to a file
+//
 void write_to_file(const char *filename, const uint8_t *data, size_t len) {
     FIL fil;
     FRESULT fr = f_open(&fil, filename, FA_OPEN_APPEND | FA_WRITE);
@@ -80,15 +89,19 @@ void write_to_file(const char *filename, const uint8_t *data, size_t len) {
         }
     }
 
-    f_printf(&fil, "\n"); // Add a newline after writing the data
+    // Add a newline after writing the data
+    //
+    f_printf(&fil, "\n"); 
 
     fr = f_close(&fil);
     if (fr != FR_OK) {
         printf("ERROR: Could not close file (%d)\r\n", fr);
     }
+
 }
 
-
+// Structure for TCP server state
+//
 typedef struct TCP_SERVER_T_ {
     struct tcp_pcb *server_pcb;
     bool complete;
@@ -96,6 +109,8 @@ typedef struct TCP_SERVER_T_ {
     async_context_t *context;
 } TCP_SERVER_T;
 
+// Structure for TCP connection state
+//
 typedef struct TCP_CONNECT_STATE_T_ {
     struct tcp_pcb *pcb;
     int sent_len;
@@ -106,6 +121,8 @@ typedef struct TCP_CONNECT_STATE_T_ {
     ip_addr_t *gw;
 } TCP_CONNECT_STATE_T;
 
+// Function to handle closing a client connection
+//
 static err_t tcp_close_client_connection(TCP_CONNECT_STATE_T *con_state, struct tcp_pcb *client_pcb, err_t close_err) {
     if (client_pcb) {
         assert(con_state && con_state->pcb == client_pcb);
@@ -127,6 +144,8 @@ static err_t tcp_close_client_connection(TCP_CONNECT_STATE_T *con_state, struct 
     return close_err;
 }
 
+// Function to close the TCP server
+//
 static void tcp_server_close(TCP_SERVER_T *state) {
     if (state->server_pcb) {
         tcp_arg(state->server_pcb, NULL);
@@ -135,10 +154,18 @@ static void tcp_server_close(TCP_SERVER_T *state) {
     }
 }
 
+// Callback function when data is sent from the server to the client
+//
 static err_t tcp_server_sent(void *arg, struct tcp_pcb *pcb, u16_t len) {
     TCP_CONNECT_STATE_T *con_state = (TCP_CONNECT_STATE_T*)arg;
     DEBUG_printf("tcp_server_sent %u\n", len);
+
+    // Track the amount of data sent
+    //
     con_state->sent_len += len;
+
+    // Check if all data has been sent
+    //
     if (con_state->sent_len >= con_state->header_len + con_state->result_len) {
         DEBUG_printf("all done\n");
         return tcp_close_client_connection(con_state, pcb, ERR_OK);
@@ -146,28 +173,42 @@ static err_t tcp_server_sent(void *arg, struct tcp_pcb *pcb, u16_t len) {
     return ERR_OK;
 }
 
+// Function to test server content based on HTTP request
+//
 static int test_server_content(const char *request, const char *params, char *result, size_t max_result_len) {
     int len = 0;
     if (strncmp(request, LED_TEST, sizeof(LED_TEST) - 1) == 0) {
-        // Get the state of the led
+
+        // Get the state of the LED
+        //
         bool value;
         cyw43_gpio_get(&cyw43_state, LED_GPIO, &value);
         int led_state = value;
 
-        // See if the user changed it
+        // Check if the user changed the LED state
+        //
         if (params) {
             int led_param = sscanf(params, LED_PARAM, &led_state);
             if (led_param == 1) {
+
+                // Update LED state based on user input
+                //
                 if (led_state) {
-                    // Turn led on
+
+                    // Turn LED on
+                    //
                     cyw43_gpio_set(&cyw43_state, 0, true);
                 } else {
-                    // Turn led off
+
+                    // Turn LED off
+                    //
                     cyw43_gpio_set(&cyw43_state, 0, false);
                 }
             }
         }
-        // Generate result
+
+        // Generate result based on LED state
+        //
         if (led_state) {
             len = snprintf(result, max_result_len, LED_TEST_BODY, "ON", 0, "OFF");
         } else {
@@ -177,12 +218,18 @@ static int test_server_content(const char *request, const char *params, char *re
     return len;
 }
 
+// Callback function when data is received by the server
+//
 err_t tcp_server_recv(void *arg, struct tcp_pcb *pcb, struct pbuf *p, err_t err) {
     TCP_CONNECT_STATE_T *con_state = (TCP_CONNECT_STATE_T*)arg;
+
+    // Check if the connection is closed
+    //
     if (!p) {
         DEBUG_printf("connection closed\n");
         return tcp_close_client_connection(con_state, pcb, ERR_OK);
     }
+
     assert(con_state && con_state->pcb == pcb);
     if (p->tot_len > 0) {
         DEBUG_printf("tcp_server_recv %d err %d\n", p->tot_len, err);
@@ -192,9 +239,11 @@ err_t tcp_server_recv(void *arg, struct tcp_pcb *pcb, struct pbuf *p, err_t err)
         }
 #endif
         // Copy the request into the buffer
+        //
         pbuf_copy_partial(p, con_state->headers, p->tot_len > sizeof(con_state->headers) - 1 ? sizeof(con_state->headers) - 1 : p->tot_len, 0);
 
         // Handle GET request
+        //
         if (strncmp(HTTP_GET, con_state->headers, sizeof(HTTP_GET) - 1) == 0) {
             char *request = con_state->headers + sizeof(HTTP_GET); // + space
             char *params = strchr(request, '?');
@@ -210,33 +259,45 @@ err_t tcp_server_recv(void *arg, struct tcp_pcb *pcb, struct pbuf *p, err_t err)
                 }
             }
 
-            // Generate content
+            // Generate content based on the request
+            //
             con_state->result_len = test_server_content(request, params, con_state->result, sizeof(con_state->result));
             DEBUG_printf("Request: %s?%s\n", request, params);
             DEBUG_printf("Result: %d\n", con_state->result_len);
 
-            // Check we had enough buffer space
+            // Check that there is enough buffer space for the result data
+            //
             if (con_state->result_len > sizeof(con_state->result) - 1) {
                 DEBUG_printf("Too much result data %d\n", con_state->result_len);
                 return tcp_close_client_connection(con_state, pcb, ERR_CLSD);
             }
 
             // Generate web page
+            //
             if (con_state->result_len > 0) {
+
+                // Generate HTTP response headers
+                //
                 con_state->header_len = snprintf(con_state->headers, sizeof(con_state->headers), HTTP_RESPONSE_HEADERS,
                     200, con_state->result_len);
+
+                // Check that there is enough buffer space for the header data
+                //
                 if (con_state->header_len > sizeof(con_state->headers) - 1) {
                     DEBUG_printf("Too much header data %d\n", con_state->header_len);
                     return tcp_close_client_connection(con_state, pcb, ERR_CLSD);
                 }
             } else {
+
                 // Send redirect
+                //
                 con_state->header_len = snprintf(con_state->headers, sizeof(con_state->headers), HTTP_RESPONSE_REDIRECT,
                     ipaddr_ntoa(con_state->gw));
                 DEBUG_printf("Sending redirect %s", con_state->headers);
             }
 
             // Send the headers to the client
+            //
             con_state->sent_len = 0;
             err_t err = tcp_write(pcb, con_state->headers, con_state->header_len, 0);
             if (err != ERR_OK) {
@@ -245,6 +306,7 @@ err_t tcp_server_recv(void *arg, struct tcp_pcb *pcb, struct pbuf *p, err_t err)
             }
 
             // Send the body to the client
+            //
             if (con_state->result_len) {
                 err = tcp_write(pcb, con_state->result, con_state->result_len, 0);
                 if (err != ERR_OK) {
@@ -253,28 +315,47 @@ err_t tcp_server_recv(void *arg, struct tcp_pcb *pcb, struct pbuf *p, err_t err)
                 }
             }
         }
+
+        // Notify lwIP that data has been received
+        //
         tcp_recved(pcb, p->tot_len);
     }
+
     pbuf_free(p);
     return ERR_OK;
 }
 
+// Callback function when a poll event occurs on the server
+//
 static err_t tcp_server_poll(void *arg, struct tcp_pcb *pcb) {
     TCP_CONNECT_STATE_T *con_state = (TCP_CONNECT_STATE_T*)arg;
     DEBUG_printf("tcp_server_poll_fn\n");
+
+    // Disconnect client
+    //
     return tcp_close_client_connection(con_state, pcb, ERR_OK); // Just disconnect clent?
 }
 
+// Callback function when an error occurs on the server
+//
 static void tcp_server_err(void *arg, err_t err) {
     TCP_CONNECT_STATE_T *con_state = (TCP_CONNECT_STATE_T*)arg;
+
+    // Close client connection on error
+    //
     if (err != ERR_ABRT) {
         DEBUG_printf("tcp_client_err_fn %d\n", err);
         tcp_close_client_connection(con_state, con_state->pcb, err);
     }
 }
 
+// Callback function when a client connection is accepted by the server
+//
 static err_t tcp_server_accept(void *arg, struct tcp_pcb *client_pcb, err_t err) {
     TCP_SERVER_T *state = (TCP_SERVER_T*)arg;
+
+    // Check for errors in accepting the client connection
+    //
     if (err != ERR_OK || client_pcb == NULL) {
         DEBUG_printf("failure in accept\n");
         return ERR_VAL;
@@ -282,15 +363,20 @@ static err_t tcp_server_accept(void *arg, struct tcp_pcb *client_pcb, err_t err)
     DEBUG_printf("client connected\n");
 
     // Create the state for the connection
+    //
     TCP_CONNECT_STATE_T *con_state = calloc(1, sizeof(TCP_CONNECT_STATE_T));
     if (!con_state) {
         DEBUG_printf("failed to allocate connect state\n");
         return ERR_MEM;
     }
-    con_state->pcb = client_pcb; // for checking
+
+    // Initialize connection state
+    //
+    con_state->pcb = client_pcb;
     con_state->gw = &state->gw;
 
-    // setup connection to client
+    // Setup connection to client
+    //
     tcp_arg(client_pcb, con_state);
     tcp_sent(client_pcb, tcp_server_sent);
     tcp_recv(client_pcb, tcp_server_recv);
@@ -300,6 +386,8 @@ static err_t tcp_server_accept(void *arg, struct tcp_pcb *client_pcb, err_t err)
     return ERR_OK;
 }
 
+// Function to open the TCP server
+//
 static bool tcp_server_open(void *arg, const char *ap_name) {
     TCP_SERVER_T *state = (TCP_SERVER_T*)arg;
     DEBUG_printf("starting server on port %d\n", TCP_PORT);
@@ -332,7 +420,8 @@ static bool tcp_server_open(void *arg, const char *ap_name) {
     return true;
 }
 
-// This "worker" function is called to safely perform work when instructed by key_pressed_func
+// Worker function for handling key press events
+//
 void key_pressed_worker_func(async_context_t *context, async_when_pending_worker_t *worker) {
     assert(worker->user_data);
     printf("Disabling wifi\n");
@@ -340,45 +429,78 @@ void key_pressed_worker_func(async_context_t *context, async_when_pending_worker
     ((TCP_SERVER_T*)(worker->user_data))->complete = true;
 }
 
+// Structure for key pressed worker
+//
 static async_when_pending_worker_t key_pressed_worker = {
         .do_work = key_pressed_worker_func
 };
 
+// Function to handle key press events
+//
 void key_pressed_func(void *param) {
     assert(param);
-    int key = getchar_timeout_us(0); // get any pending key press but don't wait
+
+    // Get any pending key press but do not wait
+    //
+    int key = getchar_timeout_us(0); 
+
     if (key == 'd' || key == 'D') {
-        // We are probably in irq context so call wifi in a "worker"
         async_context_set_work_pending(((TCP_SERVER_T*)param)->context, &key_pressed_worker);
     }
 }
+
+// Callback function for handling monitor mode events
+//
 void monitor_mode_cb(void *data, int itf, size_t len, const uint8_t *buf) {
+
+    // Extract information from the received frame
+    //
     uint16_t offset_80211 = 0;
+
+    // Adjust the offset if the monitor mode is set to RADIOTAP
+    //
     if (cyw43_state.is_monitor_mode == MONITOR_RADIOTAP)
         offset_80211 = *(uint16_t*)(buf+2);
+
+    // Extract frame type and subtype from the frame header
     uint8_t frame_type = buf[offset_80211] >> 2 & 3;
     uint8_t frame_subtype = buf[offset_80211] >> 4;
 
+    // Print information about the received frame
+    //
     printf("Frame type=%d (%s) subtype=%d (%s) len=%d data=", 
            frame_type, frame_type_names[frame_type], frame_subtype, 
            frame_subtype_names[frame_type][frame_subtype], len);
 
+    
+    // Print the data bytes of the frame
+    //
     for (size_t i = 0; i < len; ++i) {
         printf("%02x ", buf[i]);
     }
+
     printf("\n");
 
     // Determine the appropriate file based on frame subtype
+    //
     char filename[20];
     snprintf(filename, sizeof(filename), "packet_%d.txt", frame_subtype);
 
     // Call function to write data to file
+    //
     write_to_file(filename, buf, len);
 }
 
-
+// Main function
+//
 int main() {
+
+    // Initialization of standard I/O and file system variables
+    //
     stdio_init_all();
+
+    // Initialization of file system variables and structures
+    //
     FRESULT fr;
     DIR dir;
     FATFS fs;
@@ -387,23 +509,30 @@ int main() {
     char buf[100];
     static FILINFO fno;
 
+    // Definition of the TCP server state
+    //
     TCP_SERVER_T *state = calloc(1, sizeof(TCP_SERVER_T));
     if (!state) {
         DEBUG_printf("failed to allocate state\n");
         return 1;
     }
-
+    
+    // Initialization of CYW43 Wi-Fi chip
+    //
     if (cyw43_arch_init()) {
         DEBUG_printf("failed to initialise\n");
         return 1;
     }
 
-    // Get notified if the user presses a key
+    // Setting up key press event handling
+    //
     state->context = cyw43_arch_async_context();
     key_pressed_worker.user_data = state;
     async_context_add_when_pending_worker(cyw43_arch_async_context(), &key_pressed_worker);
     stdio_set_chars_available_callback(key_pressed_func, state);
 
+    // Configuration for the Wi-Fi access point
+    //
     const char *ap_name = "pico test";
 #if 1
     const char *password = "12345678";
@@ -413,31 +542,43 @@ int main() {
 
     cyw43_arch_enable_ap_mode(ap_name, password, CYW43_AUTH_WPA2_AES_PSK);
 
+    // Setting up IP address and netmask for the access point
+    //
     ip4_addr_t mask;
     IP4_ADDR(ip_2_ip4(&state->gw), 192, 168, 4, 1);
     IP4_ADDR(ip_2_ip4(&mask), 255, 255, 255, 0);
 
-    // Start the dhcp server
+    // Start the DHCP server for dynamic IP assignment
+    //
     dhcp_server_t dhcp_server;
     dhcp_server_init(&dhcp_server, &state->gw, &mask);
 
-    // Start the dns server
+    // Start the DNS server for domain name resolution
+    //
     dns_server_t dns_server;
     dns_server_init(&dns_server, &state->gw);
 
+    // Attempt to open the TCP server
+    //
     if (!tcp_server_open(state, ap_name)) {
         DEBUG_printf("failed to open server\n");
         return 1;
     }
 
+    // List of Wi-Fi channels to be used for monitoring mode
+    //
     uint32_t channels[] = {1, 6, 11};
     uint8_t chan_idx = 0;
+
+    // Initialize the SD card driver
+    //
     if (!sd_init_driver()) {
         printf("ERROR: Could not initialize SD card\r\n");
         while (true);
     }
 
-    // Mount drive
+    // Mount the SD card filesystem
+    //
     fr = f_mount(&fs, "0:", 1);
     if (fr != FR_OK) {
         printf("ERROR: Could not mount filesystem (%d)\r\n", fr);
@@ -447,33 +588,23 @@ int main() {
     printf("SD DRIVER INITIALIZED!\n");
 
     state->complete = false;
-//     while(!state->complete) {
-//         // the following #ifdef is only here so this same example can be used in multiple modes;
-//         // you do not need it in your code
-// #if PICO_CYW43_ARCH_POLL
-//         // if you are using pico_cyw43_arch_poll, then you must poll periodically from your
-//         // main loop (not from a timer interrupt) to check for Wi-Fi driver or lwIP work that needs to be done.
-//         cyw43_arch_poll();
-//         // you can poll as often as you like, however if you have nothing else to do you can
-//         // choose to sleep until either a specified time, or cyw43_arch_poll() has work to do:
-//         cyw43_arch_wait_for_work_until(make_timeout_time_ms(1000));
-// #else
-//         // if you are not using pico_cyw43_arch_poll, then Wi-FI driver and lwIP work
-//         // is done via interrupt in the background. This sleep is just an example of some (blocking)
-//         // work you might be doing.
-//         sleep_ms(1000);
-// #endif
-//    }
-    cyw43_set_monitor_mode(&cyw43_state, MONITOR_IEEE80211, monitor_mode_cb);
+
+   // Main loop
+   //
+   cyw43_set_monitor_mode(&cyw43_state, MONITOR_IEEE80211, monitor_mode_cb);
     while(true){
         cyw43_wifi_ap_set_channel(&cyw43_state, channels[chan_idx]);
         chan_idx = (chan_idx + chan_idx) % (sizeof(channels)/sizeof(channels[0]));
         sleep_ms(200);
     }
 
+    // Cleanup and deinitialization before exiting the program
+    //
     tcp_server_close(state);
     dns_server_deinit(&dns_server);
     dhcp_server_deinit(&dhcp_server);
     cyw43_arch_deinit();
     return 0;
 }
+
+/*** end of file ***/

@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/tanzh/Documents/School/INF 2004/Project/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI
+# Install script for directory: C:/Users/chari/Desktop/SIT/YEAR 2/TRI 1/INF2004 EMBEDDED SYSTEMS PROGRAMMING/pico-team20/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/project_name")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/pico_nexmon")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

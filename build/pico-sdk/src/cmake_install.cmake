@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/project_name")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/pico_nexmon")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/tanzh/Documents/School/INF 2004/Project/build/pico-sdk/src/common/cmake_install.cmake")
-  include("C:/Users/tanzh/Documents/School/INF 2004/Project/build/pico-sdk/src/rp2_common/cmake_install.cmake")
-  include("C:/Users/tanzh/Documents/School/INF 2004/Project/build/pico-sdk/src/rp2040/cmake_install.cmake")
+  include("C:/Users/chari/Desktop/SIT/YEAR 2/TRI 1/INF2004 EMBEDDED SYSTEMS PROGRAMMING/pico-team20/build/pico-sdk/src/common/cmake_install.cmake")
+  include("C:/Users/chari/Desktop/SIT/YEAR 2/TRI 1/INF2004 EMBEDDED SYSTEMS PROGRAMMING/pico-team20/build/pico-sdk/src/rp2_common/cmake_install.cmake")
+  include("C:/Users/chari/Desktop/SIT/YEAR 2/TRI 1/INF2004 EMBEDDED SYSTEMS PROGRAMMING/pico-team20/build/pico-sdk/src/rp2040/cmake_install.cmake")
 
 endif()
 

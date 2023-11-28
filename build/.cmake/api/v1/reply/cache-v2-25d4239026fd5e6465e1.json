@@ -195,7 +195,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/tanzh/Documents/School/INF 2004/Project/build"
+			"value" : "c:/Users/chari/Desktop/SIT/YEAR 2/TRI 1/INF2004 EMBEDDED SYSTEMS PROGRAMMING/pico-team20/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/dlltool.exe"
+			"value" : "CMAKE_DLLTOOL-NOTFOUND"
 		},
 		{
 			"name" : "CMAKE_EDIT_COMMAND",
@@ -679,7 +679,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/tanzh/Documents/School/INF 2004/Project/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/chari/Desktop/SIT/YEAR 2/TRI 1/INF2004 EMBEDDED SYSTEMS PROGRAMMING/pico-team20/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -739,7 +739,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/tanzh/Documents/School/INF 2004/Project"
+			"value" : "C:/Users/chari/Desktop/SIT/YEAR 2/TRI 1/INF2004 EMBEDDED SYSTEMS PROGRAMMING/pico-team20"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -751,7 +751,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/project_name"
+			"value" : "C:/Program Files (x86)/pico_nexmon"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -1307,7 +1307,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[C:/Users/tanzh/AppData/Local/Programs/Python/Python310/python.exe][cfound components: Interpreter ][v3.10.7()]"
+			"value" : "[C:/Users/chari/anaconda3/python.exe][cfound components: Interpreter ][v3.9.12()]"
 		},
 		{
 			"name" : "PICO_BOARD",
@@ -1463,7 +1463,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/cmsis C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2040/hardware_regs C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/cmsis C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2040/hardware_regs"
+			"value" : " C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/cmsis C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2040/hardware_regs C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/cmsis C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2040/hardware_regs C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/cmsis C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2040/hardware_regs C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/cmsis C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2040/hardware_regs C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/cmsis C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2040/hardware_regs C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/cmsis C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2040/hardware_regs C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/cmsis C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2040/hardware_regs"
 		},
 		{
 			"name" : "PICO_DOXYGEN_PATHS",
@@ -1691,7 +1691,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/tanzh/AppData/Local/Programs/Python/Python310/python.exe"
+			"value" : "C:/Users/chari/anaconda3/python.exe"
 		},
 		{
 			"name" : "_Python3_INTERPRETER_PROPERTIES",
@@ -1703,7 +1703,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "Python;3;10;7;32;;;C:\\Users\\tanzh\\AppData\\Local\\Programs\\Python\\Python310\\Lib;C:\\Users\\tanzh\\AppData\\Local\\Programs\\Python\\Python310\\Lib;C:\\Users\\tanzh\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages;C:\\Users\\tanzh\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages"
+			"value" : "Python;3;9;12;32;;;C:\\Users\\chari\\anaconda3\\Lib;C:\\Users\\chari\\anaconda3\\Lib;C:\\Users\\chari\\anaconda3\\Lib\\site-packages;C:\\Users\\chari\\anaconda3\\Lib\\site-packages"
 		},
 		{
 			"name" : "_Python3_INTERPRETER_SIGNATURE",
@@ -1715,7 +1715,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "8d887a35828574249790236d35c3b3da"
+			"value" : "cbdf2f0d400b4346964a9ada27659f38"
 		},
 		{
 			"name" : "_Python3_Interpreter_REASON_FAILURE",
@@ -1754,6 +1754,42 @@
 			"value" : "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk-tools"
 		},
 		{
+			"name" : "pico_nexmon_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/chari/Desktop/SIT/YEAR 2/TRI 1/INF2004 EMBEDDED SYSTEMS PROGRAMMING/pico-team20/build"
+		},
+		{
+			"name" : "pico_nexmon_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "pico_nexmon_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/chari/Desktop/SIT/YEAR 2/TRI 1/INF2004 EMBEDDED SYSTEMS PROGRAMMING/pico-team20"
+		},
+		{
 			"name" : "pico_sdk_BINARY_DIR",
 			"properties" : 
 			[
@@ -1763,7 +1799,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/tanzh/Documents/School/INF 2004/Project/build/pico-sdk"
+			"value" : "C:/Users/chari/Desktop/SIT/YEAR 2/TRI 1/INF2004 EMBEDDED SYSTEMS PROGRAMMING/pico-team20/build/pico-sdk"
 		},
 		{
 			"name" : "pico_sdk_IS_TOP_LEVEL",
@@ -1799,7 +1835,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/tanzh/Documents/School/INF 2004/Project/build"
+			"value" : "C:/Users/chari/Desktop/SIT/YEAR 2/TRI 1/INF2004 EMBEDDED SYSTEMS PROGRAMMING/pico-team20/build"
 		},
 		{
 			"name" : "project_name_IS_TOP_LEVEL",
@@ -1823,7 +1859,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/tanzh/Documents/School/INF 2004/Project"
+			"value" : "C:/Users/chari/Desktop/SIT/YEAR 2/TRI 1/INF2004 EMBEDDED SYSTEMS PROGRAMMING/pico-team20"
 		}
 	],
 	"kind" : "cache",

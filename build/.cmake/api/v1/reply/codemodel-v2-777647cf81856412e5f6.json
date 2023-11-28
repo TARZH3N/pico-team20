@@ -1151,7 +1151,7 @@
 				{
 					"directoryIndex" : 43,
 					"id" : "bs2_default::@bc554eaed616d198a22d",
-					"jsonFile" : "target-bs2_default-Debug-65ae4f4974a27374568e.json",
+					"jsonFile" : "target-bs2_default-Debug-e9b4613a12fa547427db.json",
 					"name" : "bs2_default",
 					"projectIndex" : 1
 				},
@@ -1179,7 +1179,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "pico20Proj::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-pico20Proj-Debug-080163e1e8694bb3f368.json",
+					"jsonFile" : "target-pico20Proj-Debug-4af4d3ceb59493cb3f61.json",
 					"name" : "pico20Proj",
 					"projectIndex" : 0
 				},
@@ -1203,8 +1203,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/tanzh/Documents/School/INF 2004/Project/build",
-		"source" : "C:/Users/tanzh/Documents/School/INF 2004/Project"
+		"build" : "C:/Users/chari/Desktop/SIT/YEAR 2/TRI 1/INF2004 EMBEDDED SYSTEMS PROGRAMMING/pico-team20/build",
+		"source" : "C:/Users/chari/Desktop/SIT/YEAR 2/TRI 1/INF2004 EMBEDDED SYSTEMS PROGRAMMING/pico-team20"
 	},
 	"version" : 
 	{
