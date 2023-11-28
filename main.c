@@ -12,8 +12,8 @@
 
 // WiFi Network Credentials
 //
-const char g_wifi_ssid[] = "TYMD1946";
-const char g_wifi_password[] = "wifi1111";
+const char g_wifi_ssid[] = "CHANGE_YOUR_SSID_HERE";
+const char g_wifi_password[] = "CHANGE_YOUR_CREDENTIALS_HERE";
 
 // Function to list files in a directory
 //

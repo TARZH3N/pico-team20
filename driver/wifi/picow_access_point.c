@@ -49,6 +49,9 @@ const char *frame_type_names[3] = {
             "Control",
             "Data"
         };
+
+// Types of WiFi Frames defined in IEEE 802.11 Standard
+//
 const char *frame_subtype_names[4][16] = {
         {
             "Association Request", "Association Response", "Reassociation Request", "Reassociation Response",
