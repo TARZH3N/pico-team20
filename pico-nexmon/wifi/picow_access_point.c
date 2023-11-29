@@ -707,6 +707,12 @@ void monitor_mode_cb(void *data, int itf, size_t len, const uint8_t *buf) {
     // Call function to queue data for writing to file
     //
     enqueue_write(filename, buf, len);
+
+    // Signal that data has been added to queue
+    //
+    if (!added) {
+        added = 1;
+    }
 }
 
 // Function for handling i2c transmission from Master
@@ -737,7 +743,7 @@ static void i2c_slave_handler(i2c_inst_t *i2c, i2c_slave_event_t event) {
         //
         enqueue_write("i2c_data.txt", context.mem, context.mem_address);
         
-        //Signal that data has been added to queue
+        // Signal that data has been added to queue
         //
         if (!added) {
             added = 1;
