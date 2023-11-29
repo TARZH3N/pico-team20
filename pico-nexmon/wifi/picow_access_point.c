@@ -46,6 +46,11 @@
 #define MONITOR_RADIOTAP        2
 #define MONITOR_LOG_ONLY        16
 
+#define WRITE_QUEUE_SIZE        50
+
+uint queueHead = 0;
+uint queueTail = 0;
+
 //I2C Slave Variables
 //
 static const uint I2C_SLAVE_ADDRESS = 0x17;
