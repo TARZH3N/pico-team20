@@ -8,6 +8,7 @@
 // Import required libraries
 //
 #include <string.h>
+#include <hardware/timer.h>
 
 #include "pico/cyw43_arch.h"
 #include "pico/stdlib.h"
@@ -20,6 +21,9 @@
 #include <stdio.h>
 #include "sd_card.h"
 #include "ff.h"
+
+#include "i2c_slave.h"
+#include "i2c_fifo.h"
 
 // Define constants
 //
@@ -41,6 +45,48 @@
 /* RADIOTAP MODE REQUIRES A NEXMON FW! */
 #define MONITOR_RADIOTAP        2
 #define MONITOR_LOG_ONLY        16
+
+//I2C Slave Variables
+//
+static const uint I2C_SLAVE_ADDRESS = 0x17;
+static const uint I2C_BAUDRATE = 100000; // 100 kHz
+static const uint I2C_SLAVE_SDA_PIN = 4;
+static const uint I2C_SLAVE_SCL_PIN = 5;
+
+//Writing Flags for write to sd card
+//
+uint writing = 0;
+uint added = 0;
+
+// List of Wi-Fi channels to be used for monitoring mode
+//
+uint8_t chan_idx = 0;
+uint32_t channels[] = {1, 6, 11};
+
+// Struct for write queue
+//
+typedef struct {
+    char filename[32];  
+    uint8_t *data;
+    size_t data_len;
+} WriteQueueItem;
+
+// Initialisation of writeQueue array with set write queue size
+//
+WriteQueueItem writeQueue[WRITE_QUEUE_SIZE];
+
+// Timer struct for beaconTime to beacon
+//
+struct repeating_timer beaconTime;
+
+// Struct for I2C Slave
+//
+static struct
+{
+    uint8_t mem[256];
+    uint8_t mem_address;
+    bool mem_address_written;
+} context;
 
 // Arrays for frame type and subtype names
 //
@@ -74,6 +120,34 @@ const char *frame_subtype_names[4][16] = {
             "Reserved", "Reserved", "Reserved", "Reserved", "Reserved", "Reserved", "Reserved", "Reserved"
         }
     };
+
+// Function to enqueue writing processes
+//
+bool enqueue_write(const char* filename, const uint8_t* data, size_t len) {
+    if ((queueTail + 1) % WRITE_QUEUE_SIZE == queueHead) {
+        // Queue is full
+        //
+        return false;
+    }
+
+    WriteQueueItem *item = &writeQueue[queueTail];
+    strncpy(item->filename, filename, sizeof(item->filename));
+
+    // Allocate memory for data
+    //
+    item->data = malloc(len);  
+    if (item->data == NULL) {
+        // Memory allocation failed
+        //
+        return false;
+    }
+
+    memcpy(item->data, data, len);
+    item->data_len = len;
+
+    queueTail = (queueTail + 1) % WRITE_QUEUE_SIZE;
+    return true;
+}
 
 // Function to write data to a file
 //
@@ -625,9 +699,96 @@ void monitor_mode_cb(void *data, int itf, size_t len, const uint8_t *buf) {
     char filename[20];
     snprintf(filename, sizeof(filename), "packet_%d.txt", frame_subtype);
 
-    // Call function to write data to file
+    // Call function to queue data for writing to file
     //
-    write_to_file(filename, buf, len);
+    enqueue_write(filename, buf, len);
+}
+
+// Function for handling i2c transmission from Master
+//
+static void i2c_slave_handler(i2c_inst_t *i2c, i2c_slave_event_t event) {
+    switch (event) {
+    // Master has sent some data
+    //
+    case I2C_SLAVE_RECEIVE: 
+        if (!context.mem_address_written) {
+            context.mem_address = i2c_read_byte(i2c);
+            context.mem_address_written = true;
+        } else {
+            context.mem[context.mem_address] = i2c_read_byte(i2c);
+            context.mem_address++;
+        }
+        break;
+    // Master Requesting Data
+    //
+    case I2C_SLAVE_REQUEST:
+        // No request needed
+        //
+        break;
+    // Master has signalled Stop / Restart
+    // 
+    case I2C_SLAVE_FINISH: 
+        // Queue data for writing
+        //
+        enqueue_write("i2c_data.txt", context.mem, context.mem_address);
+        
+        //Signal that data has been added to queue
+        //
+        if (!added) {
+            added = 1;
+        }
+
+        context.mem_address_written = false;
+        context.mem_address = 0;
+        break;
+    default:
+        break;
+    }
+}
+
+// Function to write data that is in queue
+//
+void processWriteQueue() {
+    // Check if there is a concurrent write operation
+    //
+    if (!writing) {
+        writing = 1;
+        while (queueHead != queueTail) {
+            WriteQueueItem *item = &writeQueue[queueHead];
+            write_to_file(item->filename, item->data, item->data_len);
+            free(item->data);  // Free the allocated memory
+
+            queueHead = (queueHead + 1) % WRITE_QUEUE_SIZE;
+        }
+
+        // Reset Flags
+        //
+        writing = 0;
+        added = 0;
+    }
+}
+
+// Function to set up I2C Slave
+//
+static void setup_slave() {
+    gpio_init(I2C_SLAVE_SDA_PIN);
+    gpio_set_function(I2C_SLAVE_SDA_PIN, GPIO_FUNC_I2C);
+    gpio_pull_up(I2C_SLAVE_SDA_PIN);
+
+    gpio_init(I2C_SLAVE_SCL_PIN);
+    gpio_set_function(I2C_SLAVE_SCL_PIN, GPIO_FUNC_I2C);
+    gpio_pull_up(I2C_SLAVE_SCL_PIN);
+
+    i2c_init(i2c0, I2C_BAUDRATE);
+    // configure I2C0 for slave mode
+    i2c_slave_init(i2c0, I2C_SLAVE_ADDRESS, &i2c_slave_handler);
+}
+
+// Function called by beaconTime repeating alarm
+//
+bool beaconTimer() {
+    cyw43_wifi_ap_set_channel(&cyw43_state, channels[chan_idx]);
+    chan_idx = (chan_idx + chan_idx) % (sizeof(channels)/sizeof(channels[0]));
 }
 
 // Main function
@@ -637,6 +798,10 @@ int main() {
     // Initialization of standard I/O and file system variables
     //
     stdio_init_all();
+
+    // Initialization of I2C Slave
+    //
+    setup_slave();
 
     // Initialization of file system variables and structures
     //
@@ -704,10 +869,7 @@ int main() {
         return 1;
     }
 
-    // List of Wi-Fi channels to be used for monitoring mode
-    //
-    uint32_t channels[] = {1, 6, 11};
-    uint8_t chan_idx = 0;
+    
 
     // Initialize the SD card driver
     //
@@ -728,13 +890,23 @@ int main() {
 
     state->complete = false;
 
-   // Main loop
-   //
-   cyw43_set_monitor_mode(&cyw43_state, MONITOR_IEEE80211, monitor_mode_cb);
+    // Main loop
+    //
+    cyw43_set_monitor_mode(&cyw43_state, MONITOR_IEEE80211, monitor_mode_cb);
+
+    // Repeating timer to beacon
+    //
+    add_repeating_timer_ms(-200, beaconTimer, NULL, &beaconTime);
+
+    // Repeatedly call for writing to sd card from queue
+    //
     while(true){
-        cyw43_wifi_ap_set_channel(&cyw43_state, channels[chan_idx]);
-        chan_idx = (chan_idx + chan_idx) % (sizeof(channels)/sizeof(channels[0]));
-        sleep_ms(200);
+        // Check if data has been added to queue
+        //
+        if (added) {
+            processWriteQueue();
+            sleep_ms(10);
+        }
     }
 
     // Cleanup and deinitialization before exiting the program
