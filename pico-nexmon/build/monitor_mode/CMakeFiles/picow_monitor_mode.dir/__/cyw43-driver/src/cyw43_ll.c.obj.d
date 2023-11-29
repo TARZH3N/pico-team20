@@ -1,5 +1,5 @@
 monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_ll.c.obj: \
- /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_ll.c \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_ll.c \
  /usr/include/newlib/assert.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
@@ -15,14 +15,14 @@ monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_ll.c.ob
  /usr/include/newlib/sys/string.h /usr/include/newlib/inttypes.h \
  /usr/include/newlib/sys/_intsup.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
- /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_config.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_config.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/include/cyw43_configport.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_base/include/pico.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_base/include/pico/types.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_base/include/pico/assert.h \
- /home/ubuntu/pico-nexmon/build/generated/pico_base/pico/version.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/generated/pico_base/pico/version.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_base/include/pico/config.h \
- /home/ubuntu/pico-nexmon/build/generated/pico_base/pico/config_autogen.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/generated/pico_base/pico/config_autogen.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/boards/include/boards/pico_w.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
@@ -55,11 +55,11 @@ monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_ll.c.ob
  /usr/include/newlib/sys/timespec.h /usr/include/newlib/sys/_timespec.h \
  /usr/include/newlib/sys/_pthreadtypes.h /usr/include/newlib/sys/sched.h \
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
- /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_country.h \
- /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_ll.h \
- /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_internal.h \
- /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_stats.h \
- /home/ubuntu/pico-nexmon/cyw43-driver/firmware/wifi_nvram_43439.h \
- /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_spi.h \
- /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_debug_pins.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_country.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_ll.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_internal.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_stats.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/firmware/wifi_nvram_43439.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_spi.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_debug_pins.h \
  /home/ubuntu/pico-nexmon/nexmon/patches/bcm43439a0/7_95_49_2271bb6/nexmon/w43439A0_7_95_49_00_combined.h

@@ -684,20 +684,20 @@ void monitor_mode_cb(void *data, int itf, size_t len, const uint8_t *buf) {
     uint8_t frame_type = buf[offset_80211] >> 2 & 3;
     uint8_t frame_subtype = buf[offset_80211] >> 4;
 
-    // Print information about the received frame
-    //
-    printf("Frame type=%d (%s) subtype=%d (%s) len=%d data=", 
-           frame_type, frame_type_names[frame_type], frame_subtype, 
-           frame_subtype_names[frame_type][frame_subtype], len);
+    // // Print information about the received frame
+    // //
+    // printf("Frame type=%d (%s) subtype=%d (%s) len=%d data=", 
+    //        frame_type, frame_type_names[frame_type], frame_subtype, 
+    //        frame_subtype_names[frame_type][frame_subtype], len);
 
     
-    // Print the data bytes of the frame
-    //
-    for (size_t i = 0; i < len; ++i) {
-        printf("%02x ", buf[i]);
-    }
+    // // Print the data bytes of the frame
+    // //
+    // for (size_t i = 0; i < len; ++i) {
+    //     printf("%02x ", buf[i]);
+    // }
 
-    printf("\n");
+    // printf("\n");
 
     // Determine the appropriate file based on frame subtype
     //

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/pico-nexmon
+CMAKE_SOURCE_DIR = /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/pico-nexmon/build
+CMAKE_BINARY_DIR = /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build
 
 # Utility rule file for bs2_default_padded_checksummed_asm.
 
@@ -69,12 +69,12 @@ include pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checks
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 
 pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S: pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default_padded_checksummed.S"
-	cd /home/ubuntu/pico-nexmon/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/python3.10 /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/boot_stage2/pad_checksum -s 0xffffffff /home/ubuntu/pico-nexmon/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin /home/ubuntu/pico-nexmon/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default_padded_checksummed.S"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/python3.10 /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/boot_stage2/pad_checksum -s 0xffffffff /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 
 pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating bs2_default.bin"
-	cd /home/ubuntu/pico-nexmon/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/arm-none-eabi-objcopy -Obinary /home/ubuntu/pico-nexmon/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf /home/ubuntu/pico-nexmon/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating bs2_default.bin"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/arm-none-eabi-objcopy -Obinary /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 bs2_default_padded_checksummed_asm: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm
 bs2_default_padded_checksummed_asm: pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
@@ -87,10 +87,10 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_as
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/clean:
-	cd /home/ubuntu/pico-nexmon/build/pico-sdk/src/rp2_common/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_padded_checksummed_asm.dir/cmake_clean.cmake
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/pico-sdk/src/rp2_common/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_padded_checksummed_asm.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/clean
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/depend:
-	cd /home/ubuntu/pico-nexmon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/pico-nexmon /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/boot_stage2 /home/ubuntu/pico-nexmon/build /home/ubuntu/pico-nexmon/build/pico-sdk/src/rp2_common/boot_stage2 /home/ubuntu/pico-nexmon/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/boot_stage2 /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/pico-sdk/src/rp2_common/boot_stage2 /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/depend
 

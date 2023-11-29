@@ -1,5 +1,5 @@
 ioctl_test/CMakeFiles/picow_ioctl_test.dir/picow_ioctl_test.c.obj: \
- /home/ubuntu/pico-nexmon/ioctl_test/picow_ioctl_test.c \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/ioctl_test/picow_ioctl_test.c \
  /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_base/include/pico.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_base/include/pico/types.h \
@@ -11,9 +11,9 @@ ioctl_test/CMakeFiles/picow_ioctl_test.dir/picow_ioctl_test.c.obj: \
  /usr/include/newlib/sys/features.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
- /home/ubuntu/pico-nexmon/build/generated/pico_base/pico/version.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/generated/pico_base/pico/version.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_base/include/pico/config.h \
- /home/ubuntu/pico-nexmon/build/generated/pico_base/pico/config_autogen.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/generated/pico_base/pico/config_autogen.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/boards/include/boards/pico_w.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
@@ -46,8 +46,8 @@ ioctl_test/CMakeFiles/picow_ioctl_test.dir/picow_ioctl_test.c.obj: \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch.h \
- /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43.h \
- /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_config.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_config.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/include/cyw43_configport.h \
  /usr/include/newlib/stdio.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
@@ -60,12 +60,12 @@ ioctl_test/CMakeFiles/picow_ioctl_test.dir/picow_ioctl_test.c.obj: \
  /usr/include/newlib/sys/timespec.h /usr/include/newlib/sys/_timespec.h \
  /usr/include/newlib/sys/_pthreadtypes.h /usr/include/newlib/sys/sched.h \
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
- /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_ll.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_ll.h \
  /usr/include/newlib/string.h /usr/include/newlib/sys/_locale.h \
  /usr/include/newlib/strings.h /usr/include/newlib/sys/string.h \
- /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_country.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_country.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_threadsafe_background.h \
- /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_internal.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_internal.h \
  /usr/include/newlib/stdlib.h /usr/include/newlib/machine/stdlib.h \
  /usr/include/newlib/alloca.h

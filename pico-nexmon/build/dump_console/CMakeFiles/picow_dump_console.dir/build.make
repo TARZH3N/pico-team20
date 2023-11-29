@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/pico-nexmon
+CMAKE_SOURCE_DIR = /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/pico-nexmon/build
+CMAKE_BINARY_DIR = /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build
 
 # Include any dependencies generated for this target.
 include dump_console/CMakeFiles/picow_dump_console.dir/depend.make
@@ -72,1053 +72,1053 @@ include dump_console/CMakeFiles/picow_dump_console.dir/flags.make
 dump_console/CMakeFiles/picow_dump_console.dir/picow_dump_console.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
 dump_console/CMakeFiles/picow_dump_console.dir/picow_dump_console.c.obj: ../dump_console/picow_dump_console.c
 dump_console/CMakeFiles/picow_dump_console.dir/picow_dump_console.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/picow_dump_console.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/picow_dump_console.c.obj -MF CMakeFiles/picow_dump_console.dir/picow_dump_console.c.obj.d -o CMakeFiles/picow_dump_console.dir/picow_dump_console.c.obj -c /home/ubuntu/pico-nexmon/dump_console/picow_dump_console.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/picow_dump_console.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/picow_dump_console.c.obj -MF CMakeFiles/picow_dump_console.dir/picow_dump_console.c.obj.d -o CMakeFiles/picow_dump_console.dir/picow_dump_console.c.obj -c /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/dump_console/picow_dump_console.c
 
 dump_console/CMakeFiles/picow_dump_console.dir/picow_dump_console.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/picow_dump_console.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/dump_console/picow_dump_console.c > CMakeFiles/picow_dump_console.dir/picow_dump_console.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/dump_console/picow_dump_console.c > CMakeFiles/picow_dump_console.dir/picow_dump_console.c.i
 
 dump_console/CMakeFiles/picow_dump_console.dir/picow_dump_console.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/picow_dump_console.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/dump_console/picow_dump_console.c -o CMakeFiles/picow_dump_console.dir/picow_dump_console.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: ../pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: ../pico-sdk/src/rp2_common/hardware_gpio/gpio.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: ../pico-sdk/src/rp2_common/pico_platform/platform.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: ../pico-sdk/src/rp2_common/hardware_claim/claim.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: ../pico-sdk/src/rp2_common/hardware_sync/sync.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: ../pico-sdk/src/rp2_common/hardware_irq/irq.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: ../pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/sem.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/sem.c.obj: ../pico-sdk/src/common/pico_sync/sem.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/sem.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/sem.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/sem.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/sem.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/sem.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/sem.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.obj: ../pico-sdk/src/common/pico_sync/lock_core.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/mutex.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/mutex.c.obj: ../pico-sdk/src/common/pico_sync/mutex.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/mutex.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/mutex.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/mutex.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/mutex.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/mutex.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/mutex.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.obj: ../pico-sdk/src/common/pico_sync/critical_section.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/time.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/time.c.obj: ../pico-sdk/src/common/pico_time/time.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/time.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/time.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/time.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/time.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/time.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/time.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/time.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/time.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/time.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.obj: ../pico-sdk/src/common/pico_time/timeout_helper.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: ../pico-sdk/src/rp2_common/hardware_timer/timer.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/datetime.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/datetime.c.obj: ../pico-sdk/src/common/pico_util/datetime.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/datetime.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/datetime.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/datetime.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/datetime.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/datetime.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/datetime.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/pheap.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/pheap.c.obj: ../pico-sdk/src/common/pico_util/pheap.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/pheap.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/pheap.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/pheap.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/pheap.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/pheap.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/pheap.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/queue.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/queue.c.obj: ../pico-sdk/src/common/pico_util/queue.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/queue.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/queue.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/queue.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/queue.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/queue.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/queue.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/queue.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: ../pico-sdk/src/rp2_common/hardware_uart/uart.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: ../pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: ../pico-sdk/src/rp2_common/hardware_pll/pll.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: ../pico-sdk/src/rp2_common/hardware_vreg/vreg.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: ../pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: ../pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: ../pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building ASM object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: ../pico-sdk/src/rp2_common/pico_runtime/runtime.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: ../pico-sdk/src/rp2_common/pico_printf/printf.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: ../pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: ../pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: ../pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_divider/divider.S.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_divider/divider.S.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_divider/divider.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_divider/divider.S.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_divider/divider.S.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: ../pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: ../pico-sdk/src/rp2_common/pico_double/double_init_rom.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: ../pico-sdk/src/rp2_common/pico_double/double_math.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: ../pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: ../pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: ../pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: ../pico-sdk/src/rp2_common/pico_float/float_init_rom.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: ../pico-sdk/src/rp2_common/pico_float/float_math.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: ../pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: ../pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: ../pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: ../pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: ../pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: ../pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: ../pico-sdk/src/rp2_common/pico_stdio/stdio.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: ../pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: ../pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: ../pico-sdk/src/rp2_common/hardware_flash/flash.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
-
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/dump_console/picow_dump_console.c -o CMakeFiles/picow_dump_console.dir/picow_dump_console.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building ASM object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
 
 dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ll.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
 dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ll.c.obj: ../cyw43-driver/src/cyw43_ll.c
 dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ll.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ll.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ll.c.obj -MF CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ll.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ll.c.obj -c /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_ll.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ll.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ll.c.obj -MF CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ll.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ll.c.obj -c /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_ll.c
 
 dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ll.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_ll.c > CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ll.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_ll.c > CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ll.c.i
 
 dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ll.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ll.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_ll.c -o CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ll.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_ll.c -o CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ll.c.s
 
 dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_stats.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
 dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_stats.c.obj: ../cyw43-driver/src/cyw43_stats.c
 dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_stats.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_stats.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_stats.c.obj -MF CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_stats.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_stats.c.obj -c /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_stats.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_stats.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_stats.c.obj -MF CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_stats.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_stats.c.obj -c /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_stats.c
 
 dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_stats.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_stats.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_stats.c > CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_stats.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_stats.c > CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_stats.c.i
 
 dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_stats.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_stats.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_stats.c -o CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_stats.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_stats.c -o CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_stats.c.s
 
 dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_lwip.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
 dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_lwip.c.obj: ../cyw43-driver/src/cyw43_lwip.c
 dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_lwip.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_lwip.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_lwip.c.obj -MF CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_lwip.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_lwip.c.obj -c /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_lwip.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_lwip.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_lwip.c.obj -MF CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_lwip.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_lwip.c.obj -c /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_lwip.c
 
 dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_lwip.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_lwip.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_lwip.c > CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_lwip.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_lwip.c > CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_lwip.c.i
 
 dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_lwip.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_lwip.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_lwip.c -o CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_lwip.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_lwip.c -o CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_lwip.c.s
 
 dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
 dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj: ../cyw43-driver/src/cyw43_ctrl.c
 dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj -MF CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj -c /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_ctrl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj -MF CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj -c /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_ctrl.c
 
 dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ctrl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ctrl.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_ctrl.c > CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ctrl.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_ctrl.c > CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ctrl.c.i
 
 dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ctrl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ctrl.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_ctrl.c -o CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ctrl.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_ctrl.c -o CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ctrl.c.s
 
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
 
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
 
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
 
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
 
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
 
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
 
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: ../pico-sdk/src/rp2_common/hardware_pio/pio.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c
 
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
 
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: ../pico-sdk/src/rp2_common/hardware_dma/dma.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c
 
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
 
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
 
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: ../pico-sdk/src/rp2_common/hardware_exception/exception.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c
 
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
 
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
 
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
 
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
 
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
 
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: ../pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
 
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
 
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
 
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: ../pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj -MF CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj.d -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/flags.make
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: dump_console/CMakeFiles/picow_dump_console.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj -MF CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj.d -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
 
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c > CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c > CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
 
-dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c -o CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c -o CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
 
 # Object files for target picow_dump_console
 picow_dump_console_OBJECTS = \
 "CMakeFiles/picow_dump_console.dir/picow_dump_console.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/sem.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/mutex.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/time.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/datetime.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/pheap.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/queue.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_divider/divider.S.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj" \
 "CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ll.c.obj" \
 "CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_stats.c.obj" \
 "CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_lwip.c.obj" \
 "CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj" \
-"CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj"
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj" \
+"CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj"
 
 # External object files for target picow_dump_console
 picow_dump_console_EXTERNAL_OBJECTS =
 
 dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/picow_dump_console.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/sem.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/mutex.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/time.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/datetime.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/pheap.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/common/pico_util/queue.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
 dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ll.c.obj
 dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_stats.c.obj
 dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_lwip.c.obj
 dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
-dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
 dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/build.make
 dump_console/picow_dump_console.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 dump_console/picow_dump_console.elf: dump_console/CMakeFiles/picow_dump_console.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Linking CXX executable picow_dump_console.elf"
-	cd /home/ubuntu/pico-nexmon/build/dump_console && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/picow_dump_console.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Linking CXX executable picow_dump_console.elf"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/picow_dump_console.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 dump_console/CMakeFiles/picow_dump_console.dir/build: dump_console/picow_dump_console.elf
 .PHONY : dump_console/CMakeFiles/picow_dump_console.dir/build
 
 dump_console/CMakeFiles/picow_dump_console.dir/clean:
-	cd /home/ubuntu/pico-nexmon/build/dump_console && $(CMAKE_COMMAND) -P CMakeFiles/picow_dump_console.dir/cmake_clean.cmake
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console && $(CMAKE_COMMAND) -P CMakeFiles/picow_dump_console.dir/cmake_clean.cmake
 .PHONY : dump_console/CMakeFiles/picow_dump_console.dir/clean
 
 dump_console/CMakeFiles/picow_dump_console.dir/depend:
-	cd /home/ubuntu/pico-nexmon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/pico-nexmon /home/ubuntu/pico-nexmon/dump_console /home/ubuntu/pico-nexmon/build /home/ubuntu/pico-nexmon/build/dump_console /home/ubuntu/pico-nexmon/build/dump_console/CMakeFiles/picow_dump_console.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/dump_console /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console/CMakeFiles/picow_dump_console.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dump_console/CMakeFiles/picow_dump_console.dir/depend
 

@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ubuntu/pico-nexmon/build/pico-sdk/tools/cmake_install.cmake")
-  include("/home/ubuntu/pico-nexmon/build/pico-sdk/src/cmake_install.cmake")
-  include("/home/ubuntu/pico-nexmon/build/pico-sdk/docs/cmake_install.cmake")
+  include("/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/pico-sdk/tools/cmake_install.cmake")
+  include("/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/pico-sdk/src/cmake_install.cmake")
+  include("/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/pico-sdk/docs/cmake_install.cmake")
 
 endif()
 

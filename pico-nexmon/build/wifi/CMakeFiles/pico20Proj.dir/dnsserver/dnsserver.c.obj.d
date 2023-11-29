@@ -1,5 +1,5 @@
 wifi/CMakeFiles/pico20Proj.dir/dnsserver/dnsserver.c.obj: \
- /home/ubuntu/pico-nexmon/wifi/dnsserver/dnsserver.c \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/dnsserver/dnsserver.c \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
@@ -21,11 +21,11 @@ wifi/CMakeFiles/pico20Proj.dir/dnsserver/dnsserver.c.obj: \
  /usr/include/newlib/errno.h /usr/include/newlib/sys/errno.h \
  /usr/include/newlib/assert.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
- /home/ubuntu/pico-nexmon/wifi/dnsserver/dnsserver.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/dnsserver/dnsserver.h \
  /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/include/lwip/ip_addr.h \
  /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/include/lwip/opt.h \
- /home/ubuntu/pico-nexmon/wifi/lwipopts.h \
- /home/ubuntu/pico-nexmon/wifi/lwipopts_examples_common.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/lwipopts.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/lwipopts_examples_common.h \
  /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/include/lwip/debug.h \
  /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/include/lwip/arch.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/include/arch/cc.h \
@@ -35,9 +35,9 @@ wifi/CMakeFiles/pico20Proj.dir/dnsserver/dnsserver.c.obj: \
  /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_base/include/pico/types.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_base/include/pico/assert.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
- /home/ubuntu/pico-nexmon/build/generated/pico_base/pico/version.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/generated/pico_base/pico/version.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_base/include/pico/config.h \
- /home/ubuntu/pico-nexmon/build/generated/pico_base/pico/config_autogen.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/generated/pico_base/pico/config_autogen.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/boards/include/boards/pico_w.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \

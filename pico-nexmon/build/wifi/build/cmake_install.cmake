@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI
+# Install script for directory: /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

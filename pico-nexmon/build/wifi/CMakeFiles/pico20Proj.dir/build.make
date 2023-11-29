@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/pico-nexmon
+CMAKE_SOURCE_DIR = /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/pico-nexmon/build
+CMAKE_BINARY_DIR = /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build
 
 # Include any dependencies generated for this target.
 include wifi/CMakeFiles/pico20Proj.dir/depend.make
@@ -72,2844 +72,2874 @@ include wifi/CMakeFiles/pico20Proj.dir/flags.make
 wifi/CMakeFiles/pico20Proj.dir/picow_access_point.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
 wifi/CMakeFiles/pico20Proj.dir/picow_access_point.c.obj: ../wifi/picow_access_point.c
 wifi/CMakeFiles/pico20Proj.dir/picow_access_point.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object wifi/CMakeFiles/pico20Proj.dir/picow_access_point.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/picow_access_point.c.obj -MF CMakeFiles/pico20Proj.dir/picow_access_point.c.obj.d -o CMakeFiles/pico20Proj.dir/picow_access_point.c.obj -c /home/ubuntu/pico-nexmon/wifi/picow_access_point.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object wifi/CMakeFiles/pico20Proj.dir/picow_access_point.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/picow_access_point.c.obj -MF CMakeFiles/pico20Proj.dir/picow_access_point.c.obj.d -o CMakeFiles/pico20Proj.dir/picow_access_point.c.obj -c /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/picow_access_point.c
 
 wifi/CMakeFiles/pico20Proj.dir/picow_access_point.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/picow_access_point.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/wifi/picow_access_point.c > CMakeFiles/pico20Proj.dir/picow_access_point.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/picow_access_point.c > CMakeFiles/pico20Proj.dir/picow_access_point.c.i
 
 wifi/CMakeFiles/pico20Proj.dir/picow_access_point.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/picow_access_point.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/wifi/picow_access_point.c -o CMakeFiles/pico20Proj.dir/picow_access_point.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/picow_access_point.c -o CMakeFiles/pico20Proj.dir/picow_access_point.c.s
 
 wifi/CMakeFiles/pico20Proj.dir/dhcpserver/dhcpserver.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
 wifi/CMakeFiles/pico20Proj.dir/dhcpserver/dhcpserver.c.obj: ../wifi/dhcpserver/dhcpserver.c
 wifi/CMakeFiles/pico20Proj.dir/dhcpserver/dhcpserver.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object wifi/CMakeFiles/pico20Proj.dir/dhcpserver/dhcpserver.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/dhcpserver/dhcpserver.c.obj -MF CMakeFiles/pico20Proj.dir/dhcpserver/dhcpserver.c.obj.d -o CMakeFiles/pico20Proj.dir/dhcpserver/dhcpserver.c.obj -c /home/ubuntu/pico-nexmon/wifi/dhcpserver/dhcpserver.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object wifi/CMakeFiles/pico20Proj.dir/dhcpserver/dhcpserver.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/dhcpserver/dhcpserver.c.obj -MF CMakeFiles/pico20Proj.dir/dhcpserver/dhcpserver.c.obj.d -o CMakeFiles/pico20Proj.dir/dhcpserver/dhcpserver.c.obj -c /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/dhcpserver/dhcpserver.c
 
 wifi/CMakeFiles/pico20Proj.dir/dhcpserver/dhcpserver.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/dhcpserver/dhcpserver.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/wifi/dhcpserver/dhcpserver.c > CMakeFiles/pico20Proj.dir/dhcpserver/dhcpserver.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/dhcpserver/dhcpserver.c > CMakeFiles/pico20Proj.dir/dhcpserver/dhcpserver.c.i
 
 wifi/CMakeFiles/pico20Proj.dir/dhcpserver/dhcpserver.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/dhcpserver/dhcpserver.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/wifi/dhcpserver/dhcpserver.c -o CMakeFiles/pico20Proj.dir/dhcpserver/dhcpserver.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/dhcpserver/dhcpserver.c -o CMakeFiles/pico20Proj.dir/dhcpserver/dhcpserver.c.s
 
 wifi/CMakeFiles/pico20Proj.dir/dnsserver/dnsserver.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
 wifi/CMakeFiles/pico20Proj.dir/dnsserver/dnsserver.c.obj: ../wifi/dnsserver/dnsserver.c
 wifi/CMakeFiles/pico20Proj.dir/dnsserver/dnsserver.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object wifi/CMakeFiles/pico20Proj.dir/dnsserver/dnsserver.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/dnsserver/dnsserver.c.obj -MF CMakeFiles/pico20Proj.dir/dnsserver/dnsserver.c.obj.d -o CMakeFiles/pico20Proj.dir/dnsserver/dnsserver.c.obj -c /home/ubuntu/pico-nexmon/wifi/dnsserver/dnsserver.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object wifi/CMakeFiles/pico20Proj.dir/dnsserver/dnsserver.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/dnsserver/dnsserver.c.obj -MF CMakeFiles/pico20Proj.dir/dnsserver/dnsserver.c.obj.d -o CMakeFiles/pico20Proj.dir/dnsserver/dnsserver.c.obj -c /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/dnsserver/dnsserver.c
 
 wifi/CMakeFiles/pico20Proj.dir/dnsserver/dnsserver.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/dnsserver/dnsserver.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/wifi/dnsserver/dnsserver.c > CMakeFiles/pico20Proj.dir/dnsserver/dnsserver.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/dnsserver/dnsserver.c > CMakeFiles/pico20Proj.dir/dnsserver/dnsserver.c.i
 
 wifi/CMakeFiles/pico20Proj.dir/dnsserver/dnsserver.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/dnsserver/dnsserver.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/wifi/dnsserver/dnsserver.c -o CMakeFiles/pico20Proj.dir/dnsserver/dnsserver.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj: ../pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: ../pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: ../pico-sdk/src/rp2_common/pico_platform/platform.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_rand/rand.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_rand/rand.c.obj: ../pico-sdk/src/rp2_common/pico_rand/rand.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_rand/rand.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_rand/rand.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_rand/rand.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_rand/rand.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_rand/rand.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_rand/rand.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_rand/rand.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_rand/rand.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_rand/rand.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_rand/rand.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_rand/rand.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: ../pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: ../pico-sdk/src/rp2_common/hardware_flash/flash.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: ../pico-sdk/src/rp2_common/hardware_claim/claim.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: ../pico-sdk/src/rp2_common/hardware_sync/sync.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: ../pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: ../pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: ../pico-sdk/src/rp2_common/hardware_gpio/gpio.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: ../pico-sdk/src/rp2_common/hardware_irq/irq.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: ../pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building ASM object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/sem.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/sem.c.obj: ../pico-sdk/src/common/pico_sync/sem.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/sem.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/sem.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/sem.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/sem.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/sem.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/sem.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.obj: ../pico-sdk/src/common/pico_sync/lock_core.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/mutex.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/mutex.c.obj: ../pico-sdk/src/common/pico_sync/mutex.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/mutex.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/mutex.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/mutex.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/mutex.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/mutex.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/mutex.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.obj: ../pico-sdk/src/common/pico_sync/critical_section.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/time.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/time.c.obj: ../pico-sdk/src/common/pico_time/time.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/time.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/time.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/time.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/time.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/time.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/time.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/time.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/time.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/time.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.obj: ../pico-sdk/src/common/pico_time/timeout_helper.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: ../pico-sdk/src/rp2_common/hardware_timer/timer.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/datetime.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/datetime.c.obj: ../pico-sdk/src/common/pico_util/datetime.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/datetime.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/datetime.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/datetime.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/datetime.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/datetime.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/datetime.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/pheap.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/pheap.c.obj: ../pico-sdk/src/common/pico_util/pheap.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/pheap.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/pheap.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/pheap.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/pheap.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/pheap.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/pheap.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/queue.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/queue.c.obj: ../pico-sdk/src/common/pico_util/queue.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/queue.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/queue.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/queue.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/queue.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/queue.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/queue.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/queue.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: ../pico-sdk/src/rp2_common/hardware_pll/pll.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: ../pico-sdk/src/rp2_common/hardware_vreg/vreg.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: ../pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: ../pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/init.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/init.c.obj: ../pico-sdk/lib/lwip/src/core/init.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/init.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/init.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/init.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/init.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/init.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/init.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/init.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/init.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/init.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/init.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/init.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/def.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/def.c.obj: ../pico-sdk/lib/lwip/src/core/def.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/def.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/def.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/def.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/def.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/def.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/def.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/def.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/def.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/def.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/def.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/def.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/dns.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/dns.c.obj: ../pico-sdk/lib/lwip/src/core/dns.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/dns.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/dns.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/dns.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/dns.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/dns.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/dns.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/dns.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/dns.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/dns.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/dns.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/dns.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj: ../pico-sdk/lib/lwip/src/core/inet_chksum.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/inet_chksum.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/inet_chksum.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/inet_chksum.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/inet_chksum.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ip.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ip.c.obj: ../pico-sdk/lib/lwip/src/core/ip.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ip.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ip.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ip.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ip.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ip.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ip.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ip.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ip.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ip.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ip.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ip.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/mem.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/mem.c.obj: ../pico-sdk/lib/lwip/src/core/mem.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/mem.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/mem.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/mem.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/mem.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/mem.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/mem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/mem.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/mem.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/mem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/mem.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/mem.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/memp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/memp.c.obj: ../pico-sdk/lib/lwip/src/core/memp.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/memp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/memp.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/memp.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/memp.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/memp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/memp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/memp.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/memp.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/memp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/memp.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/memp.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/netif.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/netif.c.obj: ../pico-sdk/lib/lwip/src/core/netif.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/netif.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/netif.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/netif.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/netif.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/netif.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/netif.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/netif.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/netif.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/netif.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/netif.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/netif.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/pbuf.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/pbuf.c.obj: ../pico-sdk/lib/lwip/src/core/pbuf.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/pbuf.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/pbuf.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/pbuf.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/pbuf.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/pbuf.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/pbuf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/pbuf.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/pbuf.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/pbuf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/pbuf.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/pbuf.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/raw.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/raw.c.obj: ../pico-sdk/lib/lwip/src/core/raw.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/raw.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/raw.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/raw.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/raw.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/raw.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/raw.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/raw.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/raw.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/raw.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/raw.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/raw.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/stats.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/stats.c.obj: ../pico-sdk/lib/lwip/src/core/stats.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/stats.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/stats.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/stats.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/stats.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/stats.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/stats.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/stats.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/stats.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/stats.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/stats.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/stats.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/sys.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/sys.c.obj: ../pico-sdk/lib/lwip/src/core/sys.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/sys.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/sys.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/sys.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/sys.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/sys.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/sys.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/sys.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/sys.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/sys.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/sys.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/sys.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp.c.obj: ../pico-sdk/lib/lwip/src/core/altcp.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj: ../pico-sdk/lib/lwip/src/core/altcp_alloc.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj: ../pico-sdk/lib/lwip/src/core/altcp_tcp.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp.c.obj: ../pico-sdk/lib/lwip/src/core/tcp.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: ../pico-sdk/lib/lwip/src/core/tcp_in.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_in.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_in.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_in.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_in.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_in.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_in.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_in.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_in.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_in.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_in.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: ../pico-sdk/lib/lwip/src/core/tcp_out.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_out.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_out.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_out.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_out.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_out.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_out.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_out.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_out.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_out.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_out.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/timeouts.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/timeouts.c.obj: ../pico-sdk/lib/lwip/src/core/timeouts.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/timeouts.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/timeouts.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/timeouts.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/timeouts.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/timeouts.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/timeouts.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/timeouts.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/timeouts.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/timeouts.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/timeouts.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/timeouts.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/udp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/udp.c.obj: ../pico-sdk/lib/lwip/src/core/udp.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/udp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/udp.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/udp.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/udp.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/udp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/udp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/udp.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/udp.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/udp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/udp.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/udp.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj: ../pico-sdk/lib/lwip/src/core/ipv4/autoip.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj: ../pico-sdk/lib/lwip/src/core/ipv4/dhcp.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj: ../pico-sdk/lib/lwip/src/core/ipv4/etharp.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: ../pico-sdk/lib/lwip/src/core/ipv4/icmp.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj: ../pico-sdk/lib/lwip/src/core/ipv4/igmp.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj: ../pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj: ../pico-sdk/lib/lwip/src/core/ipv4/ip4.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj: ../pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj: ../pico-sdk/lib/lwip/src/core/ipv4/acd.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj: ../pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj: ../pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj: ../pico-sdk/lib/lwip/src/core/ipv6/icmp6.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj: ../pico-sdk/lib/lwip/src/core/ipv6/inet6.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj: ../pico-sdk/lib/lwip/src/core/ipv6/ip6.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj: ../pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj: ../pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj: ../pico-sdk/lib/lwip/src/core/ipv6/mld6.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj: ../pico-sdk/lib/lwip/src/core/ipv6/nd6.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_lib.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_lib.c.obj: ../pico-sdk/lib/lwip/src/api/api_lib.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_lib.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_lib.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_lib.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_lib.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_lib.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_lib.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_lib.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_lib.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_lib.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_lib.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_lib.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_msg.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_msg.c.obj: ../pico-sdk/lib/lwip/src/api/api_msg.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_msg.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_msg.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_msg.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_msg.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_msg.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_msg.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_msg.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_msg.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_msg.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_msg.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_msg.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/err.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/err.c.obj: ../pico-sdk/lib/lwip/src/api/err.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/err.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/err.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/err.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/err.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/err.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/err.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/err.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/err.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/err.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/err.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/err.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/if_api.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/if_api.c.obj: ../pico-sdk/lib/lwip/src/api/if_api.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/if_api.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/if_api.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/if_api.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/if_api.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/if_api.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/if_api.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/if_api.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/if_api.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/if_api.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/if_api.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/if_api.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netbuf.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netbuf.c.obj: ../pico-sdk/lib/lwip/src/api/netbuf.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netbuf.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netbuf.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netbuf.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netbuf.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netbuf.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netbuf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netbuf.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netbuf.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netbuf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netbuf.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netbuf.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netdb.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netdb.c.obj: ../pico-sdk/lib/lwip/src/api/netdb.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netdb.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netdb.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netdb.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netdb.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netdb.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netdb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netdb.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netdb.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netdb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netdb.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netdb.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netifapi.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netifapi.c.obj: ../pico-sdk/lib/lwip/src/api/netifapi.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netifapi.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netifapi.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netifapi.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netifapi.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netifapi.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netifapi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netifapi.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netifapi.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netifapi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netifapi.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netifapi.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/sockets.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/sockets.c.obj: ../pico-sdk/lib/lwip/src/api/sockets.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/sockets.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/sockets.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/sockets.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/sockets.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/sockets.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/sockets.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/sockets.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/sockets.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/sockets.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/sockets.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/sockets.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/tcpip.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/tcpip.c.obj: ../pico-sdk/lib/lwip/src/api/tcpip.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/tcpip.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/tcpip.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/tcpip.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/tcpip.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/tcpip.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/tcpip.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/tcpip.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/tcpip.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/tcpip.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/tcpip.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/tcpip.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ethernet.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ethernet.c.obj: ../pico-sdk/lib/lwip/src/netif/ethernet.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ethernet.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ethernet.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ethernet.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ethernet.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ethernet.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ethernet.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ethernet.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ethernet.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ethernet.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ethernet.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ethernet.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj: ../pico-sdk/lib/lwip/src/netif/bridgeif.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj: ../pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/slipif.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/slipif.c.obj: ../pico-sdk/lib/lwip/src/netif/slipif.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/slipif.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/slipif.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/slipif.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/slipif.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/slipif.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/slipif.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/slipif.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/slipif.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/slipif.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/slipif.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/slipif.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: ../pico-sdk/lib/lwip/src/netif/lowpan6_common.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: ../pico-sdk/lib/lwip/src/netif/lowpan6.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: ../pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/zepif.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/zepif.c.obj: ../pico-sdk/lib/lwip/src/netif/zepif.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/zepif.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/zepif.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/zepif.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/zepif.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/zepif.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/zepif.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/zepif.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/zepif.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/zepif.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/zepif.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/zepif.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/auth.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/ccp.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/demand.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/eap.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/ecp.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/eui64.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/fsm.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/lcp.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/magic.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/mppe.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/multilink.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/ppp.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/pppos.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/upap.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/utils.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/vj.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/dnsserver/dnsserver.c -o CMakeFiles/pico20Proj.dir/dnsserver/dnsserver.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building ASM object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
 
 wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ll.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
 wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ll.c.obj: ../cyw43-driver/src/cyw43_ll.c
 wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ll.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ll.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ll.c.obj -MF CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ll.c.obj.d -o CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ll.c.obj -c /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_ll.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ll.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ll.c.obj -MF CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ll.c.obj.d -o CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ll.c.obj -c /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_ll.c
 
 wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ll.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_ll.c > CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ll.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_ll.c > CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ll.c.i
 
 wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ll.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ll.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_ll.c -o CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ll.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_ll.c -o CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ll.c.s
 
 wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_stats.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
 wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_stats.c.obj: ../cyw43-driver/src/cyw43_stats.c
 wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_stats.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_stats.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_stats.c.obj -MF CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_stats.c.obj.d -o CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_stats.c.obj -c /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_stats.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_stats.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_stats.c.obj -MF CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_stats.c.obj.d -o CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_stats.c.obj -c /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_stats.c
 
 wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_stats.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_stats.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_stats.c > CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_stats.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_stats.c > CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_stats.c.i
 
 wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_stats.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_stats.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_stats.c -o CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_stats.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_stats.c -o CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_stats.c.s
 
 wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_lwip.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
 wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_lwip.c.obj: ../cyw43-driver/src/cyw43_lwip.c
 wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_lwip.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_lwip.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_lwip.c.obj -MF CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_lwip.c.obj.d -o CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_lwip.c.obj -c /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_lwip.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_lwip.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_lwip.c.obj -MF CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_lwip.c.obj.d -o CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_lwip.c.obj -c /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_lwip.c
 
 wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_lwip.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_lwip.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_lwip.c > CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_lwip.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_lwip.c > CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_lwip.c.i
 
 wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_lwip.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_lwip.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_lwip.c -o CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_lwip.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_lwip.c -o CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_lwip.c.s
 
 wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
 wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj: ../cyw43-driver/src/cyw43_ctrl.c
 wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj -MF CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj.d -o CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj -c /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_ctrl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj -MF CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj.d -o CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj -c /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_ctrl.c
 
 wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ctrl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ctrl.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_ctrl.c > CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ctrl.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_ctrl.c > CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ctrl.c.i
 
 wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ctrl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ctrl.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_ctrl.c -o CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ctrl.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: ../pico-sdk/src/rp2_common/hardware_pio/pio.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: ../pico-sdk/src/rp2_common/hardware_dma/dma.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: ../pico-sdk/src/rp2_common/hardware_exception/exception.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: ../pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: ../pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: ../pico-sdk/src/rp2_common/hardware_uart/uart.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: ../pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building ASM object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: ../pico-sdk/src/rp2_common/pico_runtime/runtime.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: ../pico-sdk/src/rp2_common/pico_printf/printf.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: ../pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building ASM object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: ../pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building ASM object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_divider/divider.S.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_divider/divider.S.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_divider/divider.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_divider/divider.S.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_divider/divider.S.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: ../pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building ASM object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: ../pico-sdk/src/rp2_common/pico_double/double_init_rom.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: ../pico-sdk/src/rp2_common/pico_double/double_math.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: ../pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building ASM object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: ../pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building ASM object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: ../pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building ASM object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: ../pico-sdk/src/rp2_common/pico_float/float_init_rom.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: ../pico-sdk/src/rp2_common/pico_float/float_math.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: ../pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building ASM object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: ../pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: ../pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building ASM object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: ../pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building ASM object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: ../pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: ../pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: ../pico-sdk/src/rp2_common/pico_stdio/stdio.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: ../pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: ../pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: ../pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: ../pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: ../pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: ../pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: ../pico-sdk/lib/tinyusb/src/device/usbd.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: ../pico-sdk/lib/tinyusb/src/device/usbd_control.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: ../pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: ../pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: ../pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: ../pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: ../pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: ../pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: ../pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: ../pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: ../pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: ../pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: ../pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: ../pico-sdk/lib/tinyusb/src/class/video/video_device.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/tusb.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/tusb.c.obj: ../pico-sdk/lib/tinyusb/src/tusb.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/tusb.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/tusb.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/tusb.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/tusb.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/tusb.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/tusb.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/tusb.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: ../pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: ../pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
-
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_ctrl.c -o CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ctrl.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/__/i2c_slave/i2c_slave.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/__/i2c_slave/i2c_slave.c.obj: ../i2c_slave/i2c_slave.c
+wifi/CMakeFiles/pico20Proj.dir/__/i2c_slave/i2c_slave.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/i2c_slave/i2c_slave.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/i2c_slave/i2c_slave.c.obj -MF CMakeFiles/pico20Proj.dir/__/i2c_slave/i2c_slave.c.obj.d -o CMakeFiles/pico20Proj.dir/__/i2c_slave/i2c_slave.c.obj -c /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/i2c_slave/i2c_slave.c
+
+wifi/CMakeFiles/pico20Proj.dir/__/i2c_slave/i2c_slave.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/i2c_slave/i2c_slave.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/i2c_slave/i2c_slave.c > CMakeFiles/pico20Proj.dir/__/i2c_slave/i2c_slave.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/__/i2c_slave/i2c_slave.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/i2c_slave/i2c_slave.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/i2c_slave/i2c_slave.c -o CMakeFiles/pico20Proj.dir/__/i2c_slave/i2c_slave.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_i2c/i2c.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_i2c/i2c.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building ASM object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building ASM object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building ASM object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building ASM object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building ASM object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building ASM object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building ASM object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building ASM object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building ASM object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building ASM object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj: ../wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj -c /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj -c /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.i
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.s
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj: ../wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj -c /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj -c /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.i
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.s
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj: ../wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj -c /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj -c /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.i
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.s
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj: ../wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj -c /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj -c /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.i
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.s
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj: ../wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj -c /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj -c /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.i
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.s
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj: ../wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj -c /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj -c /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.i
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.s
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj: ../wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj -c /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj -c /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.i
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.s
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj: ../wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj -c /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj -c /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.i
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.s
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj: ../wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj -c /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj -c /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.i
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.s
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj: ../wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj -c /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj -c /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.i
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.s
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj: ../wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj -c /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj -c /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.i
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.s
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj: ../wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj -c /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj -c /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.i
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.s
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj: ../wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj -c /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj -c /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.i
 
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.s
 
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: ../pico-sdk/src/rp2_common/hardware_spi/spi.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c
 
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_spi/spi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_spi/spi.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
 
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_spi/spi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_spi/spi.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
 
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj: ../pico-sdk/src/rp2_common/hardware_rtc/rtc.c
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj -MF CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj.d -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj: wifi/CMakeFiles/pico20Proj.dir/flags.make
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj: wifi/CMakeFiles/pico20Proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c
 
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c > CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c > CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i
 
-wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s"
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c -o CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s
+wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s
 
 # Object files for target pico20Proj
 pico20Proj_OBJECTS = \
 "CMakeFiles/pico20Proj.dir/picow_access_point.c.obj" \
 "CMakeFiles/pico20Proj.dir/dhcpserver/dhcpserver.c.obj" \
 "CMakeFiles/pico20Proj.dir/dnsserver/dnsserver.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_rand/rand.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/sem.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/mutex.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/time.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/datetime.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/pheap.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/queue.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/init.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/def.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/dns.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ip.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/mem.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/memp.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/netif.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/pbuf.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/raw.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/stats.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/sys.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_in.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_out.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/timeouts.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/udp.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_lib.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_msg.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/err.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/if_api.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netbuf.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netdb.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netifapi.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/sockets.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/tcpip.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ethernet.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/slipif.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/zepif.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj" \
 "CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ll.c.obj" \
 "CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_stats.c.obj" \
 "CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_lwip.c.obj" \
 "CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_divider/divider.S.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj" \
+"CMakeFiles/pico20Proj.dir/__/i2c_slave/i2c_slave.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
 "CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj" \
 "CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj" \
 "CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj" \
@@ -2923,8 +2953,8 @@ pico20Proj_OBJECTS = \
 "CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj" \
 "CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj" \
 "CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj" \
-"CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj"
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj" \
+"CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj"
 
 # External object files for target pico20Proj
 pico20Proj_EXTERNAL_OBJECTS =
@@ -2932,179 +2962,181 @@ pico20Proj_EXTERNAL_OBJECTS =
 wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/picow_access_point.c.obj
 wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/dhcpserver/dhcpserver.c.obj
 wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/dnsserver/dnsserver.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/sem.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/mutex.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/time.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/datetime.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/pheap.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/common/pico_util/queue.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/init.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/def.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/dns.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ip.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/mem.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/memp.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/netif.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/pbuf.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/raw.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/stats.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/sys.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/timeouts.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/udp.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_lib.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/api_msg.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/err.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/if_api.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netbuf.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netdb.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/netifapi.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/sockets.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/api/tcpip.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/slipif.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/zepif.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
 wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ll.c.obj
 wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_stats.c.obj
 wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_lwip.c.obj
 wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/tusb.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/i2c_slave/i2c_slave.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj
 wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj
 wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj
@@ -3118,28 +3150,28 @@ wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/
 wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj
 wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj
 wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
-wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/__/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
 wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/build.make
 wifi/pico20Proj.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 wifi/pico20Proj.elf: wifi/CMakeFiles/pico20Proj.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Linking CXX executable pico20Proj.elf"
-	cd /home/ubuntu/pico-nexmon/build/wifi && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pico20Proj.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-objcopy -Oihex /home/ubuntu/pico-nexmon/build/wifi/pico20Proj.elf pico20Proj.hex
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-objcopy -Obinary /home/ubuntu/pico-nexmon/build/wifi/pico20Proj.elf pico20Proj.bin
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-objdump -h /home/ubuntu/pico-nexmon/build/wifi/pico20Proj.elf > pico20Proj.dis
-	cd /home/ubuntu/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-objdump -d /home/ubuntu/pico-nexmon/build/wifi/pico20Proj.elf >> pico20Proj.dis
-	cd /home/ubuntu/pico-nexmon/build/wifi && ../elf2uf2/elf2uf2 /home/ubuntu/pico-nexmon/build/wifi/pico20Proj.elf pico20Proj.uf2
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Linking CXX executable pico20Proj.elf"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pico20Proj.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-objcopy -Oihex /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi/pico20Proj.elf pico20Proj.hex
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-objcopy -Obinary /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi/pico20Proj.elf pico20Proj.bin
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-objdump -h /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi/pico20Proj.elf > pico20Proj.dis
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && /usr/bin/arm-none-eabi-objdump -d /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi/pico20Proj.elf >> pico20Proj.dis
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && ../elf2uf2/elf2uf2 /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi/pico20Proj.elf pico20Proj.uf2
 
 # Rule to build all files generated by this target.
 wifi/CMakeFiles/pico20Proj.dir/build: wifi/pico20Proj.elf
 .PHONY : wifi/CMakeFiles/pico20Proj.dir/build
 
 wifi/CMakeFiles/pico20Proj.dir/clean:
-	cd /home/ubuntu/pico-nexmon/build/wifi && $(CMAKE_COMMAND) -P CMakeFiles/pico20Proj.dir/cmake_clean.cmake
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi && $(CMAKE_COMMAND) -P CMakeFiles/pico20Proj.dir/cmake_clean.cmake
 .PHONY : wifi/CMakeFiles/pico20Proj.dir/clean
 
 wifi/CMakeFiles/pico20Proj.dir/depend:
-	cd /home/ubuntu/pico-nexmon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/pico-nexmon /home/ubuntu/pico-nexmon/wifi /home/ubuntu/pico-nexmon/build /home/ubuntu/pico-nexmon/build/wifi /home/ubuntu/pico-nexmon/build/wifi/CMakeFiles/pico20Proj.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi/CMakeFiles/pico20Proj.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : wifi/CMakeFiles/pico20Proj.dir/depend
 

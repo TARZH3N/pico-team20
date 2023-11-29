@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/pico-nexmon
+CMAKE_SOURCE_DIR = /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/pico-nexmon/build
+CMAKE_BINARY_DIR = /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/pico-nexmon/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/pico-nexmon/build/CMakeFiles /home/ubuntu/pico-nexmon/build/monitor_mode//CMakeFiles/progress.marks
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 monitor_mode/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/pico-nexmon/build/CMakeFiles 0
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode//CMakeFiles/progress.marks
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 monitor_mode/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 monitor_mode/clean
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 monitor_mode/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 monitor_mode/preinstall
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 monitor_mode/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 monitor_mode/preinstall
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 monitor_mode/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/pico-nexmon/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 monitor_mode/CMakeFiles/picow_monitor_mode.dir/rule:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 monitor_mode/CMakeFiles/picow_monitor_mode.dir/rule
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 monitor_mode/CMakeFiles/picow_monitor_mode.dir/rule
 .PHONY : monitor_mode/CMakeFiles/picow_monitor_mode.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ picow_monitor_mode: monitor_mode/CMakeFiles/picow_monitor_mode.dir/rule
 
 # fast build rule for target.
 picow_monitor_mode/fast:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/build
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/build
 .PHONY : picow_monitor_mode/fast
 
 # Convenience name for target.
 monitor_mode/CMakeFiles/ELF2UF2Build.dir/rule:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 monitor_mode/CMakeFiles/ELF2UF2Build.dir/rule
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 monitor_mode/CMakeFiles/ELF2UF2Build.dir/rule
 .PHONY : monitor_mode/CMakeFiles/ELF2UF2Build.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ ELF2UF2Build: monitor_mode/CMakeFiles/ELF2UF2Build.dir/rule
 
 # fast build rule for target.
 ELF2UF2Build/fast:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/ELF2UF2Build.dir/build.make monitor_mode/CMakeFiles/ELF2UF2Build.dir/build
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/ELF2UF2Build.dir/build.make monitor_mode/CMakeFiles/ELF2UF2Build.dir/build
 .PHONY : ELF2UF2Build/fast
 
 __/cyw43-driver/src/cyw43_ctrl.obj: __/cyw43-driver/src/cyw43_ctrl.c.obj
@@ -149,7 +149,7 @@ __/cyw43-driver/src/cyw43_ctrl.obj: __/cyw43-driver/src/cyw43_ctrl.c.obj
 
 # target to build an object file
 __/cyw43-driver/src/cyw43_ctrl.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj
 .PHONY : __/cyw43-driver/src/cyw43_ctrl.c.obj
 
 __/cyw43-driver/src/cyw43_ctrl.i: __/cyw43-driver/src/cyw43_ctrl.c.i
@@ -157,7 +157,7 @@ __/cyw43-driver/src/cyw43_ctrl.i: __/cyw43-driver/src/cyw43_ctrl.c.i
 
 # target to preprocess a source file
 __/cyw43-driver/src/cyw43_ctrl.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_ctrl.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_ctrl.c.i
 .PHONY : __/cyw43-driver/src/cyw43_ctrl.c.i
 
 __/cyw43-driver/src/cyw43_ctrl.s: __/cyw43-driver/src/cyw43_ctrl.c.s
@@ -165,7 +165,7 @@ __/cyw43-driver/src/cyw43_ctrl.s: __/cyw43-driver/src/cyw43_ctrl.c.s
 
 # target to generate assembly for a file
 __/cyw43-driver/src/cyw43_ctrl.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_ctrl.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_ctrl.c.s
 .PHONY : __/cyw43-driver/src/cyw43_ctrl.c.s
 
 __/cyw43-driver/src/cyw43_ll.obj: __/cyw43-driver/src/cyw43_ll.c.obj
@@ -173,7 +173,7 @@ __/cyw43-driver/src/cyw43_ll.obj: __/cyw43-driver/src/cyw43_ll.c.obj
 
 # target to build an object file
 __/cyw43-driver/src/cyw43_ll.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_ll.c.obj
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_ll.c.obj
 .PHONY : __/cyw43-driver/src/cyw43_ll.c.obj
 
 __/cyw43-driver/src/cyw43_ll.i: __/cyw43-driver/src/cyw43_ll.c.i
@@ -181,7 +181,7 @@ __/cyw43-driver/src/cyw43_ll.i: __/cyw43-driver/src/cyw43_ll.c.i
 
 # target to preprocess a source file
 __/cyw43-driver/src/cyw43_ll.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_ll.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_ll.c.i
 .PHONY : __/cyw43-driver/src/cyw43_ll.c.i
 
 __/cyw43-driver/src/cyw43_ll.s: __/cyw43-driver/src/cyw43_ll.c.s
@@ -189,7 +189,7 @@ __/cyw43-driver/src/cyw43_ll.s: __/cyw43-driver/src/cyw43_ll.c.s
 
 # target to generate assembly for a file
 __/cyw43-driver/src/cyw43_ll.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_ll.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_ll.c.s
 .PHONY : __/cyw43-driver/src/cyw43_ll.c.s
 
 __/cyw43-driver/src/cyw43_lwip.obj: __/cyw43-driver/src/cyw43_lwip.c.obj
@@ -197,7 +197,7 @@ __/cyw43-driver/src/cyw43_lwip.obj: __/cyw43-driver/src/cyw43_lwip.c.obj
 
 # target to build an object file
 __/cyw43-driver/src/cyw43_lwip.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_lwip.c.obj
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_lwip.c.obj
 .PHONY : __/cyw43-driver/src/cyw43_lwip.c.obj
 
 __/cyw43-driver/src/cyw43_lwip.i: __/cyw43-driver/src/cyw43_lwip.c.i
@@ -205,7 +205,7 @@ __/cyw43-driver/src/cyw43_lwip.i: __/cyw43-driver/src/cyw43_lwip.c.i
 
 # target to preprocess a source file
 __/cyw43-driver/src/cyw43_lwip.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_lwip.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_lwip.c.i
 .PHONY : __/cyw43-driver/src/cyw43_lwip.c.i
 
 __/cyw43-driver/src/cyw43_lwip.s: __/cyw43-driver/src/cyw43_lwip.c.s
@@ -213,7 +213,7 @@ __/cyw43-driver/src/cyw43_lwip.s: __/cyw43-driver/src/cyw43_lwip.c.s
 
 # target to generate assembly for a file
 __/cyw43-driver/src/cyw43_lwip.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_lwip.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_lwip.c.s
 .PHONY : __/cyw43-driver/src/cyw43_lwip.c.s
 
 __/cyw43-driver/src/cyw43_stats.obj: __/cyw43-driver/src/cyw43_stats.c.obj
@@ -221,7 +221,7 @@ __/cyw43-driver/src/cyw43_stats.obj: __/cyw43-driver/src/cyw43_stats.c.obj
 
 # target to build an object file
 __/cyw43-driver/src/cyw43_stats.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_stats.c.obj
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_stats.c.obj
 .PHONY : __/cyw43-driver/src/cyw43_stats.c.obj
 
 __/cyw43-driver/src/cyw43_stats.i: __/cyw43-driver/src/cyw43_stats.c.i
@@ -229,7 +229,7 @@ __/cyw43-driver/src/cyw43_stats.i: __/cyw43-driver/src/cyw43_stats.c.i
 
 # target to preprocess a source file
 __/cyw43-driver/src/cyw43_stats.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_stats.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_stats.c.i
 .PHONY : __/cyw43-driver/src/cyw43_stats.c.i
 
 __/cyw43-driver/src/cyw43_stats.s: __/cyw43-driver/src/cyw43_stats.c.s
@@ -237,3895 +237,3895 @@ __/cyw43-driver/src/cyw43_stats.s: __/cyw43-driver/src/cyw43_stats.c.s
 
 # target to generate assembly for a file
 __/cyw43-driver/src/cyw43_stats.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_stats.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_stats.c.s
 .PHONY : __/cyw43-driver/src/cyw43_stats.c.s
 
-__/pico-sdk/lib/lwip/src/api/api_lib.obj: __/pico-sdk/lib/lwip/src/api/api_lib.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/api/api_lib.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/api/api_lib.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/api/api_lib.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/api/api_lib.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.obj
 
-__/pico-sdk/lib/lwip/src/api/api_lib.i: __/pico-sdk/lib/lwip/src/api/api_lib.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/api/api_lib.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/api/api_lib.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/api/api_lib.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/api/api_lib.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.i
 
-__/pico-sdk/lib/lwip/src/api/api_lib.s: __/pico-sdk/lib/lwip/src/api/api_lib.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/api/api_lib.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/api/api_lib.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/api/api_lib.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/api/api_lib.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.s
 
-__/pico-sdk/lib/lwip/src/api/api_msg.obj: __/pico-sdk/lib/lwip/src/api/api_msg.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/api/api_msg.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/api/api_msg.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/api/api_msg.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/api/api_msg.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.obj
 
-__/pico-sdk/lib/lwip/src/api/api_msg.i: __/pico-sdk/lib/lwip/src/api/api_msg.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/api/api_msg.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/api/api_msg.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/api/api_msg.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/api/api_msg.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.i
 
-__/pico-sdk/lib/lwip/src/api/api_msg.s: __/pico-sdk/lib/lwip/src/api/api_msg.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/api/api_msg.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/api/api_msg.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/api/api_msg.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/api/api_msg.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.s
 
-__/pico-sdk/lib/lwip/src/api/err.obj: __/pico-sdk/lib/lwip/src/api/err.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/api/err.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/api/err.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/api/err.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/api/err.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.obj
 
-__/pico-sdk/lib/lwip/src/api/err.i: __/pico-sdk/lib/lwip/src/api/err.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/api/err.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/api/err.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/api/err.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/api/err.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.i
 
-__/pico-sdk/lib/lwip/src/api/err.s: __/pico-sdk/lib/lwip/src/api/err.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/api/err.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/api/err.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/api/err.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/api/err.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.s
 
-__/pico-sdk/lib/lwip/src/api/if_api.obj: __/pico-sdk/lib/lwip/src/api/if_api.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/api/if_api.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/api/if_api.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/api/if_api.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/api/if_api.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.obj
 
-__/pico-sdk/lib/lwip/src/api/if_api.i: __/pico-sdk/lib/lwip/src/api/if_api.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/api/if_api.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/api/if_api.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/api/if_api.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/api/if_api.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.i
 
-__/pico-sdk/lib/lwip/src/api/if_api.s: __/pico-sdk/lib/lwip/src/api/if_api.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/api/if_api.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/api/if_api.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/api/if_api.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/api/if_api.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.s
 
-__/pico-sdk/lib/lwip/src/api/netbuf.obj: __/pico-sdk/lib/lwip/src/api/netbuf.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/api/netbuf.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/api/netbuf.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/api/netbuf.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/api/netbuf.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.obj
 
-__/pico-sdk/lib/lwip/src/api/netbuf.i: __/pico-sdk/lib/lwip/src/api/netbuf.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/api/netbuf.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/api/netbuf.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/api/netbuf.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/api/netbuf.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.i
 
-__/pico-sdk/lib/lwip/src/api/netbuf.s: __/pico-sdk/lib/lwip/src/api/netbuf.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/api/netbuf.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/api/netbuf.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/api/netbuf.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/api/netbuf.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.s
 
-__/pico-sdk/lib/lwip/src/api/netdb.obj: __/pico-sdk/lib/lwip/src/api/netdb.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/api/netdb.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/api/netdb.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/api/netdb.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/api/netdb.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.obj
 
-__/pico-sdk/lib/lwip/src/api/netdb.i: __/pico-sdk/lib/lwip/src/api/netdb.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/api/netdb.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/api/netdb.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/api/netdb.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/api/netdb.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.i
 
-__/pico-sdk/lib/lwip/src/api/netdb.s: __/pico-sdk/lib/lwip/src/api/netdb.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/api/netdb.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/api/netdb.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/api/netdb.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/api/netdb.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.s
 
-__/pico-sdk/lib/lwip/src/api/netifapi.obj: __/pico-sdk/lib/lwip/src/api/netifapi.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/api/netifapi.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/api/netifapi.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/api/netifapi.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/api/netifapi.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.obj
 
-__/pico-sdk/lib/lwip/src/api/netifapi.i: __/pico-sdk/lib/lwip/src/api/netifapi.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/api/netifapi.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/api/netifapi.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/api/netifapi.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/api/netifapi.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.i
 
-__/pico-sdk/lib/lwip/src/api/netifapi.s: __/pico-sdk/lib/lwip/src/api/netifapi.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/api/netifapi.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/api/netifapi.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/api/netifapi.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/api/netifapi.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.s
 
-__/pico-sdk/lib/lwip/src/api/sockets.obj: __/pico-sdk/lib/lwip/src/api/sockets.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/api/sockets.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/api/sockets.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/api/sockets.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/api/sockets.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.obj
 
-__/pico-sdk/lib/lwip/src/api/sockets.i: __/pico-sdk/lib/lwip/src/api/sockets.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/api/sockets.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/api/sockets.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/api/sockets.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/api/sockets.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.i
 
-__/pico-sdk/lib/lwip/src/api/sockets.s: __/pico-sdk/lib/lwip/src/api/sockets.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/api/sockets.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/api/sockets.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/api/sockets.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/api/sockets.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.s
 
-__/pico-sdk/lib/lwip/src/api/tcpip.obj: __/pico-sdk/lib/lwip/src/api/tcpip.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/api/tcpip.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/api/tcpip.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/api/tcpip.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/api/tcpip.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.obj
 
-__/pico-sdk/lib/lwip/src/api/tcpip.i: __/pico-sdk/lib/lwip/src/api/tcpip.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/api/tcpip.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/api/tcpip.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/api/tcpip.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/api/tcpip.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.i
 
-__/pico-sdk/lib/lwip/src/api/tcpip.s: __/pico-sdk/lib/lwip/src/api/tcpip.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/api/tcpip.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/api/tcpip.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/api/tcpip.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/api/tcpip.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.s
 
-__/pico-sdk/lib/lwip/src/core/altcp.obj: __/pico-sdk/lib/lwip/src/core/altcp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/altcp.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/altcp.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/altcp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/altcp.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.obj
 
-__/pico-sdk/lib/lwip/src/core/altcp.i: __/pico-sdk/lib/lwip/src/core/altcp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/altcp.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/altcp.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/altcp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/altcp.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.i
 
-__/pico-sdk/lib/lwip/src/core/altcp.s: __/pico-sdk/lib/lwip/src/core/altcp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/altcp.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/altcp.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/altcp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/altcp.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.s
 
-__/pico-sdk/lib/lwip/src/core/altcp_alloc.obj: __/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/altcp_alloc.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
 
-__/pico-sdk/lib/lwip/src/core/altcp_alloc.i: __/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/altcp_alloc.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
 
-__/pico-sdk/lib/lwip/src/core/altcp_alloc.s: __/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/altcp_alloc.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
 
-__/pico-sdk/lib/lwip/src/core/altcp_tcp.obj: __/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/altcp_tcp.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
 
-__/pico-sdk/lib/lwip/src/core/altcp_tcp.i: __/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/altcp_tcp.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
 
-__/pico-sdk/lib/lwip/src/core/altcp_tcp.s: __/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/altcp_tcp.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
 
-__/pico-sdk/lib/lwip/src/core/def.obj: __/pico-sdk/lib/lwip/src/core/def.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/def.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/def.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/def.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/def.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.obj
 
-__/pico-sdk/lib/lwip/src/core/def.i: __/pico-sdk/lib/lwip/src/core/def.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/def.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/def.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/def.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/def.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.i
 
-__/pico-sdk/lib/lwip/src/core/def.s: __/pico-sdk/lib/lwip/src/core/def.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/def.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/def.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/def.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/def.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.s
 
-__/pico-sdk/lib/lwip/src/core/dns.obj: __/pico-sdk/lib/lwip/src/core/dns.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/dns.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/dns.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/dns.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/dns.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.obj
 
-__/pico-sdk/lib/lwip/src/core/dns.i: __/pico-sdk/lib/lwip/src/core/dns.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/dns.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/dns.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/dns.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/dns.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.i
 
-__/pico-sdk/lib/lwip/src/core/dns.s: __/pico-sdk/lib/lwip/src/core/dns.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/dns.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/dns.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/dns.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/dns.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.s
 
-__/pico-sdk/lib/lwip/src/core/inet_chksum.obj: __/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/inet_chksum.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
 
-__/pico-sdk/lib/lwip/src/core/inet_chksum.i: __/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/inet_chksum.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/inet_chksum.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
 
-__/pico-sdk/lib/lwip/src/core/inet_chksum.s: __/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/inet_chksum.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/inet_chksum.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
 
-__/pico-sdk/lib/lwip/src/core/init.obj: __/pico-sdk/lib/lwip/src/core/init.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/init.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/init.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/init.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/init.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.obj
 
-__/pico-sdk/lib/lwip/src/core/init.i: __/pico-sdk/lib/lwip/src/core/init.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/init.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/init.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/init.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/init.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.i
 
-__/pico-sdk/lib/lwip/src/core/init.s: __/pico-sdk/lib/lwip/src/core/init.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/init.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/init.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/init.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/init.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.s
 
-__/pico-sdk/lib/lwip/src/core/ip.obj: __/pico-sdk/lib/lwip/src/core/ip.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ip.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/ip.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ip.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ip.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.obj
 
-__/pico-sdk/lib/lwip/src/core/ip.i: __/pico-sdk/lib/lwip/src/core/ip.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ip.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/ip.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ip.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ip.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.i
 
-__/pico-sdk/lib/lwip/src/core/ip.s: __/pico-sdk/lib/lwip/src/core/ip.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ip.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/ip.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ip.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ip.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.s
 
-__/pico-sdk/lib/lwip/src/core/ipv4/acd.obj: __/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/acd.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
 
-__/pico-sdk/lib/lwip/src/core/ipv4/acd.i: __/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/acd.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
 
-__/pico-sdk/lib/lwip/src/core/ipv4/acd.s: __/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/acd.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
 
-__/pico-sdk/lib/lwip/src/core/ipv4/autoip.obj: __/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/autoip.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
 
-__/pico-sdk/lib/lwip/src/core/ipv4/autoip.i: __/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/autoip.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
 
-__/pico-sdk/lib/lwip/src/core/ipv4/autoip.s: __/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/autoip.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
 
-__/pico-sdk/lib/lwip/src/core/ipv4/dhcp.obj: __/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/dhcp.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
 
-__/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i: __/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
 
-__/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s: __/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
 
-__/pico-sdk/lib/lwip/src/core/ipv4/etharp.obj: __/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/etharp.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
 
-__/pico-sdk/lib/lwip/src/core/ipv4/etharp.i: __/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/etharp.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
 
-__/pico-sdk/lib/lwip/src/core/ipv4/etharp.s: __/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/etharp.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
 
-__/pico-sdk/lib/lwip/src/core/ipv4/icmp.obj: __/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/icmp.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
 
-__/pico-sdk/lib/lwip/src/core/ipv4/icmp.i: __/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/icmp.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
 
-__/pico-sdk/lib/lwip/src/core/ipv4/icmp.s: __/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/icmp.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
 
-__/pico-sdk/lib/lwip/src/core/ipv4/igmp.obj: __/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/igmp.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
 
-__/pico-sdk/lib/lwip/src/core/ipv4/igmp.i: __/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/igmp.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
 
-__/pico-sdk/lib/lwip/src/core/ipv4/igmp.s: __/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/igmp.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
 
-__/pico-sdk/lib/lwip/src/core/ipv4/ip4.obj: __/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/ip4.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
 
-__/pico-sdk/lib/lwip/src/core/ipv4/ip4.i: __/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/ip4.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
 
-__/pico-sdk/lib/lwip/src/core/ipv4/ip4.s: __/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/ip4.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
 
-__/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.obj: __/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
 
-__/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i: __/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
 
-__/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s: __/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
 
-__/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.obj: __/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
 
-__/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i: __/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
 
-__/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s: __/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
 
-__/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.obj: __/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
 
-__/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i: __/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
 
-__/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s: __/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
 
-__/pico-sdk/lib/lwip/src/core/ipv6/ethip6.obj: __/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/ethip6.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
 
-__/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i: __/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
 
-__/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s: __/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
 
-__/pico-sdk/lib/lwip/src/core/ipv6/icmp6.obj: __/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/icmp6.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
 
-__/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i: __/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
 
-__/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s: __/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
 
-__/pico-sdk/lib/lwip/src/core/ipv6/inet6.obj: __/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/inet6.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
 
-__/pico-sdk/lib/lwip/src/core/ipv6/inet6.i: __/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/inet6.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
 
-__/pico-sdk/lib/lwip/src/core/ipv6/inet6.s: __/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/inet6.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
 
-__/pico-sdk/lib/lwip/src/core/ipv6/ip6.obj: __/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/ip6.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
 
-__/pico-sdk/lib/lwip/src/core/ipv6/ip6.i: __/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/ip6.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
 
-__/pico-sdk/lib/lwip/src/core/ipv6/ip6.s: __/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/ip6.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
 
-__/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.obj: __/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
 
-__/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i: __/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
 
-__/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s: __/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
 
-__/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.obj: __/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
 
-__/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i: __/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
 
-__/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s: __/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
 
-__/pico-sdk/lib/lwip/src/core/ipv6/mld6.obj: __/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/mld6.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
 
-__/pico-sdk/lib/lwip/src/core/ipv6/mld6.i: __/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/mld6.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
 
-__/pico-sdk/lib/lwip/src/core/ipv6/mld6.s: __/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/mld6.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
 
-__/pico-sdk/lib/lwip/src/core/ipv6/nd6.obj: __/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/nd6.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
 
-__/pico-sdk/lib/lwip/src/core/ipv6/nd6.i: __/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/nd6.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
 
-__/pico-sdk/lib/lwip/src/core/ipv6/nd6.s: __/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/nd6.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
 
-__/pico-sdk/lib/lwip/src/core/mem.obj: __/pico-sdk/lib/lwip/src/core/mem.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/mem.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/mem.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/mem.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/mem.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.obj
 
-__/pico-sdk/lib/lwip/src/core/mem.i: __/pico-sdk/lib/lwip/src/core/mem.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/mem.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/mem.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/mem.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/mem.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.i
 
-__/pico-sdk/lib/lwip/src/core/mem.s: __/pico-sdk/lib/lwip/src/core/mem.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/mem.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/mem.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/mem.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/mem.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.s
 
-__/pico-sdk/lib/lwip/src/core/memp.obj: __/pico-sdk/lib/lwip/src/core/memp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/memp.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/memp.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/memp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/memp.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.obj
 
-__/pico-sdk/lib/lwip/src/core/memp.i: __/pico-sdk/lib/lwip/src/core/memp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/memp.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/memp.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/memp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/memp.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.i
 
-__/pico-sdk/lib/lwip/src/core/memp.s: __/pico-sdk/lib/lwip/src/core/memp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/memp.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/memp.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/memp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/memp.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.s
 
-__/pico-sdk/lib/lwip/src/core/netif.obj: __/pico-sdk/lib/lwip/src/core/netif.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/netif.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/netif.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/netif.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/netif.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.obj
 
-__/pico-sdk/lib/lwip/src/core/netif.i: __/pico-sdk/lib/lwip/src/core/netif.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/netif.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/netif.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/netif.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/netif.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.i
 
-__/pico-sdk/lib/lwip/src/core/netif.s: __/pico-sdk/lib/lwip/src/core/netif.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/netif.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/netif.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/netif.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/netif.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.s
 
-__/pico-sdk/lib/lwip/src/core/pbuf.obj: __/pico-sdk/lib/lwip/src/core/pbuf.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/pbuf.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/pbuf.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/pbuf.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.obj
 
-__/pico-sdk/lib/lwip/src/core/pbuf.i: __/pico-sdk/lib/lwip/src/core/pbuf.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/pbuf.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/pbuf.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/pbuf.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/pbuf.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.i
 
-__/pico-sdk/lib/lwip/src/core/pbuf.s: __/pico-sdk/lib/lwip/src/core/pbuf.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/pbuf.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/pbuf.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/pbuf.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/pbuf.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.s
 
-__/pico-sdk/lib/lwip/src/core/raw.obj: __/pico-sdk/lib/lwip/src/core/raw.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/raw.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/raw.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/raw.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/raw.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.obj
 
-__/pico-sdk/lib/lwip/src/core/raw.i: __/pico-sdk/lib/lwip/src/core/raw.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/raw.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/raw.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/raw.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/raw.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.i
 
-__/pico-sdk/lib/lwip/src/core/raw.s: __/pico-sdk/lib/lwip/src/core/raw.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/raw.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/raw.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/raw.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/raw.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.s
 
-__/pico-sdk/lib/lwip/src/core/stats.obj: __/pico-sdk/lib/lwip/src/core/stats.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/stats.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/stats.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/stats.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/stats.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.obj
 
-__/pico-sdk/lib/lwip/src/core/stats.i: __/pico-sdk/lib/lwip/src/core/stats.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/stats.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/stats.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/stats.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/stats.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.i
 
-__/pico-sdk/lib/lwip/src/core/stats.s: __/pico-sdk/lib/lwip/src/core/stats.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/stats.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/stats.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/stats.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/stats.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.s
 
-__/pico-sdk/lib/lwip/src/core/sys.obj: __/pico-sdk/lib/lwip/src/core/sys.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/sys.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/sys.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/sys.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/sys.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.obj
 
-__/pico-sdk/lib/lwip/src/core/sys.i: __/pico-sdk/lib/lwip/src/core/sys.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/sys.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/sys.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/sys.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/sys.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.i
 
-__/pico-sdk/lib/lwip/src/core/sys.s: __/pico-sdk/lib/lwip/src/core/sys.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/sys.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/sys.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/sys.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/sys.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.s
 
-__/pico-sdk/lib/lwip/src/core/tcp.obj: __/pico-sdk/lib/lwip/src/core/tcp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/tcp.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/tcp.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/tcp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/tcp.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.obj
 
-__/pico-sdk/lib/lwip/src/core/tcp.i: __/pico-sdk/lib/lwip/src/core/tcp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/tcp.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/tcp.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/tcp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/tcp.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.i
 
-__/pico-sdk/lib/lwip/src/core/tcp.s: __/pico-sdk/lib/lwip/src/core/tcp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/tcp.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/tcp.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/tcp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/tcp.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.s
 
-__/pico-sdk/lib/lwip/src/core/tcp_in.obj: __/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/tcp_in.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/tcp_in.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
 
-__/pico-sdk/lib/lwip/src/core/tcp_in.i: __/pico-sdk/lib/lwip/src/core/tcp_in.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/tcp_in.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/tcp_in.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/tcp_in.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/tcp_in.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.i
 
-__/pico-sdk/lib/lwip/src/core/tcp_in.s: __/pico-sdk/lib/lwip/src/core/tcp_in.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/tcp_in.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/tcp_in.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/tcp_in.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/tcp_in.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.s
 
-__/pico-sdk/lib/lwip/src/core/tcp_out.obj: __/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/tcp_out.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/tcp_out.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
 
-__/pico-sdk/lib/lwip/src/core/tcp_out.i: __/pico-sdk/lib/lwip/src/core/tcp_out.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/tcp_out.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/tcp_out.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/tcp_out.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/tcp_out.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.i
 
-__/pico-sdk/lib/lwip/src/core/tcp_out.s: __/pico-sdk/lib/lwip/src/core/tcp_out.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/tcp_out.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/tcp_out.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/tcp_out.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/tcp_out.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.s
 
-__/pico-sdk/lib/lwip/src/core/timeouts.obj: __/pico-sdk/lib/lwip/src/core/timeouts.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/timeouts.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/timeouts.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/timeouts.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.obj
 
-__/pico-sdk/lib/lwip/src/core/timeouts.i: __/pico-sdk/lib/lwip/src/core/timeouts.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/timeouts.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/timeouts.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/timeouts.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/timeouts.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.i
 
-__/pico-sdk/lib/lwip/src/core/timeouts.s: __/pico-sdk/lib/lwip/src/core/timeouts.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/timeouts.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/timeouts.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/timeouts.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/timeouts.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.s
 
-__/pico-sdk/lib/lwip/src/core/udp.obj: __/pico-sdk/lib/lwip/src/core/udp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/udp.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/core/udp.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/udp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/core/udp.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.obj
 
-__/pico-sdk/lib/lwip/src/core/udp.i: __/pico-sdk/lib/lwip/src/core/udp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/udp.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/core/udp.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/udp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/core/udp.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.i
 
-__/pico-sdk/lib/lwip/src/core/udp.s: __/pico-sdk/lib/lwip/src/core/udp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/udp.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/core/udp.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/core/udp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/core/udp.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.s
 
-__/pico-sdk/lib/lwip/src/netif/bridgeif.obj: __/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/bridgeif.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/bridgeif.i: __/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/bridgeif.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/bridgeif.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
 
-__/pico-sdk/lib/lwip/src/netif/bridgeif.s: __/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/bridgeif.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/bridgeif.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
 
-__/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.obj: __/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i: __/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
 
-__/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s: __/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ethernet.obj: __/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ethernet.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ethernet.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ethernet.i: __/pico-sdk/lib/lwip/src/netif/ethernet.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ethernet.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ethernet.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ethernet.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ethernet.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ethernet.s: __/pico-sdk/lib/lwip/src/netif/ethernet.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ethernet.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ethernet.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ethernet.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ethernet.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.s
 
-__/pico-sdk/lib/lwip/src/netif/lowpan6.obj: __/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/lowpan6.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/lowpan6.i: __/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/lowpan6.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/lowpan6.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
 
-__/pico-sdk/lib/lwip/src/netif/lowpan6.s: __/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/lowpan6.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/lowpan6.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
 
-__/pico-sdk/lib/lwip/src/netif/lowpan6_ble.obj: __/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/lowpan6_ble.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i: __/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
 
-__/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s: __/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
 
-__/pico-sdk/lib/lwip/src/netif/lowpan6_common.obj: __/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/lowpan6_common.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/lowpan6_common.i: __/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/lowpan6_common.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
 
-__/pico-sdk/lib/lwip/src/netif/lowpan6_common.s: __/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/lowpan6_common.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/auth.obj: __/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/auth.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/auth.i: __/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/auth.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/auth.s: __/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/auth.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/ccp.obj: __/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ccp.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/ccp.i: __/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ccp.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/ccp.s: __/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ccp.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.obj: __/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i: __/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s: __/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/chap-new.obj: __/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/chap-new.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i: __/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s: __/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.obj: __/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i: __/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s: __/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/demand.obj: __/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/demand.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/demand.i: __/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/demand.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/demand.s: __/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/demand.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/eap.obj: __/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/eap.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/eap.i: __/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/eap.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/eap.s: __/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/eap.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/ecp.obj: __/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ecp.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/ecp.i: __/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ecp.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/ecp.s: __/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ecp.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/eui64.obj: __/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/eui64.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/eui64.i: __/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/eui64.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/eui64.s: __/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/eui64.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/fsm.obj: __/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/fsm.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/fsm.i: __/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/fsm.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/fsm.s: __/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/fsm.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/ipcp.obj: __/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ipcp.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i: __/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s: __/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.obj: __/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i: __/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s: __/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/lcp.obj: __/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/lcp.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/lcp.i: __/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/lcp.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/lcp.s: __/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/lcp.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/magic.obj: __/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/magic.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/magic.i: __/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/magic.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/magic.s: __/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/magic.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/mppe.obj: __/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/mppe.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/mppe.i: __/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/mppe.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/mppe.s: __/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/mppe.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/multilink.obj: __/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/multilink.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/multilink.i: __/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/multilink.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/multilink.s: __/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/multilink.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.obj: __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i: __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s: __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.obj: __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i: __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s: __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.obj: __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i: __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s: __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.obj: __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i: __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s: __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.obj: __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i: __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s: __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/ppp.obj: __/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ppp.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/ppp.i: __/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ppp.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/ppp.s: __/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ppp.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/pppapi.obj: __/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppapi.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i: __/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s: __/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.obj: __/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i: __/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s: __/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/pppoe.obj: __/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppoe.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i: __/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s: __/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.obj: __/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i: __/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s: __/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/pppos.obj: __/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppos.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/pppos.i: __/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppos.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/pppos.s: __/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppos.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/upap.obj: __/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/upap.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/upap.i: __/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/upap.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/upap.s: __/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/upap.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/utils.obj: __/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/utils.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/utils.i: __/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/utils.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/utils.s: __/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/utils.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
 
-__/pico-sdk/lib/lwip/src/netif/ppp/vj.obj: __/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/vj.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/ppp/vj.i: __/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/vj.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
 
-__/pico-sdk/lib/lwip/src/netif/ppp/vj.s: __/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/vj.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
 
-__/pico-sdk/lib/lwip/src/netif/slipif.obj: __/pico-sdk/lib/lwip/src/netif/slipif.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/slipif.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/slipif.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/slipif.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/slipif.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/slipif.i: __/pico-sdk/lib/lwip/src/netif/slipif.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/slipif.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/slipif.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/slipif.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/slipif.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.i
 
-__/pico-sdk/lib/lwip/src/netif/slipif.s: __/pico-sdk/lib/lwip/src/netif/slipif.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/slipif.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/slipif.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/slipif.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/slipif.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.s
 
-__/pico-sdk/lib/lwip/src/netif/zepif.obj: __/pico-sdk/lib/lwip/src/netif/zepif.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/zepif.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.obj
 
 # target to build an object file
-__/pico-sdk/lib/lwip/src/netif/zepif.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/zepif.c.obj
-.PHONY : __/pico-sdk/lib/lwip/src/netif/zepif.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.obj
 
-__/pico-sdk/lib/lwip/src/netif/zepif.i: __/pico-sdk/lib/lwip/src/netif/zepif.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/zepif.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/lwip/src/netif/zepif.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/zepif.c.i
-.PHONY : __/pico-sdk/lib/lwip/src/netif/zepif.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.i
 
-__/pico-sdk/lib/lwip/src/netif/zepif.s: __/pico-sdk/lib/lwip/src/netif/zepif.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/zepif.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/lwip/src/netif/zepif.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/lwip/src/netif/zepif.c.s
-.PHONY : __/pico-sdk/lib/lwip/src/netif/zepif.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.s
 
-__/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: __/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
 
 # target to build an object file
-__/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 
-__/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: __/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 
-__/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: __/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 
-__/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: __/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj
 
 # target to build an object file
-__/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
 
-__/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: __/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 
-__/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: __/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
-__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj: __/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj
 
 # target to build an object file
-__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
 
-__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: __/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 
-__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: __/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 
-__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: __/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj
 
 # target to build an object file
-__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
 
-__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: __/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 
-__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: __/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
-__/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: __/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj
 
 # target to build an object file
-__/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
 
-__/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: __/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 
-__/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: __/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 
-__/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: __/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj
 
 # target to build an object file
-__/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
 
-__/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: __/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 
-__/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: __/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 
-__/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: __/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj
 
 # target to build an object file
-__/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
 
-__/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: __/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 
-__/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: __/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 
-__/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj: __/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj
 
 # target to build an object file
-__/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
 
-__/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: __/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 
-__/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: __/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 
-__/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj: __/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj
 
 # target to build an object file
-__/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
 
-__/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: __/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 
-__/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: __/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 
-__/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: __/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj
 
 # target to build an object file
-__/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
 
-__/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: __/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 
-__/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: __/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
-__/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: __/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj
 
 # target to build an object file
-__/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
 
-__/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: __/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 
-__/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: __/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
-__/pico-sdk/lib/tinyusb/src/class/video/video_device.obj: __/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/video/video_device.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.obj
 
 # target to build an object file
-__/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
 
-__/pico-sdk/lib/tinyusb/src/class/video/video_device.i: __/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/video/video_device.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 
-__/pico-sdk/lib/tinyusb/src/class/video/video_device.s: __/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/video/video_device.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 
-__/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: __/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj
 
 # target to build an object file
-__/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
-__/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: __/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 
-__/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: __/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 
-__/pico-sdk/lib/tinyusb/src/device/usbd.obj: __/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/device/usbd.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.obj
 
 # target to build an object file
-__/pico-sdk/lib/tinyusb/src/device/usbd.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
 
-__/pico-sdk/lib/tinyusb/src/device/usbd.i: __/pico-sdk/lib/tinyusb/src/device/usbd.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/device/usbd.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/device/usbd.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 
-__/pico-sdk/lib/tinyusb/src/device/usbd.s: __/pico-sdk/lib/tinyusb/src/device/usbd.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/device/usbd.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/device/usbd.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 
-__/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: __/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/device/usbd_control.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.obj
 
 # target to build an object file
-__/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
 
-__/pico-sdk/lib/tinyusb/src/device/usbd_control.i: __/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/device/usbd_control.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 
-__/pico-sdk/lib/tinyusb/src/device/usbd_control.s: __/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/device/usbd_control.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 
-__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj: __/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj
 
 # target to build an object file
-__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
 
-__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: __/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 
-__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: __/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
-__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj: __/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj
 
 # target to build an object file
-__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
 
-__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: __/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 
-__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: __/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
-__/pico-sdk/lib/tinyusb/src/tusb.obj: __/pico-sdk/lib/tinyusb/src/tusb.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/tusb.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.obj
 
 # target to build an object file
-__/pico-sdk/lib/tinyusb/src/tusb.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/tusb.c.obj
-.PHONY : __/pico-sdk/lib/tinyusb/src/tusb.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.obj
 
-__/pico-sdk/lib/tinyusb/src/tusb.i: __/pico-sdk/lib/tinyusb/src/tusb.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/tusb.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.i
 
 # target to preprocess a source file
-__/pico-sdk/lib/tinyusb/src/tusb.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/tusb.c.i
-.PHONY : __/pico-sdk/lib/tinyusb/src/tusb.c.i
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.i
 
-__/pico-sdk/lib/tinyusb/src/tusb.s: __/pico-sdk/lib/tinyusb/src/tusb.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/tusb.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.s
 
 # target to generate assembly for a file
-__/pico-sdk/lib/tinyusb/src/tusb.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/lib/tinyusb/src/tusb.c.s
-.PHONY : __/pico-sdk/lib/tinyusb/src/tusb.c.s
+home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.s
 
-__/pico-sdk/src/common/pico_sync/critical_section.obj: __/pico-sdk/src/common/pico_sync/critical_section.c.obj
-.PHONY : __/pico-sdk/src/common/pico_sync/critical_section.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.obj: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.obj
 
 # target to build an object file
-__/pico-sdk/src/common/pico_sync/critical_section.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.obj
-.PHONY : __/pico-sdk/src/common/pico_sync/critical_section.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
-__/pico-sdk/src/common/pico_sync/critical_section.i: __/pico-sdk/src/common/pico_sync/critical_section.c.i
-.PHONY : __/pico-sdk/src/common/pico_sync/critical_section.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.i: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.i
 
 # target to preprocess a source file
-__/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.i
-.PHONY : __/pico-sdk/src/common/pico_sync/critical_section.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.i
 
-__/pico-sdk/src/common/pico_sync/critical_section.s: __/pico-sdk/src/common/pico_sync/critical_section.c.s
-.PHONY : __/pico-sdk/src/common/pico_sync/critical_section.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.s: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.s
-.PHONY : __/pico-sdk/src/common/pico_sync/critical_section.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.s
 
-__/pico-sdk/src/common/pico_sync/lock_core.obj: __/pico-sdk/src/common/pico_sync/lock_core.c.obj
-.PHONY : __/pico-sdk/src/common/pico_sync/lock_core.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.obj: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.obj
 
 # target to build an object file
-__/pico-sdk/src/common/pico_sync/lock_core.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.obj
-.PHONY : __/pico-sdk/src/common/pico_sync/lock_core.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
-__/pico-sdk/src/common/pico_sync/lock_core.i: __/pico-sdk/src/common/pico_sync/lock_core.c.i
-.PHONY : __/pico-sdk/src/common/pico_sync/lock_core.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.i: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.i
 
 # target to preprocess a source file
-__/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.i
-.PHONY : __/pico-sdk/src/common/pico_sync/lock_core.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.i
 
-__/pico-sdk/src/common/pico_sync/lock_core.s: __/pico-sdk/src/common/pico_sync/lock_core.c.s
-.PHONY : __/pico-sdk/src/common/pico_sync/lock_core.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.s: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.s
-.PHONY : __/pico-sdk/src/common/pico_sync/lock_core.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.s
 
-__/pico-sdk/src/common/pico_sync/mutex.obj: __/pico-sdk/src/common/pico_sync/mutex.c.obj
-.PHONY : __/pico-sdk/src/common/pico_sync/mutex.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.obj: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.obj
 
 # target to build an object file
-__/pico-sdk/src/common/pico_sync/mutex.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/common/pico_sync/mutex.c.obj
-.PHONY : __/pico-sdk/src/common/pico_sync/mutex.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj
 
-__/pico-sdk/src/common/pico_sync/mutex.i: __/pico-sdk/src/common/pico_sync/mutex.c.i
-.PHONY : __/pico-sdk/src/common/pico_sync/mutex.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.i: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.i
 
 # target to preprocess a source file
-__/pico-sdk/src/common/pico_sync/mutex.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/common/pico_sync/mutex.c.i
-.PHONY : __/pico-sdk/src/common/pico_sync/mutex.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.i
 
-__/pico-sdk/src/common/pico_sync/mutex.s: __/pico-sdk/src/common/pico_sync/mutex.c.s
-.PHONY : __/pico-sdk/src/common/pico_sync/mutex.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.s: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/common/pico_sync/mutex.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/common/pico_sync/mutex.c.s
-.PHONY : __/pico-sdk/src/common/pico_sync/mutex.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.s
 
-__/pico-sdk/src/common/pico_sync/sem.obj: __/pico-sdk/src/common/pico_sync/sem.c.obj
-.PHONY : __/pico-sdk/src/common/pico_sync/sem.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.obj: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.obj
 
 # target to build an object file
-__/pico-sdk/src/common/pico_sync/sem.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/common/pico_sync/sem.c.obj
-.PHONY : __/pico-sdk/src/common/pico_sync/sem.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj
 
-__/pico-sdk/src/common/pico_sync/sem.i: __/pico-sdk/src/common/pico_sync/sem.c.i
-.PHONY : __/pico-sdk/src/common/pico_sync/sem.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.i: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.i
 
 # target to preprocess a source file
-__/pico-sdk/src/common/pico_sync/sem.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/common/pico_sync/sem.c.i
-.PHONY : __/pico-sdk/src/common/pico_sync/sem.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.i
 
-__/pico-sdk/src/common/pico_sync/sem.s: __/pico-sdk/src/common/pico_sync/sem.c.s
-.PHONY : __/pico-sdk/src/common/pico_sync/sem.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.s: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/common/pico_sync/sem.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/common/pico_sync/sem.c.s
-.PHONY : __/pico-sdk/src/common/pico_sync/sem.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.s
 
-__/pico-sdk/src/common/pico_time/time.obj: __/pico-sdk/src/common/pico_time/time.c.obj
-.PHONY : __/pico-sdk/src/common/pico_time/time.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.obj: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.obj
 
 # target to build an object file
-__/pico-sdk/src/common/pico_time/time.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/common/pico_time/time.c.obj
-.PHONY : __/pico-sdk/src/common/pico_time/time.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj
 
-__/pico-sdk/src/common/pico_time/time.i: __/pico-sdk/src/common/pico_time/time.c.i
-.PHONY : __/pico-sdk/src/common/pico_time/time.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.i: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.i
 
 # target to preprocess a source file
-__/pico-sdk/src/common/pico_time/time.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/common/pico_time/time.c.i
-.PHONY : __/pico-sdk/src/common/pico_time/time.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.i
 
-__/pico-sdk/src/common/pico_time/time.s: __/pico-sdk/src/common/pico_time/time.c.s
-.PHONY : __/pico-sdk/src/common/pico_time/time.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.s: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/common/pico_time/time.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/common/pico_time/time.c.s
-.PHONY : __/pico-sdk/src/common/pico_time/time.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.s
 
-__/pico-sdk/src/common/pico_time/timeout_helper.obj: __/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-.PHONY : __/pico-sdk/src/common/pico_time/timeout_helper.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.obj: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.obj
 
 # target to build an object file
-__/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-.PHONY : __/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
-__/pico-sdk/src/common/pico_time/timeout_helper.i: __/pico-sdk/src/common/pico_time/timeout_helper.c.i
-.PHONY : __/pico-sdk/src/common/pico_time/timeout_helper.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.i: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.i
 
 # target to preprocess a source file
-__/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.i
-.PHONY : __/pico-sdk/src/common/pico_time/timeout_helper.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
-__/pico-sdk/src/common/pico_time/timeout_helper.s: __/pico-sdk/src/common/pico_time/timeout_helper.c.s
-.PHONY : __/pico-sdk/src/common/pico_time/timeout_helper.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.s: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.s
-.PHONY : __/pico-sdk/src/common/pico_time/timeout_helper.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
-__/pico-sdk/src/common/pico_util/datetime.obj: __/pico-sdk/src/common/pico_util/datetime.c.obj
-.PHONY : __/pico-sdk/src/common/pico_util/datetime.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.obj: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.obj
 
 # target to build an object file
-__/pico-sdk/src/common/pico_util/datetime.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/common/pico_util/datetime.c.obj
-.PHONY : __/pico-sdk/src/common/pico_util/datetime.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj
 
-__/pico-sdk/src/common/pico_util/datetime.i: __/pico-sdk/src/common/pico_util/datetime.c.i
-.PHONY : __/pico-sdk/src/common/pico_util/datetime.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.i: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.i
 
 # target to preprocess a source file
-__/pico-sdk/src/common/pico_util/datetime.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/common/pico_util/datetime.c.i
-.PHONY : __/pico-sdk/src/common/pico_util/datetime.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.i
 
-__/pico-sdk/src/common/pico_util/datetime.s: __/pico-sdk/src/common/pico_util/datetime.c.s
-.PHONY : __/pico-sdk/src/common/pico_util/datetime.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.s: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/common/pico_util/datetime.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/common/pico_util/datetime.c.s
-.PHONY : __/pico-sdk/src/common/pico_util/datetime.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.s
 
-__/pico-sdk/src/common/pico_util/pheap.obj: __/pico-sdk/src/common/pico_util/pheap.c.obj
-.PHONY : __/pico-sdk/src/common/pico_util/pheap.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.obj: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.obj
 
 # target to build an object file
-__/pico-sdk/src/common/pico_util/pheap.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/common/pico_util/pheap.c.obj
-.PHONY : __/pico-sdk/src/common/pico_util/pheap.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj
 
-__/pico-sdk/src/common/pico_util/pheap.i: __/pico-sdk/src/common/pico_util/pheap.c.i
-.PHONY : __/pico-sdk/src/common/pico_util/pheap.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.i: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.i
 
 # target to preprocess a source file
-__/pico-sdk/src/common/pico_util/pheap.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/common/pico_util/pheap.c.i
-.PHONY : __/pico-sdk/src/common/pico_util/pheap.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.i
 
-__/pico-sdk/src/common/pico_util/pheap.s: __/pico-sdk/src/common/pico_util/pheap.c.s
-.PHONY : __/pico-sdk/src/common/pico_util/pheap.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.s: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/common/pico_util/pheap.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/common/pico_util/pheap.c.s
-.PHONY : __/pico-sdk/src/common/pico_util/pheap.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.s
 
-__/pico-sdk/src/common/pico_util/queue.obj: __/pico-sdk/src/common/pico_util/queue.c.obj
-.PHONY : __/pico-sdk/src/common/pico_util/queue.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.obj: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.obj
 
 # target to build an object file
-__/pico-sdk/src/common/pico_util/queue.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/common/pico_util/queue.c.obj
-.PHONY : __/pico-sdk/src/common/pico_util/queue.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj
 
-__/pico-sdk/src/common/pico_util/queue.i: __/pico-sdk/src/common/pico_util/queue.c.i
-.PHONY : __/pico-sdk/src/common/pico_util/queue.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.i: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.i
 
 # target to preprocess a source file
-__/pico-sdk/src/common/pico_util/queue.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/common/pico_util/queue.c.i
-.PHONY : __/pico-sdk/src/common/pico_util/queue.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.i
 
-__/pico-sdk/src/common/pico_util/queue.s: __/pico-sdk/src/common/pico_util/queue.c.s
-.PHONY : __/pico-sdk/src/common/pico_util/queue.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.s: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/common/pico_util/queue.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/common/pico_util/queue.c.s
-.PHONY : __/pico-sdk/src/common/pico_util/queue.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.s
 
-__/pico-sdk/src/rp2_common/hardware_claim/claim.obj: __/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_claim/claim.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
-__/pico-sdk/src/rp2_common/hardware_claim/claim.i: __/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_claim/claim.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
-__/pico-sdk/src/rp2_common/hardware_claim/claim.s: __/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_claim/claim.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
-__/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: __/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
-__/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: __/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
-__/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: __/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_clocks/clocks.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
-__/pico-sdk/src/rp2_common/hardware_divider/divider.obj: __/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_divider/divider.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
-__/pico-sdk/src/rp2_common/hardware_dma/dma.obj: __/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_dma/dma.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
 
-__/pico-sdk/src/rp2_common/hardware_dma/dma.i: __/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_dma/dma.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_dma/dma.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
 
-__/pico-sdk/src/rp2_common/hardware_dma/dma.s: __/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_dma/dma.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_dma/dma.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
 
-__/pico-sdk/src/rp2_common/hardware_exception/exception.obj: __/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_exception/exception.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
 
-__/pico-sdk/src/rp2_common/hardware_exception/exception.i: __/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_exception/exception.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_exception/exception.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
 
-__/pico-sdk/src/rp2_common/hardware_exception/exception.s: __/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_exception/exception.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_exception/exception.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
 
-__/pico-sdk/src/rp2_common/hardware_flash/flash.obj: __/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_flash/flash.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 
-__/pico-sdk/src/rp2_common/hardware_flash/flash.i: __/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_flash/flash.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 
-__/pico-sdk/src/rp2_common/hardware_flash/flash.s: __/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_flash/flash.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
-__/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: __/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
-__/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: __/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
-__/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: __/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_gpio/gpio.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
-__/pico-sdk/src/rp2_common/hardware_irq/irq.obj: __/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_irq/irq.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
-__/pico-sdk/src/rp2_common/hardware_irq/irq.i: __/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_irq/irq.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
-__/pico-sdk/src/rp2_common/hardware_irq/irq.s: __/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_irq/irq.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
-__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: __/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
-__/pico-sdk/src/rp2_common/hardware_pio/pio.obj: __/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_pio/pio.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 
-__/pico-sdk/src/rp2_common/hardware_pio/pio.i: __/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_pio/pio.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
 
-__/pico-sdk/src/rp2_common/hardware_pio/pio.s: __/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_pio/pio.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
-__/pico-sdk/src/rp2_common/hardware_pll/pll.obj: __/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_pll/pll.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
-__/pico-sdk/src/rp2_common/hardware_pll/pll.i: __/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_pll/pll.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
-__/pico-sdk/src/rp2_common/hardware_pll/pll.s: __/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_pll/pll.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
-__/pico-sdk/src/rp2_common/hardware_sync/sync.obj: __/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_sync/sync.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
-__/pico-sdk/src/rp2_common/hardware_sync/sync.i: __/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_sync/sync.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
-__/pico-sdk/src/rp2_common/hardware_sync/sync.s: __/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_sync/sync.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
-__/pico-sdk/src/rp2_common/hardware_timer/timer.obj: __/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_timer/timer.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
-__/pico-sdk/src/rp2_common/hardware_timer/timer.i: __/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_timer/timer.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
-__/pico-sdk/src/rp2_common/hardware_timer/timer.s: __/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_timer/timer.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
-__/pico-sdk/src/rp2_common/hardware_uart/uart.obj: __/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_uart/uart.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
-__/pico-sdk/src/rp2_common/hardware_uart/uart.i: __/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_uart/uart.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
-__/pico-sdk/src/rp2_common/hardware_uart/uart.s: __/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_uart/uart.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
-__/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: __/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
-__/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: __/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_vreg/vreg.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
-__/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: __/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_vreg/vreg.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
-__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: __/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
-__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: __/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
-__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: __/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
-__/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: __/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
-__/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: __/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_xosc/xosc.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
-__/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: __/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_xosc/xosc.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
-__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj: __/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
 
-__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i: __/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
 
-__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s: __/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
 
-__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj: __/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
 
-__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i: __/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
 
-__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s: __/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
 
-__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: __/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
-__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: __/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
-__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: __/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
-__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: __/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj: __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
 
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i: __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
 
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s: __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
 
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj: __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
 
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i: __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
 
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s: __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
 
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj: __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
 
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i: __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
 
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s: __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
 
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj: __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
 
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i: __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
 
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s: __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
 
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj: __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
 
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i: __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
 
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s: __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
 
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj: __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
 
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i: __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
 
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s: __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
 
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj: __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
 
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i: __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
 
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s: __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
 
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj: __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
 
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i: __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
 
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s: __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
 
-__/pico-sdk/src/rp2_common/pico_divider/divider.obj: __/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_divider/divider.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
-__/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: __/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 
-__/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: __/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 
-__/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: __/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_init_rom.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
-__/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: __/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_init_rom.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
-__/pico-sdk/src/rp2_common/pico_double/double_math.obj: __/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_math.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
-__/pico-sdk/src/rp2_common/pico_double/double_math.i: __/pico-sdk/src/rp2_common/pico_double/double_math.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_math.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
-__/pico-sdk/src/rp2_common/pico_double/double_math.s: __/pico-sdk/src/rp2_common/pico_double/double_math.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_math.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
-__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: __/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
-__/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: __/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 
-__/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: __/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 
-__/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: __/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
-__/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: __/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
-__/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: __/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 
-__/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: __/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_init_rom.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
-__/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: __/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_init_rom.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
-__/pico-sdk/src/rp2_common/pico_float/float_math.obj: __/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_math.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
-__/pico-sdk/src/rp2_common/pico_float/float_math.i: __/pico-sdk/src/rp2_common/pico_float/float_math.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_math.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
-__/pico-sdk/src/rp2_common/pico_float/float_math.s: __/pico-sdk/src/rp2_common/pico_float/float_math.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_math.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
-__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: __/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
-__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: __/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
-__/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.obj: __/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
 
-__/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i: __/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
 
-__/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s: __/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
 
-__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: __/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 
-__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: __/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
-__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: __/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
-__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: __/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
-__/pico-sdk/src/rp2_common/pico_platform/platform.obj: __/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_platform/platform.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 
-__/pico-sdk/src/rp2_common/pico_platform/platform.i: __/pico-sdk/src/rp2_common/pico_platform/platform.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_platform/platform.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
-__/pico-sdk/src/rp2_common/pico_platform/platform.s: __/pico-sdk/src/rp2_common/pico_platform/platform.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_platform/platform.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
-__/pico-sdk/src/rp2_common/pico_printf/printf.obj: __/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_printf/printf.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
-__/pico-sdk/src/rp2_common/pico_printf/printf.i: __/pico-sdk/src/rp2_common/pico_printf/printf.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_printf/printf.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
-__/pico-sdk/src/rp2_common/pico_printf/printf.s: __/pico-sdk/src/rp2_common/pico_printf/printf.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_printf/printf.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
-__/pico-sdk/src/rp2_common/pico_rand/rand.obj: __/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_rand/rand.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_rand/rand.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
 
-__/pico-sdk/src/rp2_common/pico_rand/rand.i: __/pico-sdk/src/rp2_common/pico_rand/rand.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_rand/rand.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_rand/rand.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_rand/rand.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_rand/rand.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.i
 
-__/pico-sdk/src/rp2_common/pico_rand/rand.s: __/pico-sdk/src/rp2_common/pico_rand/rand.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_rand/rand.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_rand/rand.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_rand/rand.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_rand/rand.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.s
 
-__/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: __/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_runtime/runtime.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
-__/pico-sdk/src/rp2_common/pico_runtime/runtime.i: __/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_runtime/runtime.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
-__/pico-sdk/src/rp2_common/pico_runtime/runtime.s: __/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_runtime/runtime.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
-__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: __/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
-__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: __/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
-__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: __/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
-__/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: __/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: __/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 
-__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: __/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
-__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: __/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
-__/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: __/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio/stdio.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
-__/pico-sdk/src/rp2_common/pico_stdio/stdio.i: __/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio/stdio.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
-__/pico-sdk/src/rp2_common/pico_stdio/stdio.s: __/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio/stdio.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: __/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: __/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
-__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: __/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
-__/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj: __/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 
-__/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: __/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
-__/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: __/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 
-__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj: __/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
 
-__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: __/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 
-__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: __/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 
-__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj: __/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
 
-__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: __/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 
-__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: __/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 
-__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: __/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
-__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: __/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
-__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: __/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
-__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: __/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 
-__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: __/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 
-__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: __/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
 picow_monitor_mode.obj: picow_monitor_mode.c.obj
 .PHONY : picow_monitor_mode.obj
 
 # target to build an object file
 picow_monitor_mode.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/picow_monitor_mode.c.obj
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/picow_monitor_mode.c.obj
 .PHONY : picow_monitor_mode.c.obj
 
 picow_monitor_mode.i: picow_monitor_mode.c.i
@@ -4133,7 +4133,7 @@ picow_monitor_mode.i: picow_monitor_mode.c.i
 
 # target to preprocess a source file
 picow_monitor_mode.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/picow_monitor_mode.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/picow_monitor_mode.c.i
 .PHONY : picow_monitor_mode.c.i
 
 picow_monitor_mode.s: picow_monitor_mode.c.s
@@ -4141,7 +4141,7 @@ picow_monitor_mode.s: picow_monitor_mode.c.s
 
 # target to generate assembly for a file
 picow_monitor_mode.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/picow_monitor_mode.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f monitor_mode/CMakeFiles/picow_monitor_mode.dir/build.make monitor_mode/CMakeFiles/picow_monitor_mode.dir/picow_monitor_mode.c.s
 .PHONY : picow_monitor_mode.c.s
 
 # Help Target
@@ -4166,491 +4166,491 @@ help:
 	@echo "... __/cyw43-driver/src/cyw43_stats.obj"
 	@echo "... __/cyw43-driver/src/cyw43_stats.i"
 	@echo "... __/cyw43-driver/src/cyw43_stats.s"
-	@echo "... __/pico-sdk/lib/lwip/src/api/api_lib.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/api/api_lib.i"
-	@echo "... __/pico-sdk/lib/lwip/src/api/api_lib.s"
-	@echo "... __/pico-sdk/lib/lwip/src/api/api_msg.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/api/api_msg.i"
-	@echo "... __/pico-sdk/lib/lwip/src/api/api_msg.s"
-	@echo "... __/pico-sdk/lib/lwip/src/api/err.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/api/err.i"
-	@echo "... __/pico-sdk/lib/lwip/src/api/err.s"
-	@echo "... __/pico-sdk/lib/lwip/src/api/if_api.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/api/if_api.i"
-	@echo "... __/pico-sdk/lib/lwip/src/api/if_api.s"
-	@echo "... __/pico-sdk/lib/lwip/src/api/netbuf.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/api/netbuf.i"
-	@echo "... __/pico-sdk/lib/lwip/src/api/netbuf.s"
-	@echo "... __/pico-sdk/lib/lwip/src/api/netdb.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/api/netdb.i"
-	@echo "... __/pico-sdk/lib/lwip/src/api/netdb.s"
-	@echo "... __/pico-sdk/lib/lwip/src/api/netifapi.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/api/netifapi.i"
-	@echo "... __/pico-sdk/lib/lwip/src/api/netifapi.s"
-	@echo "... __/pico-sdk/lib/lwip/src/api/sockets.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/api/sockets.i"
-	@echo "... __/pico-sdk/lib/lwip/src/api/sockets.s"
-	@echo "... __/pico-sdk/lib/lwip/src/api/tcpip.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/api/tcpip.i"
-	@echo "... __/pico-sdk/lib/lwip/src/api/tcpip.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/altcp.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/altcp.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/altcp.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/altcp_alloc.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/altcp_alloc.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/altcp_alloc.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/altcp_tcp.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/altcp_tcp.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/altcp_tcp.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/def.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/def.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/def.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/dns.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/dns.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/dns.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/inet_chksum.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/inet_chksum.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/inet_chksum.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/init.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/init.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/init.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ip.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ip.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ip.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv4/acd.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv4/acd.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv4/acd.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv4/autoip.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv4/autoip.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv4/autoip.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv4/dhcp.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv4/etharp.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv4/etharp.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv4/etharp.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv4/icmp.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv4/icmp.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv4/icmp.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv4/igmp.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv4/igmp.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv4/igmp.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv4/ip4.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv4/ip4.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv4/ip4.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv6/ethip6.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv6/icmp6.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv6/inet6.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv6/inet6.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv6/inet6.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv6/ip6.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv6/ip6.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv6/ip6.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv6/mld6.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv6/mld6.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv6/mld6.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv6/nd6.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv6/nd6.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/ipv6/nd6.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/mem.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/mem.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/mem.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/memp.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/memp.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/memp.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/netif.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/netif.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/netif.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/pbuf.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/pbuf.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/pbuf.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/raw.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/raw.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/raw.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/stats.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/stats.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/stats.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/sys.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/sys.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/sys.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/tcp.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/tcp.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/tcp.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/tcp_in.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/tcp_in.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/tcp_in.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/tcp_out.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/tcp_out.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/tcp_out.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/timeouts.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/timeouts.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/timeouts.s"
-	@echo "... __/pico-sdk/lib/lwip/src/core/udp.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/core/udp.i"
-	@echo "... __/pico-sdk/lib/lwip/src/core/udp.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/bridgeif.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/bridgeif.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/bridgeif.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ethernet.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ethernet.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ethernet.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/lowpan6.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/lowpan6.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/lowpan6.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/lowpan6_ble.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/lowpan6_common.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/lowpan6_common.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/lowpan6_common.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/auth.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/auth.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/auth.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/ccp.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/ccp.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/ccp.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/chap-new.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/demand.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/demand.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/demand.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/eap.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/eap.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/eap.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/ecp.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/ecp.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/ecp.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/eui64.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/eui64.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/eui64.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/fsm.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/fsm.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/fsm.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/ipcp.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/lcp.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/lcp.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/lcp.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/magic.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/magic.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/magic.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/mppe.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/mppe.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/mppe.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/multilink.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/multilink.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/multilink.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/ppp.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/ppp.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/ppp.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/pppapi.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/pppoe.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/pppos.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/pppos.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/pppos.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/upap.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/upap.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/upap.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/utils.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/utils.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/utils.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/vj.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/vj.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/ppp/vj.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/slipif.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/slipif.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/slipif.s"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/zepif.obj"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/zepif.i"
-	@echo "... __/pico-sdk/lib/lwip/src/netif/zepif.s"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/video/video_device.obj"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/video/video_device.i"
-	@echo "... __/pico-sdk/lib/tinyusb/src/class/video/video_device.s"
-	@echo "... __/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj"
-	@echo "... __/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i"
-	@echo "... __/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s"
-	@echo "... __/pico-sdk/lib/tinyusb/src/device/usbd.obj"
-	@echo "... __/pico-sdk/lib/tinyusb/src/device/usbd.i"
-	@echo "... __/pico-sdk/lib/tinyusb/src/device/usbd.s"
-	@echo "... __/pico-sdk/lib/tinyusb/src/device/usbd_control.obj"
-	@echo "... __/pico-sdk/lib/tinyusb/src/device/usbd_control.i"
-	@echo "... __/pico-sdk/lib/tinyusb/src/device/usbd_control.s"
-	@echo "... __/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj"
-	@echo "... __/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i"
-	@echo "... __/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s"
-	@echo "... __/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj"
-	@echo "... __/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i"
-	@echo "... __/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s"
-	@echo "... __/pico-sdk/lib/tinyusb/src/tusb.obj"
-	@echo "... __/pico-sdk/lib/tinyusb/src/tusb.i"
-	@echo "... __/pico-sdk/lib/tinyusb/src/tusb.s"
-	@echo "... __/pico-sdk/src/common/pico_sync/critical_section.obj"
-	@echo "... __/pico-sdk/src/common/pico_sync/critical_section.i"
-	@echo "... __/pico-sdk/src/common/pico_sync/critical_section.s"
-	@echo "... __/pico-sdk/src/common/pico_sync/lock_core.obj"
-	@echo "... __/pico-sdk/src/common/pico_sync/lock_core.i"
-	@echo "... __/pico-sdk/src/common/pico_sync/lock_core.s"
-	@echo "... __/pico-sdk/src/common/pico_sync/mutex.obj"
-	@echo "... __/pico-sdk/src/common/pico_sync/mutex.i"
-	@echo "... __/pico-sdk/src/common/pico_sync/mutex.s"
-	@echo "... __/pico-sdk/src/common/pico_sync/sem.obj"
-	@echo "... __/pico-sdk/src/common/pico_sync/sem.i"
-	@echo "... __/pico-sdk/src/common/pico_sync/sem.s"
-	@echo "... __/pico-sdk/src/common/pico_time/time.obj"
-	@echo "... __/pico-sdk/src/common/pico_time/time.i"
-	@echo "... __/pico-sdk/src/common/pico_time/time.s"
-	@echo "... __/pico-sdk/src/common/pico_time/timeout_helper.obj"
-	@echo "... __/pico-sdk/src/common/pico_time/timeout_helper.i"
-	@echo "... __/pico-sdk/src/common/pico_time/timeout_helper.s"
-	@echo "... __/pico-sdk/src/common/pico_util/datetime.obj"
-	@echo "... __/pico-sdk/src/common/pico_util/datetime.i"
-	@echo "... __/pico-sdk/src/common/pico_util/datetime.s"
-	@echo "... __/pico-sdk/src/common/pico_util/pheap.obj"
-	@echo "... __/pico-sdk/src/common/pico_util/pheap.i"
-	@echo "... __/pico-sdk/src/common/pico_util/pheap.s"
-	@echo "... __/pico-sdk/src/common/pico_util/queue.obj"
-	@echo "... __/pico-sdk/src/common/pico_util/queue.i"
-	@echo "... __/pico-sdk/src/common/pico_util/queue.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_claim/claim.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_claim/claim.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_claim/claim.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_divider/divider.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_dma/dma.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_dma/dma.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_dma/dma.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_exception/exception.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_exception/exception.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_exception/exception.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_flash/flash.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_flash/flash.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_flash/flash.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_irq/irq.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_irq/irq.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_irq/irq.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_pio/pio.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_pio/pio.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_pio/pio.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_pll/pll.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_pll/pll.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_pll/pll.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_sync/sync.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_sync/sync.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_sync/sync.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_timer/timer.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_timer/timer.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_timer/timer.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_uart/uart.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_uart/uart.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_uart/uart.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_vreg/vreg.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_vreg/vreg.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_divider/divider.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_double/double_init_rom.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_double/double_init_rom.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_double/double_math.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_double/double_math.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_double/double_math.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_float/float_init_rom.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_float/float_init_rom.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_float/float_math.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_float/float_math.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_float/float_math.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_platform/platform.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_platform/platform.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_platform/platform.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_printf/printf.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_printf/printf.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_printf/printf.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_rand/rand.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_rand/rand.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_rand/rand.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_runtime/runtime.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_runtime/runtime.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_runtime/runtime.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
 	@echo "... picow_monitor_mode.obj"
 	@echo "... picow_monitor_mode.i"
 	@echo "... picow_monitor_mode.s"
@@ -4665,6 +4665,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/pico-nexmon/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/pico-nexmon
+CMAKE_SOURCE_DIR = /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/pico-nexmon/build
+CMAKE_BINARY_DIR = /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build
 
 # Utility rule file for ELF2UF2Build.
 
@@ -76,51 +76,51 @@ monitor_mode/CMakeFiles/ELF2UF2Build-complete: monitor_mode/elf2uf2/src/ELF2UF2B
 monitor_mode/CMakeFiles/ELF2UF2Build-complete: monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 monitor_mode/CMakeFiles/ELF2UF2Build-complete: monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build
 monitor_mode/CMakeFiles/ELF2UF2Build-complete: monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ELF2UF2Build'"
-	cd /home/ubuntu/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E make_directory /home/ubuntu/pico-nexmon/build/monitor_mode/CMakeFiles
-	cd /home/ubuntu/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E touch /home/ubuntu/pico-nexmon/build/monitor_mode/CMakeFiles/ELF2UF2Build-complete
-	cd /home/ubuntu/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E touch /home/ubuntu/pico-nexmon/build/monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ELF2UF2Build'"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E make_directory /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode/CMakeFiles
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E touch /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode/CMakeFiles/ELF2UF2Build-complete
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E touch /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-done
 
 monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build: monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'ELF2UF2Build'"
-	cd /home/ubuntu/pico-nexmon/build/elf2uf2 && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'ELF2UF2Build'"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/elf2uf2 && $(MAKE)
 
 monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: monitor_mode/elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt
 monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'ELF2UF2Build'"
-	cd /home/ubuntu/pico-nexmon/build/elf2uf2 && /usr/bin/cmake -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake "-GUnix Makefiles" /home/ubuntu/pico-nexmon/pico-sdk/tools/elf2uf2
-	cd /home/ubuntu/pico-nexmon/build/elf2uf2 && /usr/bin/cmake -E touch /home/ubuntu/pico-nexmon/build/monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'ELF2UF2Build'"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/elf2uf2 && /usr/bin/cmake -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake "-GUnix Makefiles" /home/ubuntu/pico-nexmon/pico-sdk/tools/elf2uf2
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/elf2uf2 && /usr/bin/cmake -E touch /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 
 monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download: monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'ELF2UF2Build'"
-	cd /home/ubuntu/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E echo_append
-	cd /home/ubuntu/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E touch /home/ubuntu/pico-nexmon/build/monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'ELF2UF2Build'"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E echo_append
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E touch /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
 
 monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install: monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'ELF2UF2Build'"
-	cd /home/ubuntu/pico-nexmon/build/elf2uf2 && /usr/bin/cmake -E echo_append
-	cd /home/ubuntu/pico-nexmon/build/elf2uf2 && /usr/bin/cmake -E touch /home/ubuntu/pico-nexmon/build/monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'ELF2UF2Build'"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/elf2uf2 && /usr/bin/cmake -E echo_append
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/elf2uf2 && /usr/bin/cmake -E touch /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
 
 monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'ELF2UF2Build'"
-	cd /home/ubuntu/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E make_directory /home/ubuntu/pico-nexmon/pico-sdk/tools/elf2uf2
-	cd /home/ubuntu/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E make_directory /home/ubuntu/pico-nexmon/build/elf2uf2
-	cd /home/ubuntu/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E make_directory /home/ubuntu/pico-nexmon/build/monitor_mode/elf2uf2
-	cd /home/ubuntu/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E make_directory /home/ubuntu/pico-nexmon/build/monitor_mode/elf2uf2/tmp
-	cd /home/ubuntu/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E make_directory /home/ubuntu/pico-nexmon/build/monitor_mode/elf2uf2/src/ELF2UF2Build-stamp
-	cd /home/ubuntu/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E make_directory /home/ubuntu/pico-nexmon/build/monitor_mode/elf2uf2/src
-	cd /home/ubuntu/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E make_directory /home/ubuntu/pico-nexmon/build/monitor_mode/elf2uf2/src/ELF2UF2Build-stamp
-	cd /home/ubuntu/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E touch /home/ubuntu/pico-nexmon/build/monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'ELF2UF2Build'"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E make_directory /home/ubuntu/pico-nexmon/pico-sdk/tools/elf2uf2
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E make_directory /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/elf2uf2
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E make_directory /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode/elf2uf2
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E make_directory /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode/elf2uf2/tmp
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E make_directory /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode/elf2uf2/src/ELF2UF2Build-stamp
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E make_directory /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode/elf2uf2/src
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E make_directory /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode/elf2uf2/src/ELF2UF2Build-stamp
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E touch /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
 
 monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch: monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'ELF2UF2Build'"
-	cd /home/ubuntu/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E echo_append
-	cd /home/ubuntu/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E touch /home/ubuntu/pico-nexmon/build/monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'ELF2UF2Build'"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E echo_append
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E touch /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
 
 monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update: monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'ELF2UF2Build'"
-	cd /home/ubuntu/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E echo_append
-	cd /home/ubuntu/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E touch /home/ubuntu/pico-nexmon/build/monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'ELF2UF2Build'"
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E echo_append
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode && /usr/bin/cmake -E touch /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
 
 ELF2UF2Build: monitor_mode/CMakeFiles/ELF2UF2Build
 ELF2UF2Build: monitor_mode/CMakeFiles/ELF2UF2Build-complete
@@ -139,10 +139,10 @@ monitor_mode/CMakeFiles/ELF2UF2Build.dir/build: ELF2UF2Build
 .PHONY : monitor_mode/CMakeFiles/ELF2UF2Build.dir/build
 
 monitor_mode/CMakeFiles/ELF2UF2Build.dir/clean:
-	cd /home/ubuntu/pico-nexmon/build/monitor_mode && $(CMAKE_COMMAND) -P CMakeFiles/ELF2UF2Build.dir/cmake_clean.cmake
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode && $(CMAKE_COMMAND) -P CMakeFiles/ELF2UF2Build.dir/cmake_clean.cmake
 .PHONY : monitor_mode/CMakeFiles/ELF2UF2Build.dir/clean
 
 monitor_mode/CMakeFiles/ELF2UF2Build.dir/depend:
-	cd /home/ubuntu/pico-nexmon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/pico-nexmon /home/ubuntu/pico-nexmon/monitor_mode /home/ubuntu/pico-nexmon/build /home/ubuntu/pico-nexmon/build/monitor_mode /home/ubuntu/pico-nexmon/build/monitor_mode/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/monitor_mode /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : monitor_mode/CMakeFiles/ELF2UF2Build.dir/depend
 

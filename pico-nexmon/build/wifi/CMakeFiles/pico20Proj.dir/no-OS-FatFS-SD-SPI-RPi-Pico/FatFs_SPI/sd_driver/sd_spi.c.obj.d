@@ -1,5 +1,5 @@
 wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj: \
- /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
@@ -25,9 +25,9 @@ wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/s
  /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_base/include/pico/assert.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
  /usr/include/newlib/assert.h \
- /home/ubuntu/pico-nexmon/build/generated/pico_base/pico/version.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/generated/pico_base/pico/version.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_base/include/pico/config.h \
- /home/ubuntu/pico-nexmon/build/generated/pico_base/pico/config_autogen.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/generated/pico_base/pico/config_autogen.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/boards/include/boards/pico_w.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
@@ -46,8 +46,8 @@ wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/s
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
- /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/my_debug.h \
- /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/my_debug.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/include/pico/time.h \
@@ -55,9 +55,9 @@ wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/s
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
- /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \
- /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h \
- /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
@@ -66,4 +66,4 @@ wifi/CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/s
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/include/pico/sem.h \
- /home/ubuntu/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.h
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.h

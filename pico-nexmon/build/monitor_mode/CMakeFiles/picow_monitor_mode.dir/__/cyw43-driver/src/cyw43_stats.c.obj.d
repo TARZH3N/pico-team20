@@ -1,5 +1,5 @@
 monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_stats.c.obj: \
- /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_stats.c \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_stats.c \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
  /usr/include/newlib/inttypes.h /usr/include/newlib/newlib.h \
  /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
@@ -8,15 +8,15 @@ monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_stats.c
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
  /usr/include/newlib/sys/_locale.h \
- /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_config.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_config.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/include/cyw43_configport.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_base/include/pico.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_base/include/pico/types.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_base/include/pico/assert.h \
  /usr/include/newlib/assert.h \
- /home/ubuntu/pico-nexmon/build/generated/pico_base/pico/version.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/generated/pico_base/pico/version.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_base/include/pico/config.h \
- /home/ubuntu/pico-nexmon/build/generated/pico_base/pico/config_autogen.h \
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/generated/pico_base/pico/config_autogen.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/boards/include/boards/pico_w.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
@@ -53,4 +53,4 @@ monitor_mode/CMakeFiles/picow_monitor_mode.dir/__/cyw43-driver/src/cyw43_stats.c
  /usr/include/newlib/sys/timespec.h /usr/include/newlib/sys/_timespec.h \
  /usr/include/newlib/sys/_pthreadtypes.h /usr/include/newlib/sys/sched.h \
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
- /home/ubuntu/pico-nexmon/cyw43-driver/src/cyw43_stats.h
+ /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/cyw43-driver/src/cyw43_stats.h

@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/pico-nexmon/ioctl_test
+# Install script for directory: /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/ioctl_test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

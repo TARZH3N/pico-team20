@@ -15,7 +15,6 @@ execute_process(COMMAND
 )
 add_subdirectory(no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI build)
 
-
 add_executable(${PROGRAM_NAME}
         picow_access_point.c
         dhcpserver/dhcpserver.c

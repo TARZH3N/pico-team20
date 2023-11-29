@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/pico-nexmon
+# Install script for directory: /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ubuntu/pico-nexmon/build/pico-sdk/cmake_install.cmake")
-  include("/home/ubuntu/pico-nexmon/build/dump_rom/cmake_install.cmake")
-  include("/home/ubuntu/pico-nexmon/build/dump_console/cmake_install.cmake")
-  include("/home/ubuntu/pico-nexmon/build/monitor_mode/cmake_install.cmake")
-  include("/home/ubuntu/pico-nexmon/build/wifi/cmake_install.cmake")
-  include("/home/ubuntu/pico-nexmon/build/ioctl_test/cmake_install.cmake")
+  include("/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/pico-sdk/cmake_install.cmake")
+  include("/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_rom/cmake_install.cmake")
+  include("/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_console/cmake_install.cmake")
+  include("/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/monitor_mode/cmake_install.cmake")
+  include("/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi/cmake_install.cmake")
+  include("/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/i2c_slave/cmake_install.cmake")
+  include("/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/ioctl_test/cmake_install.cmake")
 
 endif()
 
@@ -56,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ubuntu/pico-nexmon/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

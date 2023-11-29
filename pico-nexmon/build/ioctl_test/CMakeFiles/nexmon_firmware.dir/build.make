@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/pico-nexmon
+CMAKE_SOURCE_DIR = /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/pico-nexmon/build
+CMAKE_BINARY_DIR = /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build
 
 # Utility rule file for nexmon_firmware.
 
@@ -78,10 +78,10 @@ ioctl_test/CMakeFiles/nexmon_firmware.dir/build: nexmon_firmware
 .PHONY : ioctl_test/CMakeFiles/nexmon_firmware.dir/build
 
 ioctl_test/CMakeFiles/nexmon_firmware.dir/clean:
-	cd /home/ubuntu/pico-nexmon/build/ioctl_test && $(CMAKE_COMMAND) -P CMakeFiles/nexmon_firmware.dir/cmake_clean.cmake
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/ioctl_test && $(CMAKE_COMMAND) -P CMakeFiles/nexmon_firmware.dir/cmake_clean.cmake
 .PHONY : ioctl_test/CMakeFiles/nexmon_firmware.dir/clean
 
 ioctl_test/CMakeFiles/nexmon_firmware.dir/depend:
-	cd /home/ubuntu/pico-nexmon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/pico-nexmon /home/ubuntu/pico-nexmon/ioctl_test /home/ubuntu/pico-nexmon/build /home/ubuntu/pico-nexmon/build/ioctl_test /home/ubuntu/pico-nexmon/build/ioctl_test/CMakeFiles/nexmon_firmware.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/ioctl_test /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/ioctl_test /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/ioctl_test/CMakeFiles/nexmon_firmware.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ioctl_test/CMakeFiles/nexmon_firmware.dir/depend
 

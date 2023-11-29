@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/pico-nexmon/wifi
+# Install script for directory: /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/wifi
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ubuntu/pico-nexmon/build/wifi/pico-sdk/cmake_install.cmake")
-  include("/home/ubuntu/pico-nexmon/build/wifi/build/cmake_install.cmake")
+  include("/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi/pico-sdk/cmake_install.cmake")
+  include("/home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/wifi/build/cmake_install.cmake")
 
 endif()
 

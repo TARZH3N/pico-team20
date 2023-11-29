@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/pico-nexmon
+CMAKE_SOURCE_DIR = /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/pico-nexmon/build
+CMAKE_BINARY_DIR = /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/pico-nexmon/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/pico-nexmon/build/CMakeFiles /home/ubuntu/pico-nexmon/build/dump_rom//CMakeFiles/progress.marks
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dump_rom/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/pico-nexmon/build/CMakeFiles 0
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/dump_rom//CMakeFiles/progress.marks
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dump_rom/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dump_rom/clean
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dump_rom/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dump_rom/preinstall
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dump_rom/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dump_rom/preinstall
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dump_rom/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/pico-nexmon/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 dump_rom/CMakeFiles/picow_dump_rom.dir/rule:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dump_rom/CMakeFiles/picow_dump_rom.dir/rule
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dump_rom/CMakeFiles/picow_dump_rom.dir/rule
 .PHONY : dump_rom/CMakeFiles/picow_dump_rom.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ picow_dump_rom: dump_rom/CMakeFiles/picow_dump_rom.dir/rule
 
 # fast build rule for target.
 picow_dump_rom/fast:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/build
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/build
 .PHONY : picow_dump_rom/fast
 
 __/cyw43-driver/src/cyw43_ctrl.obj: __/cyw43-driver/src/cyw43_ctrl.c.obj
@@ -135,7 +135,7 @@ __/cyw43-driver/src/cyw43_ctrl.obj: __/cyw43-driver/src/cyw43_ctrl.c.obj
 
 # target to build an object file
 __/cyw43-driver/src/cyw43_ctrl.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/cyw43-driver/src/cyw43_ctrl.c.obj
 .PHONY : __/cyw43-driver/src/cyw43_ctrl.c.obj
 
 __/cyw43-driver/src/cyw43_ctrl.i: __/cyw43-driver/src/cyw43_ctrl.c.i
@@ -143,7 +143,7 @@ __/cyw43-driver/src/cyw43_ctrl.i: __/cyw43-driver/src/cyw43_ctrl.c.i
 
 # target to preprocess a source file
 __/cyw43-driver/src/cyw43_ctrl.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/cyw43-driver/src/cyw43_ctrl.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/cyw43-driver/src/cyw43_ctrl.c.i
 .PHONY : __/cyw43-driver/src/cyw43_ctrl.c.i
 
 __/cyw43-driver/src/cyw43_ctrl.s: __/cyw43-driver/src/cyw43_ctrl.c.s
@@ -151,7 +151,7 @@ __/cyw43-driver/src/cyw43_ctrl.s: __/cyw43-driver/src/cyw43_ctrl.c.s
 
 # target to generate assembly for a file
 __/cyw43-driver/src/cyw43_ctrl.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/cyw43-driver/src/cyw43_ctrl.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/cyw43-driver/src/cyw43_ctrl.c.s
 .PHONY : __/cyw43-driver/src/cyw43_ctrl.c.s
 
 __/cyw43-driver/src/cyw43_ll.obj: __/cyw43-driver/src/cyw43_ll.c.obj
@@ -159,7 +159,7 @@ __/cyw43-driver/src/cyw43_ll.obj: __/cyw43-driver/src/cyw43_ll.c.obj
 
 # target to build an object file
 __/cyw43-driver/src/cyw43_ll.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/cyw43-driver/src/cyw43_ll.c.obj
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/cyw43-driver/src/cyw43_ll.c.obj
 .PHONY : __/cyw43-driver/src/cyw43_ll.c.obj
 
 __/cyw43-driver/src/cyw43_ll.i: __/cyw43-driver/src/cyw43_ll.c.i
@@ -167,7 +167,7 @@ __/cyw43-driver/src/cyw43_ll.i: __/cyw43-driver/src/cyw43_ll.c.i
 
 # target to preprocess a source file
 __/cyw43-driver/src/cyw43_ll.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/cyw43-driver/src/cyw43_ll.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/cyw43-driver/src/cyw43_ll.c.i
 .PHONY : __/cyw43-driver/src/cyw43_ll.c.i
 
 __/cyw43-driver/src/cyw43_ll.s: __/cyw43-driver/src/cyw43_ll.c.s
@@ -175,7 +175,7 @@ __/cyw43-driver/src/cyw43_ll.s: __/cyw43-driver/src/cyw43_ll.c.s
 
 # target to generate assembly for a file
 __/cyw43-driver/src/cyw43_ll.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/cyw43-driver/src/cyw43_ll.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/cyw43-driver/src/cyw43_ll.c.s
 .PHONY : __/cyw43-driver/src/cyw43_ll.c.s
 
 __/cyw43-driver/src/cyw43_lwip.obj: __/cyw43-driver/src/cyw43_lwip.c.obj
@@ -183,7 +183,7 @@ __/cyw43-driver/src/cyw43_lwip.obj: __/cyw43-driver/src/cyw43_lwip.c.obj
 
 # target to build an object file
 __/cyw43-driver/src/cyw43_lwip.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/cyw43-driver/src/cyw43_lwip.c.obj
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/cyw43-driver/src/cyw43_lwip.c.obj
 .PHONY : __/cyw43-driver/src/cyw43_lwip.c.obj
 
 __/cyw43-driver/src/cyw43_lwip.i: __/cyw43-driver/src/cyw43_lwip.c.i
@@ -191,7 +191,7 @@ __/cyw43-driver/src/cyw43_lwip.i: __/cyw43-driver/src/cyw43_lwip.c.i
 
 # target to preprocess a source file
 __/cyw43-driver/src/cyw43_lwip.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/cyw43-driver/src/cyw43_lwip.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/cyw43-driver/src/cyw43_lwip.c.i
 .PHONY : __/cyw43-driver/src/cyw43_lwip.c.i
 
 __/cyw43-driver/src/cyw43_lwip.s: __/cyw43-driver/src/cyw43_lwip.c.s
@@ -199,7 +199,7 @@ __/cyw43-driver/src/cyw43_lwip.s: __/cyw43-driver/src/cyw43_lwip.c.s
 
 # target to generate assembly for a file
 __/cyw43-driver/src/cyw43_lwip.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/cyw43-driver/src/cyw43_lwip.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/cyw43-driver/src/cyw43_lwip.c.s
 .PHONY : __/cyw43-driver/src/cyw43_lwip.c.s
 
 __/cyw43-driver/src/cyw43_stats.obj: __/cyw43-driver/src/cyw43_stats.c.obj
@@ -207,7 +207,7 @@ __/cyw43-driver/src/cyw43_stats.obj: __/cyw43-driver/src/cyw43_stats.c.obj
 
 # target to build an object file
 __/cyw43-driver/src/cyw43_stats.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/cyw43-driver/src/cyw43_stats.c.obj
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/cyw43-driver/src/cyw43_stats.c.obj
 .PHONY : __/cyw43-driver/src/cyw43_stats.c.obj
 
 __/cyw43-driver/src/cyw43_stats.i: __/cyw43-driver/src/cyw43_stats.c.i
@@ -215,7 +215,7 @@ __/cyw43-driver/src/cyw43_stats.i: __/cyw43-driver/src/cyw43_stats.c.i
 
 # target to preprocess a source file
 __/cyw43-driver/src/cyw43_stats.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/cyw43-driver/src/cyw43_stats.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/cyw43-driver/src/cyw43_stats.c.i
 .PHONY : __/cyw43-driver/src/cyw43_stats.c.i
 
 __/cyw43-driver/src/cyw43_stats.s: __/cyw43-driver/src/cyw43_stats.c.s
@@ -223,1279 +223,1279 @@ __/cyw43-driver/src/cyw43_stats.s: __/cyw43-driver/src/cyw43_stats.c.s
 
 # target to generate assembly for a file
 __/cyw43-driver/src/cyw43_stats.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/cyw43-driver/src/cyw43_stats.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/cyw43-driver/src/cyw43_stats.c.s
 .PHONY : __/cyw43-driver/src/cyw43_stats.c.s
 
-__/pico-sdk/src/common/pico_sync/critical_section.obj: __/pico-sdk/src/common/pico_sync/critical_section.c.obj
-.PHONY : __/pico-sdk/src/common/pico_sync/critical_section.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.obj: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.obj
 
 # target to build an object file
-__/pico-sdk/src/common/pico_sync/critical_section.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.obj
-.PHONY : __/pico-sdk/src/common/pico_sync/critical_section.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
-__/pico-sdk/src/common/pico_sync/critical_section.i: __/pico-sdk/src/common/pico_sync/critical_section.c.i
-.PHONY : __/pico-sdk/src/common/pico_sync/critical_section.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.i: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.i
 
 # target to preprocess a source file
-__/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.i
-.PHONY : __/pico-sdk/src/common/pico_sync/critical_section.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.i
 
-__/pico-sdk/src/common/pico_sync/critical_section.s: __/pico-sdk/src/common/pico_sync/critical_section.c.s
-.PHONY : __/pico-sdk/src/common/pico_sync/critical_section.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.s: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/common/pico_sync/critical_section.c.s
-.PHONY : __/pico-sdk/src/common/pico_sync/critical_section.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.s
 
-__/pico-sdk/src/common/pico_sync/lock_core.obj: __/pico-sdk/src/common/pico_sync/lock_core.c.obj
-.PHONY : __/pico-sdk/src/common/pico_sync/lock_core.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.obj: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.obj
 
 # target to build an object file
-__/pico-sdk/src/common/pico_sync/lock_core.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.obj
-.PHONY : __/pico-sdk/src/common/pico_sync/lock_core.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
-__/pico-sdk/src/common/pico_sync/lock_core.i: __/pico-sdk/src/common/pico_sync/lock_core.c.i
-.PHONY : __/pico-sdk/src/common/pico_sync/lock_core.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.i: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.i
 
 # target to preprocess a source file
-__/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.i
-.PHONY : __/pico-sdk/src/common/pico_sync/lock_core.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.i
 
-__/pico-sdk/src/common/pico_sync/lock_core.s: __/pico-sdk/src/common/pico_sync/lock_core.c.s
-.PHONY : __/pico-sdk/src/common/pico_sync/lock_core.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.s: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/common/pico_sync/lock_core.c.s
-.PHONY : __/pico-sdk/src/common/pico_sync/lock_core.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.s
 
-__/pico-sdk/src/common/pico_sync/mutex.obj: __/pico-sdk/src/common/pico_sync/mutex.c.obj
-.PHONY : __/pico-sdk/src/common/pico_sync/mutex.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.obj: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.obj
 
 # target to build an object file
-__/pico-sdk/src/common/pico_sync/mutex.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/common/pico_sync/mutex.c.obj
-.PHONY : __/pico-sdk/src/common/pico_sync/mutex.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj
 
-__/pico-sdk/src/common/pico_sync/mutex.i: __/pico-sdk/src/common/pico_sync/mutex.c.i
-.PHONY : __/pico-sdk/src/common/pico_sync/mutex.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.i: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.i
 
 # target to preprocess a source file
-__/pico-sdk/src/common/pico_sync/mutex.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/common/pico_sync/mutex.c.i
-.PHONY : __/pico-sdk/src/common/pico_sync/mutex.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.i
 
-__/pico-sdk/src/common/pico_sync/mutex.s: __/pico-sdk/src/common/pico_sync/mutex.c.s
-.PHONY : __/pico-sdk/src/common/pico_sync/mutex.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.s: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/common/pico_sync/mutex.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/common/pico_sync/mutex.c.s
-.PHONY : __/pico-sdk/src/common/pico_sync/mutex.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.s
 
-__/pico-sdk/src/common/pico_sync/sem.obj: __/pico-sdk/src/common/pico_sync/sem.c.obj
-.PHONY : __/pico-sdk/src/common/pico_sync/sem.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.obj: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.obj
 
 # target to build an object file
-__/pico-sdk/src/common/pico_sync/sem.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/common/pico_sync/sem.c.obj
-.PHONY : __/pico-sdk/src/common/pico_sync/sem.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj
 
-__/pico-sdk/src/common/pico_sync/sem.i: __/pico-sdk/src/common/pico_sync/sem.c.i
-.PHONY : __/pico-sdk/src/common/pico_sync/sem.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.i: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.i
 
 # target to preprocess a source file
-__/pico-sdk/src/common/pico_sync/sem.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/common/pico_sync/sem.c.i
-.PHONY : __/pico-sdk/src/common/pico_sync/sem.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.i
 
-__/pico-sdk/src/common/pico_sync/sem.s: __/pico-sdk/src/common/pico_sync/sem.c.s
-.PHONY : __/pico-sdk/src/common/pico_sync/sem.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.s: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/common/pico_sync/sem.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/common/pico_sync/sem.c.s
-.PHONY : __/pico-sdk/src/common/pico_sync/sem.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.s
 
-__/pico-sdk/src/common/pico_time/time.obj: __/pico-sdk/src/common/pico_time/time.c.obj
-.PHONY : __/pico-sdk/src/common/pico_time/time.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.obj: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.obj
 
 # target to build an object file
-__/pico-sdk/src/common/pico_time/time.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/common/pico_time/time.c.obj
-.PHONY : __/pico-sdk/src/common/pico_time/time.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj
 
-__/pico-sdk/src/common/pico_time/time.i: __/pico-sdk/src/common/pico_time/time.c.i
-.PHONY : __/pico-sdk/src/common/pico_time/time.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.i: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.i
 
 # target to preprocess a source file
-__/pico-sdk/src/common/pico_time/time.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/common/pico_time/time.c.i
-.PHONY : __/pico-sdk/src/common/pico_time/time.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.i
 
-__/pico-sdk/src/common/pico_time/time.s: __/pico-sdk/src/common/pico_time/time.c.s
-.PHONY : __/pico-sdk/src/common/pico_time/time.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.s: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/common/pico_time/time.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/common/pico_time/time.c.s
-.PHONY : __/pico-sdk/src/common/pico_time/time.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.s
 
-__/pico-sdk/src/common/pico_time/timeout_helper.obj: __/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-.PHONY : __/pico-sdk/src/common/pico_time/timeout_helper.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.obj: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.obj
 
 # target to build an object file
-__/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-.PHONY : __/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
-__/pico-sdk/src/common/pico_time/timeout_helper.i: __/pico-sdk/src/common/pico_time/timeout_helper.c.i
-.PHONY : __/pico-sdk/src/common/pico_time/timeout_helper.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.i: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.i
 
 # target to preprocess a source file
-__/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.i
-.PHONY : __/pico-sdk/src/common/pico_time/timeout_helper.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
-__/pico-sdk/src/common/pico_time/timeout_helper.s: __/pico-sdk/src/common/pico_time/timeout_helper.c.s
-.PHONY : __/pico-sdk/src/common/pico_time/timeout_helper.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.s: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/common/pico_time/timeout_helper.c.s
-.PHONY : __/pico-sdk/src/common/pico_time/timeout_helper.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
-__/pico-sdk/src/common/pico_util/datetime.obj: __/pico-sdk/src/common/pico_util/datetime.c.obj
-.PHONY : __/pico-sdk/src/common/pico_util/datetime.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.obj: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.obj
 
 # target to build an object file
-__/pico-sdk/src/common/pico_util/datetime.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/common/pico_util/datetime.c.obj
-.PHONY : __/pico-sdk/src/common/pico_util/datetime.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj
 
-__/pico-sdk/src/common/pico_util/datetime.i: __/pico-sdk/src/common/pico_util/datetime.c.i
-.PHONY : __/pico-sdk/src/common/pico_util/datetime.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.i: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.i
 
 # target to preprocess a source file
-__/pico-sdk/src/common/pico_util/datetime.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/common/pico_util/datetime.c.i
-.PHONY : __/pico-sdk/src/common/pico_util/datetime.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.i
 
-__/pico-sdk/src/common/pico_util/datetime.s: __/pico-sdk/src/common/pico_util/datetime.c.s
-.PHONY : __/pico-sdk/src/common/pico_util/datetime.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.s: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/common/pico_util/datetime.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/common/pico_util/datetime.c.s
-.PHONY : __/pico-sdk/src/common/pico_util/datetime.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.s
 
-__/pico-sdk/src/common/pico_util/pheap.obj: __/pico-sdk/src/common/pico_util/pheap.c.obj
-.PHONY : __/pico-sdk/src/common/pico_util/pheap.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.obj: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.obj
 
 # target to build an object file
-__/pico-sdk/src/common/pico_util/pheap.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/common/pico_util/pheap.c.obj
-.PHONY : __/pico-sdk/src/common/pico_util/pheap.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj
 
-__/pico-sdk/src/common/pico_util/pheap.i: __/pico-sdk/src/common/pico_util/pheap.c.i
-.PHONY : __/pico-sdk/src/common/pico_util/pheap.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.i: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.i
 
 # target to preprocess a source file
-__/pico-sdk/src/common/pico_util/pheap.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/common/pico_util/pheap.c.i
-.PHONY : __/pico-sdk/src/common/pico_util/pheap.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.i
 
-__/pico-sdk/src/common/pico_util/pheap.s: __/pico-sdk/src/common/pico_util/pheap.c.s
-.PHONY : __/pico-sdk/src/common/pico_util/pheap.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.s: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/common/pico_util/pheap.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/common/pico_util/pheap.c.s
-.PHONY : __/pico-sdk/src/common/pico_util/pheap.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.s
 
-__/pico-sdk/src/common/pico_util/queue.obj: __/pico-sdk/src/common/pico_util/queue.c.obj
-.PHONY : __/pico-sdk/src/common/pico_util/queue.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.obj: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.obj
 
 # target to build an object file
-__/pico-sdk/src/common/pico_util/queue.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/common/pico_util/queue.c.obj
-.PHONY : __/pico-sdk/src/common/pico_util/queue.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj
 
-__/pico-sdk/src/common/pico_util/queue.i: __/pico-sdk/src/common/pico_util/queue.c.i
-.PHONY : __/pico-sdk/src/common/pico_util/queue.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.i: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.i
 
 # target to preprocess a source file
-__/pico-sdk/src/common/pico_util/queue.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/common/pico_util/queue.c.i
-.PHONY : __/pico-sdk/src/common/pico_util/queue.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.i
 
-__/pico-sdk/src/common/pico_util/queue.s: __/pico-sdk/src/common/pico_util/queue.c.s
-.PHONY : __/pico-sdk/src/common/pico_util/queue.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.s: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/common/pico_util/queue.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/common/pico_util/queue.c.s
-.PHONY : __/pico-sdk/src/common/pico_util/queue.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.s
 
-__/pico-sdk/src/rp2_common/hardware_claim/claim.obj: __/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_claim/claim.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
-__/pico-sdk/src/rp2_common/hardware_claim/claim.i: __/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_claim/claim.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
-__/pico-sdk/src/rp2_common/hardware_claim/claim.s: __/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_claim/claim.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
-__/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: __/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
-__/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: __/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
-__/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: __/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_clocks/clocks.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
-__/pico-sdk/src/rp2_common/hardware_divider/divider.obj: __/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_divider/divider.obj
-
-# target to build an object file
-__/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-
-__/pico-sdk/src/rp2_common/hardware_dma/dma.obj: __/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_dma/dma.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
-__/pico-sdk/src/rp2_common/hardware_dma/dma.i: __/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_dma/dma.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.obj
+
+# target to build an object file
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_dma/dma.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
 
-__/pico-sdk/src/rp2_common/hardware_dma/dma.s: __/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_dma/dma.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_dma/dma.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
 
-__/pico-sdk/src/rp2_common/hardware_exception/exception.obj: __/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_exception/exception.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
 
-__/pico-sdk/src/rp2_common/hardware_exception/exception.i: __/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_exception/exception.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_exception/exception.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
 
-__/pico-sdk/src/rp2_common/hardware_exception/exception.s: __/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_exception/exception.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_exception/exception.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
 
-__/pico-sdk/src/rp2_common/hardware_flash/flash.obj: __/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_flash/flash.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 
-__/pico-sdk/src/rp2_common/hardware_flash/flash.i: __/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_flash/flash.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 
-__/pico-sdk/src/rp2_common/hardware_flash/flash.s: __/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_flash/flash.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
-__/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: __/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
-__/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: __/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
-__/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: __/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_gpio/gpio.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
-__/pico-sdk/src/rp2_common/hardware_irq/irq.obj: __/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_irq/irq.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
-__/pico-sdk/src/rp2_common/hardware_irq/irq.i: __/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_irq/irq.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
-__/pico-sdk/src/rp2_common/hardware_irq/irq.s: __/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_irq/irq.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
-__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: __/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj
-
-# target to build an object file
-__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-
-__/pico-sdk/src/rp2_common/hardware_pio/pio.obj: __/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_pio/pio.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
-__/pico-sdk/src/rp2_common/hardware_pio/pio.i: __/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_pio/pio.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.obj
+
+# target to build an object file
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
 
-__/pico-sdk/src/rp2_common/hardware_pio/pio.s: __/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_pio/pio.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
-__/pico-sdk/src/rp2_common/hardware_pll/pll.obj: __/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_pll/pll.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
-__/pico-sdk/src/rp2_common/hardware_pll/pll.i: __/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_pll/pll.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
-__/pico-sdk/src/rp2_common/hardware_pll/pll.s: __/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_pll/pll.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
-__/pico-sdk/src/rp2_common/hardware_sync/sync.obj: __/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_sync/sync.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
-__/pico-sdk/src/rp2_common/hardware_sync/sync.i: __/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_sync/sync.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
-__/pico-sdk/src/rp2_common/hardware_sync/sync.s: __/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_sync/sync.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
-__/pico-sdk/src/rp2_common/hardware_timer/timer.obj: __/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_timer/timer.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
-__/pico-sdk/src/rp2_common/hardware_timer/timer.i: __/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_timer/timer.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
-__/pico-sdk/src/rp2_common/hardware_timer/timer.s: __/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_timer/timer.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
-__/pico-sdk/src/rp2_common/hardware_uart/uart.obj: __/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_uart/uart.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
-__/pico-sdk/src/rp2_common/hardware_uart/uart.i: __/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_uart/uart.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
-__/pico-sdk/src/rp2_common/hardware_uart/uart.s: __/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_uart/uart.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
-__/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: __/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
-__/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: __/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_vreg/vreg.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
-__/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: __/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_vreg/vreg.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
-__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: __/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
-__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: __/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
-__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: __/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
-__/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: __/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
-__/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: __/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_xosc/xosc.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-.PHONY : __/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
-__/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: __/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_xosc/xosc.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-.PHONY : __/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
-__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj: __/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
 
-__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i: __/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
 
-__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s: __/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
 
-__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj: __/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
 
-__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i: __/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
 
-__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s: __/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
 
-__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: __/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
-
-# target to build an object file
-__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-
-__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: __/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
-__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: __/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj
+
+# target to build an object file
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
-__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: __/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj: __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
 
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i: __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
 
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s: __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
 
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj: __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
 
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i: __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
 
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s: __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
 
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj: __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
 
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i: __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
 
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s: __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
 
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj: __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
 
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i: __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
 
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s: __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
 
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj: __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
 
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i: __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
 
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s: __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
 
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj: __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
 
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i: __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
 
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s: __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
 
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj: __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
 
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i: __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
 
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s: __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
 
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj: __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
 
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i: __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
 
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s: __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
 
-__/pico-sdk/src/rp2_common/pico_divider/divider.obj: __/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_divider/divider.obj
-
-# target to build an object file
-__/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-
-__/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: __/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
-__/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: __/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 
-__/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: __/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_init_rom.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj
+
+# target to build an object file
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
-__/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: __/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_init_rom.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
-__/pico-sdk/src/rp2_common/pico_double/double_math.obj: __/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_math.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
-__/pico-sdk/src/rp2_common/pico_double/double_math.i: __/pico-sdk/src/rp2_common/pico_double/double_math.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_math.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
-__/pico-sdk/src/rp2_common/pico_double/double_math.s: __/pico-sdk/src/rp2_common/pico_double/double_math.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_math.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_double/double_math.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
-__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: __/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj
-
-# target to build an object file
-__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-
-__/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: __/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
-__/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: __/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
-__/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: __/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_init_rom.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj
+
+# target to build an object file
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
-__/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: __/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_init_rom.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
-__/pico-sdk/src/rp2_common/pico_float/float_math.obj: __/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_math.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
-__/pico-sdk/src/rp2_common/pico_float/float_math.i: __/pico-sdk/src/rp2_common/pico_float/float_math.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_math.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
-__/pico-sdk/src/rp2_common/pico_float/float_math.s: __/pico-sdk/src/rp2_common/pico_float/float_math.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_math.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_float/float_math.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
-__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: __/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj
-
-# target to build an object file
-__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-
-__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: __/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
-__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: __/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
-__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: __/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj
+
+# target to build an object file
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
-__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: __/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
-__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: __/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj
-
-# target to build an object file
-__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-
-__/pico-sdk/src/rp2_common/pico_platform/platform.obj: __/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_platform/platform.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
-__/pico-sdk/src/rp2_common/pico_platform/platform.i: __/pico-sdk/src/rp2_common/pico_platform/platform.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_platform/platform.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.obj
+
+# target to build an object file
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
-__/pico-sdk/src/rp2_common/pico_platform/platform.s: __/pico-sdk/src/rp2_common/pico_platform/platform.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_platform/platform.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_platform/platform.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
-__/pico-sdk/src/rp2_common/pico_printf/printf.obj: __/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_printf/printf.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
-__/pico-sdk/src/rp2_common/pico_printf/printf.i: __/pico-sdk/src/rp2_common/pico_printf/printf.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_printf/printf.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
-__/pico-sdk/src/rp2_common/pico_printf/printf.s: __/pico-sdk/src/rp2_common/pico_printf/printf.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_printf/printf.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_printf/printf.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
-__/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: __/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_runtime/runtime.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
-__/pico-sdk/src/rp2_common/pico_runtime/runtime.i: __/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_runtime/runtime.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
-__/pico-sdk/src/rp2_common/pico_runtime/runtime.s: __/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_runtime/runtime.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
-__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: __/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
-__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: __/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
-__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: __/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
-__/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: __/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj
-
-# target to build an object file
-__/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-
-__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: __/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: __/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj
+
+# target to build an object file
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
-__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: __/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
-__/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: __/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio/stdio.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
-__/pico-sdk/src/rp2_common/pico_stdio/stdio.i: __/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio/stdio.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
-__/pico-sdk/src/rp2_common/pico_stdio/stdio.s: __/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio/stdio.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: __/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: __/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
-__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: __/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
-__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: __/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
-__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: __/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
-__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: __/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
-__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: __/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
 
 # target to build an object file
-__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-.PHONY : __/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 
-__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: __/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
 
 # target to preprocess a source file
-__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
-.PHONY : __/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 
-__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: __/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
 
 # target to generate assembly for a file
-__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/__/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
-.PHONY : __/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+.PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
 picow_dump_rom.obj: picow_dump_rom.c.obj
 .PHONY : picow_dump_rom.obj
 
 # target to build an object file
 picow_dump_rom.c.obj:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/picow_dump_rom.c.obj
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/picow_dump_rom.c.obj
 .PHONY : picow_dump_rom.c.obj
 
 picow_dump_rom.i: picow_dump_rom.c.i
@@ -1503,7 +1503,7 @@ picow_dump_rom.i: picow_dump_rom.c.i
 
 # target to preprocess a source file
 picow_dump_rom.c.i:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/picow_dump_rom.c.i
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/picow_dump_rom.c.i
 .PHONY : picow_dump_rom.c.i
 
 picow_dump_rom.s: picow_dump_rom.c.s
@@ -1511,7 +1511,7 @@ picow_dump_rom.s: picow_dump_rom.c.s
 
 # target to generate assembly for a file
 picow_dump_rom.c.s:
-	cd /home/ubuntu/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/picow_dump_rom.c.s
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(MAKE) $(MAKESILENT) -f dump_rom/CMakeFiles/picow_dump_rom.dir/build.make dump_rom/CMakeFiles/picow_dump_rom.dir/picow_dump_rom.c.s
 .PHONY : picow_dump_rom.c.s
 
 # Help Target
@@ -1535,164 +1535,164 @@ help:
 	@echo "... __/cyw43-driver/src/cyw43_stats.obj"
 	@echo "... __/cyw43-driver/src/cyw43_stats.i"
 	@echo "... __/cyw43-driver/src/cyw43_stats.s"
-	@echo "... __/pico-sdk/src/common/pico_sync/critical_section.obj"
-	@echo "... __/pico-sdk/src/common/pico_sync/critical_section.i"
-	@echo "... __/pico-sdk/src/common/pico_sync/critical_section.s"
-	@echo "... __/pico-sdk/src/common/pico_sync/lock_core.obj"
-	@echo "... __/pico-sdk/src/common/pico_sync/lock_core.i"
-	@echo "... __/pico-sdk/src/common/pico_sync/lock_core.s"
-	@echo "... __/pico-sdk/src/common/pico_sync/mutex.obj"
-	@echo "... __/pico-sdk/src/common/pico_sync/mutex.i"
-	@echo "... __/pico-sdk/src/common/pico_sync/mutex.s"
-	@echo "... __/pico-sdk/src/common/pico_sync/sem.obj"
-	@echo "... __/pico-sdk/src/common/pico_sync/sem.i"
-	@echo "... __/pico-sdk/src/common/pico_sync/sem.s"
-	@echo "... __/pico-sdk/src/common/pico_time/time.obj"
-	@echo "... __/pico-sdk/src/common/pico_time/time.i"
-	@echo "... __/pico-sdk/src/common/pico_time/time.s"
-	@echo "... __/pico-sdk/src/common/pico_time/timeout_helper.obj"
-	@echo "... __/pico-sdk/src/common/pico_time/timeout_helper.i"
-	@echo "... __/pico-sdk/src/common/pico_time/timeout_helper.s"
-	@echo "... __/pico-sdk/src/common/pico_util/datetime.obj"
-	@echo "... __/pico-sdk/src/common/pico_util/datetime.i"
-	@echo "... __/pico-sdk/src/common/pico_util/datetime.s"
-	@echo "... __/pico-sdk/src/common/pico_util/pheap.obj"
-	@echo "... __/pico-sdk/src/common/pico_util/pheap.i"
-	@echo "... __/pico-sdk/src/common/pico_util/pheap.s"
-	@echo "... __/pico-sdk/src/common/pico_util/queue.obj"
-	@echo "... __/pico-sdk/src/common/pico_util/queue.i"
-	@echo "... __/pico-sdk/src/common/pico_util/queue.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_claim/claim.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_claim/claim.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_claim/claim.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_divider/divider.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_dma/dma.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_dma/dma.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_dma/dma.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_exception/exception.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_exception/exception.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_exception/exception.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_flash/flash.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_flash/flash.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_flash/flash.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_irq/irq.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_irq/irq.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_irq/irq.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_pio/pio.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_pio/pio.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_pio/pio.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_pll/pll.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_pll/pll.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_pll/pll.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_sync/sync.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_sync/sync.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_sync/sync.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_timer/timer.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_timer/timer.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_timer/timer.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_uart/uart.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_uart/uart.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_uart/uart.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_vreg/vreg.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_vreg/vreg.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
-	@echo "... __/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_divider/divider.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_double/double_init_rom.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_double/double_init_rom.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_double/double_math.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_double/double_math.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_double/double_math.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_float/float_init_rom.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_float/float_init_rom.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_float/float_math.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_float/float_math.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_float/float_math.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_platform/platform.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_platform/platform.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_platform/platform.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_printf/printf.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_printf/printf.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_printf/printf.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_runtime/runtime.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_runtime/runtime.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_runtime/runtime.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
-	@echo "... __/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
-	@echo "... __/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
-	@echo "... __/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
+	@echo "... home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
 	@echo "... picow_dump_rom.obj"
 	@echo "... picow_dump_rom.i"
 	@echo "... picow_dump_rom.s"
@@ -1707,6 +1707,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/pico-nexmon/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ubuntu/Documents/GitHub/pico-team20/pico-nexmon/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
