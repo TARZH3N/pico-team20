@@ -916,7 +916,7 @@ int main() {
         //
         if (added) {
             processWriteQueue();
-            sleep_ms(10);
+            sleep_ms(25);
         }
     }
 
