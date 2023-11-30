@@ -25,3 +25,6 @@ INF2004 IS PROJECT
 
 ### Flow Chart for Pico 2
 <img src="/FlowChartPico2.png"/>
+
+### Flow Chart for Pico 3
+<img src="/FlowChartPico3.png"/>
