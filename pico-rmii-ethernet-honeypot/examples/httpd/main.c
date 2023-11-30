@@ -4,23 +4,32 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
-#include "pico/stdlib.h"
-#include "pico/multicore.h"
-#include "hardware/clocks.h"
+#include "lwip/pbuf.h"
 #include "lwip/dhcp.h"
 #include "lwip/init.h"
-#include "lwip/apps/httpd.h"
-#include "rmii_ethernet/netif.h"
-
-#include "lwip/pbuf.h"
-#include <stdio.h>
 #include "lwip/raw.h"
 #include "lwip/icmp.h"
 #include "lwip/ip.h"
+#include "lwip/apps/httpd.h"
+
 #include <i2c_fifo.h>
 #include <i2c_slave.h>
-#include <string.h>
 
+#include <string.h>
+#include <stdio.h>
+
+#include "hardware/spi.h"
+#include "hardware/clocks.h"
+
+#include "pico/binary_info.h"
+#include "pico/stdlib.h"
+#include "pico/stdlib.h"
+#include "pico/multicore.h"
+
+#include "rmii_ethernet/netif.h"
+
+// Defined threshhold for what exceeds normal traffic
+//
 #define ICMP_FLOOD_RATE 15
 
 // Variables for I2C master
@@ -161,16 +170,6 @@ void netif_status_callback(struct netif *netif)
 {
     printf("netif status changed %s\n", ip4addr_ntoa(netif_ip4_addr(netif)));
 }
-
-
-#include <stdio.h>
-#include "hardware/spi.h"
-#include "pico/binary_info.h"
-#include "pico/stdlib.h"
-#include <stdio.h>
-#include "hardware/spi.h"
-#include "pico/binary_info.h"
-#include "pico/stdlib.h"
 
 int main() {
 
