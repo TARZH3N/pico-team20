@@ -182,6 +182,7 @@ void netif_status_callback(struct netif *netif)
 int main() {
 
     // LWIP network interface
+    //
     struct netif netif;
 
     struct netif_rmii_ethernet_config netif_config = {
@@ -207,6 +208,7 @@ int main() {
     printf("pico rmii ethernet - httpd\n");
 
     // Initialize LWIP in NO SYS mode
+    //
     lwip_init();
 
     // Initialize the PIO base RMII Ethernet network interface
