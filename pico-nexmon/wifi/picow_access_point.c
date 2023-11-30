@@ -4,7 +4,6 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
-
 // Import required libraries
 //
 #include <string.h>
@@ -130,7 +129,8 @@ const char *frame_subtype_names[4][16] = {
 //
 bool enqueue_write(const char* filename, const uint8_t* data, size_t len) {
     if ((queueTail + 1) % WRITE_QUEUE_SIZE == queueHead) {
-        // Queue is full
+        
+        // If queue is full
         //
         return false;
     }
@@ -142,6 +142,7 @@ bool enqueue_write(const char* filename, const uint8_t* data, size_t len) {
     //
     item->data = malloc(len);  
     if (item->data == NULL) {
+        
         // Memory allocation failed
         //
         return false;
@@ -684,21 +685,6 @@ void monitor_mode_cb(void *data, int itf, size_t len, const uint8_t *buf) {
     uint8_t frame_type = buf[offset_80211] >> 2 & 3;
     uint8_t frame_subtype = buf[offset_80211] >> 4;
 
-    // // Print information about the received frame
-    // //
-    // printf("Frame type=%d (%s) subtype=%d (%s) len=%d data=", 
-    //        frame_type, frame_type_names[frame_type], frame_subtype, 
-    //        frame_subtype_names[frame_type][frame_subtype], len);
-
-    
-    // // Print the data bytes of the frame
-    // //
-    // for (size_t i = 0; i < len; ++i) {
-    //     printf("%02x ", buf[i]);
-    // }
-
-    // printf("\n");
-
     // Determine the appropriate file based on frame subtype
     //
     char filename[20];
@@ -719,6 +705,7 @@ void monitor_mode_cb(void *data, int itf, size_t len, const uint8_t *buf) {
 //
 static void i2c_slave_handler(i2c_inst_t *i2c, i2c_slave_event_t event) {
     switch (event) {
+        
     // Master has sent some data
     //
     case I2C_SLAVE_RECEIVE: 
@@ -730,15 +717,19 @@ static void i2c_slave_handler(i2c_inst_t *i2c, i2c_slave_event_t event) {
             context.mem_address++;
         }
         break;
+        
     // Master Requesting Data
     //
     case I2C_SLAVE_REQUEST:
+        
         // No request needed
         //
         break;
+        
     // Master has signalled Stop / Restart
     // 
     case I2C_SLAVE_FINISH: 
+        
         // Queue data for writing
         //
         enqueue_write("i2c_data.txt", context.mem, context.mem_address);
@@ -760,6 +751,7 @@ static void i2c_slave_handler(i2c_inst_t *i2c, i2c_slave_event_t event) {
 // Function to write data that is in queue
 //
 void processWriteQueue() {
+    
     // Check if there is a concurrent write operation
     //
     if (!writing) {
@@ -880,8 +872,6 @@ int main() {
         return 1;
     }
 
-    
-
     // Initialize the SD card driver
     //
     if (!sd_init_driver()) {
@@ -912,6 +902,7 @@ int main() {
     // Repeatedly call for writing to sd card from queue
     //
     while(true){
+        
         // Check if data has been added to queue
         //
         if (added) {
