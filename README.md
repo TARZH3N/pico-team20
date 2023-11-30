@@ -14,7 +14,7 @@ INF2004 IS PROJECT
 
 ## Third Pico - Web Display
 1. Via SSI display SD Card contents
-2. Added to project as we were unable to integrate the SSI and CGI Functionalities onto the WiFI Sniffing Pico
+2. Added to project as we were unable to integrate the SSI and CGI Functionalities onto the WiFI Sniffing Pico due to hardware limitations.
 
 ## Diagrams
 ### Block Diagram for both Picos
