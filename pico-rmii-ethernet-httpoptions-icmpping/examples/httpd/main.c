@@ -1,27 +1,24 @@
 #include "pico/stdlib.h"
 #include "pico/multicore.h"
+#include "pico/binary_info.h"
+#include "hardware/spi.h"
 #include "hardware/clocks.h"
+#include "rmii_ethernet/netif.h"
+#include "lwip/pbuf.h"
 #include "lwip/dhcp.h"
 #include "lwip/init.h"
 #include "lwip/apps/httpd.h"
-#include "rmii_ethernet/netif.h"
-#include "lwip/pbuf.h"
-#include <i2c_fifo.h>
-#include <i2c_slave.h>
-#include <string.h>
-#include <stdio.h>
-#include <stdio.h>
-#include "hardware/spi.h"
-#include "pico/binary_info.h"
-#include "pico/stdlib.h"
 #include "lwip/opt.h"
-#include "lwip/init.h"
 #include "lwip/netif.h"
 #include "lwip/ip4_addr.h"
 #include "lwip/tcpip.h"
 #include "lwip/raw.h"
 #include "lwip/icmp.h"
 #include "lwip/ip.h"
+#include <i2c_fifo.h>
+#include <i2c_slave.h>
+#include <string.h>
+#include <stdio.h>
 #include "netif/ethernet.h"
 
 #define ICMP_FLOOD_RATE 15
