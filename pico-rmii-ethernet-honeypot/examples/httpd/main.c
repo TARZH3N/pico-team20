@@ -4,13 +4,30 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
-#include "lwip/pbuf.h"
+// Include the necessary libraries
+//
+#include "pico/stdlib.h"
+#include "pico/multicore.h"
+#include "pico/binary_info.h"
+
+#include "hardware/clocks.h"
+#include "hardware/spi.h"
+
+#include "rmii_ethernet/netif.h"
+
 #include "lwip/dhcp.h"
 #include "lwip/init.h"
+#include "lwip/apps/httpd.h"
+#include "lwip/pbuf.h"
 #include "lwip/raw.h"
 #include "lwip/icmp.h"
 #include "lwip/ip.h"
-#include "lwip/apps/httpd.h"
+#include "lwip/opt.h"
+#include "lwip/netif.h"
+#include "lwip/ip4_addr.h"
+#include "lwip/tcpip.h"
+
+#include "netif/ethernet.h"
 
 #include <i2c_fifo.h>
 #include <i2c_slave.h>
@@ -18,18 +35,6 @@
 #include <string.h>
 #include <stdio.h>
 
-#include "hardware/spi.h"
-#include "hardware/clocks.h"
-
-#include "pico/binary_info.h"
-#include "pico/stdlib.h"
-#include "pico/stdlib.h"
-#include "pico/multicore.h"
-
-#include "rmii_ethernet/netif.h"
-
-// Defined threshhold for what exceeds normal traffic
-//
 #define ICMP_FLOOD_RATE 15
 
 // Variables for I2C master
@@ -68,7 +73,9 @@ static void master_start() {
 // Alarm to detect ICMP Flood
 //
 int64_t alarm_callback(alarm_id_t id, void *user_data) {
+    
     // Check if icmp rate exceeds threshold
+    //
     if (icmp_rate > ICMP_FLOOD_RATE){
         const char *message = " ICMP FLOODED from ";
         
@@ -111,6 +118,7 @@ static u8_t icmp_recv(void *arg, struct raw_pcb *pcb, struct pbuf *p, const ip_a
     for (q = p; q != NULL; q = q->next) {
         for (int i = 0; i < q->len; i++) {
             printf("%02X ", ((u8_t *)q->payload)[i]);
+            
             // You can also print characters if needed:
             //
             // printf("%c", ((u8_t *)q->payload)[i]);
@@ -127,7 +135,6 @@ static u8_t icmp_recv(void *arg, struct raw_pcb *pcb, struct pbuf *p, const ip_a
 
     if (icmp_type = ICMP_ECHO){
         printf("Hit");
-        // icmp_rate++;
         if (!timer_started) {
             add_alarm_in_ms(1000, alarm_callback, NULL, false);
             timer_started = true;
@@ -143,6 +150,7 @@ static u8_t icmp_recv(void *arg, struct raw_pcb *pcb, struct pbuf *p, const ip_a
 // Setup function to listen for ICMP packets
 //
 void setup_icmp_listener(void) {
+    
     // Create a new raw protocol control block (PCB) for ICMP protocol
     //
     struct raw_pcb *raw = raw_new(IP_PROTO_ICMP);
@@ -185,37 +193,35 @@ int main() {
         NULL, // MAC address (optional - NULL generates one based on flash id) 
     };
 
-    // change the system clock to use the RMII reference clock from pin 20
+    // Change the system clock to use the RMII reference clock from pin 20
+    //
     clock_configure_gpin(clk_sys, 20, 50 * MHZ, 50 * MHZ);
     sleep_ms(1000);
 
-    // initialize stdio after the clock change
+    // Initialize stdio after the clock change
+    //
     stdio_init_all();
     master_start();
     sleep_ms(5000);
     
     printf("pico rmii ethernet - httpd\n");
 
-    // initilize LWIP in NO SYS mode
+    // Initialize LWIP in NO SYS mode
     lwip_init();
 
-    // initialize the PIO base RMII Ethernet network interface
+    // Initialize the PIO base RMII Ethernet network interface
+    //
     netif_rmii_ethernet_init(&netif, &netif_config);
     
-    // assign callbacks for link and status
+    // Assign callbacks for link and status
+    //
     netif_set_link_callback(&netif, netif_link_callback);
     netif_set_status_callback(&netif, netif_status_callback);
 
-    // set the default interface and bring it up
+    // Set the default interface and bring it up
+    //
     netif_set_default(&netif);
     netif_set_up(&netif);
-
-    #include "lwip/opt.h"
-    #include "lwip/init.h"
-    #include "lwip/netif.h"
-    #include "lwip/ip4_addr.h"
-    #include "lwip/tcpip.h"
-    #include "netif/ethernet.h"
 
     ip4_addr_t ipaddr, netmask, gw;
 
@@ -228,14 +234,9 @@ int main() {
     netif_set_addr(&netif, &ipaddr , &netmask, &gw);
     netif_set_up(&netif);
 
-    //  No longer required as we static assign IP
-    //
-    //  dhcp_start(&netif);
-    //  httpd_init();
-
     setup_icmp_listener();
 
-    // setup core 1 to monitor the RMII ethernet interface, core0 is free
+    // Setup core 1 to monitor the RMII ethernet interface, core0 is free
     //
     multicore_launch_core1(netif_rmii_ethernet_loop);
 
@@ -245,3 +246,4 @@ int main() {
     }
     return 0;
 }
+/*** end of file ***/
