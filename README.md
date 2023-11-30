@@ -5,7 +5,7 @@ INF2004 IS PROJECT
 1. Enables AP and Monitor mode of WiFi module to capture packets from connected clients.
 2. Stores captured packets into SD card.
 3. Receives alert of ICMP flood detection from 2nd pico via i2C (Pico 1 is the i2C Slave). 
-4. Displays content of captured packets and any alerts of ICMP flood detection on web server.
+4. Stores ICMP flood detection alerts into SD card.
 
 ## Second Pico - Ethernet Honeypot
 1. Enables packet capture from client connected via Ethernet interface.
@@ -13,8 +13,8 @@ INF2004 IS PROJECT
 3. Sends ICMP flood detection alert to 1st pico via i2C (Pico 2 is the i2C Master).
 
 ## Third Pico - Web Display
-1. Via SSI display SD Card contents
-2. Added to project as we were unable to integrate the SSI and CGI Functionalities onto the WiFI Sniffing Pico due to hardware limitations.
+1. SSI is used to display the contents of the files on the SD card.
+2. Added to project as the team was unable to integrate the SSI and CGI functionalities onto the WiFI Sniffing Pico due to hardware limitations.
 
 ## Diagrams
 ### Block Diagram for both Picos
