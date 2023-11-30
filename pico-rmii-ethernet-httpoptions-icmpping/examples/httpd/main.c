@@ -1,9 +1,3 @@
-/*
- * Copyright (c) 2021 Sandeep Mistry
- *
- * SPDX-License-Identifier: BSD-3-Clause
- */
-
 #include "pico/stdlib.h"
 #include "pico/multicore.h"
 #include "hardware/clocks.h"
@@ -11,15 +5,24 @@
 #include "lwip/init.h"
 #include "lwip/apps/httpd.h"
 #include "rmii_ethernet/netif.h"
-
 #include "lwip/pbuf.h"
-#include <stdio.h>
-#include "lwip/raw.h"
-#include "lwip/icmp.h"
-#include "lwip/ip.h"
 #include <i2c_fifo.h>
 #include <i2c_slave.h>
 #include <string.h>
+#include <stdio.h>
+#include <stdio.h>
+#include "hardware/spi.h"
+#include "pico/binary_info.h"
+#include "pico/stdlib.h"
+#include "lwip/opt.h"
+#include "lwip/init.h"
+#include "lwip/netif.h"
+#include "lwip/ip4_addr.h"
+#include "lwip/tcpip.h"
+#include "lwip/raw.h"
+#include "lwip/icmp.h"
+#include "lwip/ip.h"
+#include "netif/ethernet.h"
 
 #define ICMP_FLOOD_RATE 15
 
@@ -159,14 +162,6 @@ void netif_status_callback(struct netif *netif)
     printf("netif status changed %s\n", ip4addr_ntoa(netif_ip4_addr(netif)));
 }
 
-#include <stdio.h>
-#include "hardware/spi.h"
-#include "pico/binary_info.h"
-#include "pico/stdlib.h"
-#include <stdio.h>
-#include "hardware/spi.h"
-#include "pico/binary_info.h"
-#include "pico/stdlib.h"
 
 int main() {
 
@@ -193,8 +188,6 @@ int main() {
     stdio_init_all();
     run_master();
     sleep_ms(5000);
-    
-    printf("pico rmii ethernet - httpd\n");
 
     // Initialize LWIP in NO SYS mode
     //
@@ -213,14 +206,6 @@ int main() {
     //
     netif_set_default(&netif);
     netif_set_up(&netif);
-
-    #include "lwip/opt.h"
-    #include "lwip/init.h"
-    #include "lwip/netif.h"
-    #include "lwip/ip4_addr.h"
-    #include "lwip/tcpip.h"
-    #include "netif/ethernet.h"
-
     ip4_addr_t ipaddr, netmask, gw;
 
     IP4_ADDR(&ipaddr, 192,168,1,100);
