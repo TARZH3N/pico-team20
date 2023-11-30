@@ -13,7 +13,7 @@ INF2004 IS PROJECT
 3. Sends ICMP flood detection alert to 1st pico via i2C (Pico 2 is the i2C Master).
 
 ## Third Pico - Web Display
-1. SSI is used to display the contents of the files on the SD card.
+1. SSI is used to read the files from the SD card to display alerts of ICMP flood detection.
 2. Added to project as the team was unable to integrate the SSI and CGI functionalities onto the WiFI Sniffing Pico due to hardware limitations.
 
 ## Diagrams
