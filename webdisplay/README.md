@@ -12,6 +12,7 @@ pico-team20.uf2 will then be generated.
 Our team has identified that text file storing packets captured in AP Monitor mode may not be displayed.
 
 The following fields in lwiopts.h has been set to the maximum threshold
+
 #define LWIP_HTTPD_MAX_TAG_INSERT_LEN 2048
 #define TCP_MSS                     3000
 
