@@ -52,20 +52,25 @@ int64_t alarm_callback(alarm_id_t id, void *user_data) {
         const char *message = " ICMP FLOODED from ";
         
         // Calculate buffer size (include space for null terminator)
-        size_t buffer_size = strlen(message) + strlen(ip_address) + 2; // +1 for newline, +1 for null terminator
+        // +1 for newline, +1 for null terminator
+        size_t buffer_size = strlen(message) + strlen(ip_address) + 2; 
         char buffer[buffer_size];
 
         // Concatenate strings and add newline
+        //
         strcpy(buffer, message);
         strcat(buffer, ip_address);
         strcat(buffer, "\n"); // Append newline character
 
         // Send the message over I2C
+        //
         i2c_write_blocking(i2c0, I2C_SLAVE_ADDRESS, buffer, sizeof(buffer), false);
     }
     icmp_rate = 0;
     timer_started = false;
+    
     // Can return a value here in us to fire in the future
+    //
     return 0;
 }
 
@@ -91,6 +96,7 @@ static u8_t icmp_recv(void *arg, struct raw_pcb *pcb, struct pbuf *p, const ip_a
     pbuf_free(q);
     }
     printf("\n%s\n", ip_address);
+    
     // Extract the ICMP type from byte 21 (offset 20) in the packet
     //
     u8_t icmp_type = ((u8_t *)p->payload)[20];
@@ -99,7 +105,6 @@ static u8_t icmp_recv(void *arg, struct raw_pcb *pcb, struct pbuf *p, const ip_a
 
     if (icmp_type = ICMP_ECHO){
         printf("Hit");
-        // icmp_rate++;
         if (!timer_started) {
             add_alarm_in_ms(1000, alarm_callback, NULL, false);
             timer_started = true;
@@ -115,6 +120,7 @@ static u8_t icmp_recv(void *arg, struct raw_pcb *pcb, struct pbuf *p, const ip_a
 // Setup function to listen for ICMP packets
 //
 void setup_icmp_listener(void) {
+    
     // Create a new raw protocol control block (PCB) for ICMP protocol
     //
     struct raw_pcb *raw = raw_new(IP_PROTO_ICMP);
@@ -143,7 +149,6 @@ void netif_status_callback(struct netif *netif)
     printf("netif status changed %s\n", ip4addr_ntoa(netif_ip4_addr(netif)));
 }
 
-
 #include <stdio.h>
 #include "hardware/spi.h"
 #include "pico/binary_info.h"
@@ -156,6 +161,7 @@ void netif_status_callback(struct netif *netif)
 int main() {
 
     // LWIP network interface
+    //
     struct netif netif;
 
     struct netif_rmii_ethernet_config netif_config = {
@@ -167,28 +173,34 @@ int main() {
         NULL, // MAC address (optional - NULL generates one based on flash id) 
     };
 
-    // change the system clock to use the RMII reference clock from pin 20
+    // Change the system clock to use the RMII reference clock from pin 20
+    //
     clock_configure_gpin(clk_sys, 20, 50 * MHZ, 50 * MHZ);
     sleep_ms(1000);
 
-    // initialize stdio after the clock change
+    // Initialize stdio after the clock change
+    //
     stdio_init_all();
     run_master();
     sleep_ms(5000);
     
     printf("pico rmii ethernet - httpd\n");
 
-    // initilize LWIP in NO SYS mode
+    // Initialize LWIP in NO SYS mode
+    //
     lwip_init();
 
-    // initialize the PIO base RMII Ethernet network interface
+    // Initialize the PIO base RMII Ethernet network interface
+    //
     netif_rmii_ethernet_init(&netif, &netif_config);
     
-    // assign callbacks for link and status
+    // Assign callbacks for link and status
+    //
     netif_set_link_callback(&netif, netif_link_callback);
     netif_set_status_callback(&netif, netif_status_callback);
 
-    // set the default interface and bring it up
+    // Set the default interface and bring it up
+    //
     netif_set_default(&netif);
     netif_set_up(&netif);
 
@@ -210,14 +222,9 @@ int main() {
     netif_set_addr(&netif, &ipaddr , &netmask, &gw);
     netif_set_up(&netif);
 
-    //  No longer required as we static assign IP
-    //
-    //  dhcp_start(&netif);
-    //  httpd_init();
-
     setup_icmp_listener();
 
-    // setup core 1 to monitor the RMII ethernet interface, core0 is free
+    // Setup core 1 to monitor the RMII ethernet interface, core0 is free
     //
     multicore_launch_core1(netif_rmii_ethernet_loop);
 
@@ -227,3 +234,4 @@ int main() {
     }
     return 0;
 }
+/*** end of file ***/
