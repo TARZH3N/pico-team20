@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 3.13)
 
-set(PROGRAM_NAME webdisplay)
+set(PROGRAM_NAME pico20Proj)
 set(PICO_BOARD pico_w)
 
 include(pico_sdk_import.cmake)
 
-project(webdisplay)
+project(project_name)
 
 pico_sdk_init()
 

@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>PicoW Webserver asdasd</title>
+        <title>RP2040 Webserver</title>
     </head>
     <body style="background-color: lightskyblue">
-        <h1>PicoW Webserver Tutorial</h1>
-        <br>
-        <h2 style="font-family: 'Times New Roman', Times, serif;">This bit is SSI:</h2>
+        <h1>RP2040 Webserver</h1>
+        
+    <br>
+        <h2 style="font-family: 'Times New Roman', Times, serif;">Threat Detection</h2>
+        <p style="font-family:'Courier New'"><b>ICMP Flood Statistics: <!--#flood--></br></p>
+
+    <br>
+        <h2 style="font-family: 'Times New Roman', Times, serif;">SSI Displayed Content</h2>
         <p style="font-family:'Courier New'"><b>Voltage: <!--#volt--></b></p>
         <p style="font-family:'Courier New'"><b>Temp: <!--#temp--> C</b></p>
         <p style="font-family:'Courier New'"><b>LED is: <!--#led--></b></p>
-        <p style="font-family:'Courier New'"><b>P5 is: <!--#icmpflood--></br></p>
 	<br>
-        <h2 style="font-family: 'Times New Roman', Times, serif;">This bit is CGI:</h2>
+        <h2 style="font-family: 'Times New Roman', Times, serif;">CGI Displayed Content</h2>
         <a href="/led.cgi?led=1"><button><b>LED ON</b></button></a>
         <a href="/led.cgi?led=0"><button><b>LED OFF</b></button></a>
         <br>

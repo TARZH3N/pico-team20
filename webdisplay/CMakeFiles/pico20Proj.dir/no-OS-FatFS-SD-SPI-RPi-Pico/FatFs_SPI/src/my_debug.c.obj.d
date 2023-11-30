@@ -1,5 +1,5 @@
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj: \
- /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c \
+ /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
@@ -16,4 +16,4 @@ CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.o
  /usr/include/newlib/sys/timespec.h /usr/include/newlib/sys/_timespec.h \
  /usr/include/newlib/sys/_pthreadtypes.h /usr/include/newlib/sys/sched.h \
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
- /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/my_debug.h
+ /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/my_debug.h

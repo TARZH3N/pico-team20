@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named webdisplay
+# Target rules for targets named pico20Proj
 
 # Build rule for target.
-webdisplay: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 webdisplay
-.PHONY : webdisplay
+pico20Proj: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico20Proj
+.PHONY : pico20Proj
 
 # fast build rule for target.
-webdisplay/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/build
-.PHONY : webdisplay/fast
+pico20Proj/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/build
+.PHONY : pico20Proj/fast
 
 #=============================================================================
 # Target rules for targets named ELF2UF2Build
@@ -212,7 +212,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj: home/ubunt
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i: home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
@@ -220,7 +220,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i: home/ubuntu/
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s: home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
@@ -228,7 +228,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s: home/ubuntu/
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
@@ -236,7 +236,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.obj: home/ubuntu/
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i: home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
@@ -244,7 +244,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i: home/ubuntu/pi
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s: home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
@@ -252,7 +252,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s: home/ubuntu/pi
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
@@ -260,7 +260,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.obj: home/ubunt
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i: home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
@@ -268,7 +268,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i: home/ubuntu/
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s: home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
@@ -276,7 +276,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s: home/ubuntu/
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
@@ -284,7 +284,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.obj: home/ubun
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i: home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
@@ -292,7 +292,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i: home/ubuntu
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s: home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
@@ -300,7 +300,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s: home/ubuntu
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.obj
@@ -308,7 +308,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.obj: home/ubuntu/pico-
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.i
@@ -316,7 +316,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.i: home/ubuntu/pico-ne
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.s
@@ -324,7 +324,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.s: home/ubuntu/pico-ne
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.obj
@@ -332,7 +332,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.obj: home/ubuntu/pico-
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.i
@@ -340,7 +340,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.i: home/ubuntu/pico-ne
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.s
@@ -348,7 +348,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.s: home/ubuntu/pico-ne
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.obj
@@ -356,7 +356,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.obj: home/ubuntu/pico-nexm
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.i
@@ -364,7 +364,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.i: home/ubuntu/pico-nexmon
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.s
@@ -372,7 +372,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.s: home/ubuntu/pico-nexmon
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.obj
@@ -380,7 +380,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.obj: home/ubuntu/pico-n
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.i
@@ -388,7 +388,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.i: home/ubuntu/pico-nex
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.s
@@ -396,7 +396,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.s: home/ubuntu/pico-nex
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.obj
@@ -404,7 +404,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.obj: home/ubuntu/pico-n
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.i
@@ -412,7 +412,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.i: home/ubuntu/pico-nex
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.s
@@ -420,7 +420,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.s: home/ubuntu/pico-nex
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.obj
@@ -428,7 +428,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.obj: home/ubuntu/pico-ne
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.i
@@ -436,7 +436,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.i: home/ubuntu/pico-nexm
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.s
@@ -444,7 +444,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.s: home/ubuntu/pico-nexm
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.obj
@@ -452,7 +452,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.obj: home/ubuntu/pico
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.i
@@ -460,7 +460,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.i: home/ubuntu/pico-n
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.s
@@ -468,7 +468,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.s: home/ubuntu/pico-n
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.obj
@@ -476,7 +476,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.obj: home/ubuntu/pico-
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.i
@@ -484,7 +484,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.i: home/ubuntu/pico-ne
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.s
@@ -492,7 +492,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.s: home/ubuntu/pico-ne
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.obj
@@ -500,7 +500,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.obj: home/ubuntu/pico-ne
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.i
@@ -508,7 +508,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.i: home/ubuntu/pico-nexm
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.s
@@ -516,7 +516,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.s: home/ubuntu/pico-nexm
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj
@@ -524,7 +524,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.obj: 
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.i
@@ -532,7 +532,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.i: ho
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.s
@@ -540,7 +540,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.s: ho
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.c.obj
@@ -548,7 +548,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.obj: home/ubuntu/pico
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.c.i
@@ -556,7 +556,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.i: home/ubuntu/pico-n
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.c.s
@@ -564,7 +564,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.s: home/ubuntu/pico-n
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj
@@ -572,7 +572,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.obj: home/ub
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.c.i
@@ -580,7 +580,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.i: home/ubun
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.c.s
@@ -588,7 +588,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.s: home/ubun
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
@@ -596,7 +596,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.obj: home/ubuntu/p
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.c.i
@@ -604,7 +604,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.i: home/ubuntu/pic
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.c.s
@@ -612,7 +612,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.s: home/ubuntu/pic
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.obj
@@ -620,7 +620,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.obj: home/ubuntu/pico-n
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.i
@@ -628,7 +628,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.i: home/ubuntu/pico-nex
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.s
@@ -636,7 +636,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.s: home/ubuntu/pico-nex
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
@@ -644,7 +644,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.obj: home/ubuntu/
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
@@ -652,7 +652,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.i: home/ubuntu/pi
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
@@ -660,7 +660,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.s: home/ubuntu/pi
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
@@ -668,7 +668,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.obj: home/ubuntu/pi
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
@@ -676,7 +676,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.i: home/ubuntu/pico
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
@@ -684,7 +684,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.s: home/ubuntu/pico
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.obj
@@ -692,7 +692,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.obj: home/ubuntu/pico-nex
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.i
@@ -700,7 +700,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.i: home/ubuntu/pico-nexmo
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.s
@@ -708,7 +708,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.s: home/ubuntu/pico-nexmo
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.obj
@@ -716,7 +716,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.obj: home/ubuntu/pico-nex
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.i
@@ -724,7 +724,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.i: home/ubuntu/pico-nexmo
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.s
@@ -732,7 +732,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.s: home/ubuntu/pico-nexmo
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
@@ -740,7 +740,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.obj: home/ubuntu/
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
@@ -748,7 +748,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.i: home/ubuntu/pi
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
@@ -756,7 +756,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.s: home/ubuntu/pi
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.obj
@@ -764,7 +764,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.obj: home/ubuntu/pico-ne
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.i
@@ -772,7 +772,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.i: home/ubuntu/pico-nexm
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.s
@@ -780,7 +780,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.s: home/ubuntu/pico-nexm
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.obj
@@ -788,7 +788,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.obj: home/ubuntu/pico-nexm
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.i
@@ -796,7 +796,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.i: home/ubuntu/pico-nexmon
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.s
@@ -804,7 +804,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.s: home/ubuntu/pico-nexmon
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
@@ -812,7 +812,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.obj: home/ubuntu/pic
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
@@ -820,7 +820,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.i: home/ubuntu/pico-
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
@@ -828,7 +828,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.s: home/ubuntu/pico-
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
@@ -836,7 +836,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.obj: home/ubuntu/
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
@@ -844,7 +844,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.i: home/ubuntu/pi
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
@@ -852,7 +852,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.s: home/ubuntu/pi
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
@@ -860,7 +860,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.obj: home/ubuntu/pi
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
@@ -868,7 +868,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i: home/ubuntu/pico
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
@@ -876,7 +876,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s: home/ubuntu/pico
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
@@ -884,7 +884,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.obj: home/ubuntu/
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
@@ -892,7 +892,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.i: home/ubuntu/pi
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
@@ -900,7 +900,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.s: home/ubuntu/pi
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
@@ -908,7 +908,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.obj: home/ubuntu/pi
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
@@ -916,7 +916,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.i: home/ubuntu/pico
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
@@ -924,7 +924,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.s: home/ubuntu/pico
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
@@ -932,7 +932,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.obj: home/ubuntu/pi
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
@@ -940,7 +940,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.i: home/ubuntu/pico
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
@@ -948,7 +948,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.s: home/ubuntu/pico
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
@@ -956,7 +956,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.obj: home/ubuntu/pic
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
@@ -964,7 +964,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.i: home/ubuntu/pico-
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
@@ -972,7 +972,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.s: home/ubuntu/pico-
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
@@ -980,7 +980,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.obj: home/ubunt
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
@@ -988,7 +988,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i: home/ubuntu/
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
@@ -996,7 +996,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s: home/ubuntu/
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
@@ -1004,7 +1004,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.obj: home/ubunt
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
@@ -1012,7 +1012,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i: home/ubuntu/
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
@@ -1020,7 +1020,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s: home/ubuntu/
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
@@ -1028,7 +1028,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.obj: home/ubuntu/p
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
@@ -1036,7 +1036,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i: home/ubuntu/pic
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
@@ -1044,7 +1044,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s: home/ubuntu/pic
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
@@ -1052,7 +1052,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.obj: home/ubuntu/
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
@@ -1060,7 +1060,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i: home/ubuntu/pi
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
@@ -1068,7 +1068,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s: home/ubuntu/pi
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
@@ -1076,7 +1076,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.obj: home/ubuntu/p
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
@@ -1084,7 +1084,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i: home/ubuntu/pic
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
@@ -1092,7 +1092,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s: home/ubuntu/pic
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
@@ -1100,7 +1100,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.obj: home/ubuntu/p
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
@@ -1108,7 +1108,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.i: home/ubuntu/pic
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
@@ -1116,7 +1116,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.s: home/ubuntu/pic
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
@@ -1124,7 +1124,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.obj: home/ubuntu/pic
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
@@ -1132,7 +1132,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.i: home/ubuntu/pico-
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
@@ -1140,7 +1140,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.s: home/ubuntu/pico-
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
@@ -1148,7 +1148,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.obj: home/ubunt
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
@@ -1156,7 +1156,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i: home/ubuntu/
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
@@ -1164,7 +1164,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s: home/ubuntu/
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
@@ -1172,7 +1172,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.obj: home/ubunt
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
@@ -1180,7 +1180,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i: home/ubuntu/
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
@@ -1188,7 +1188,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s: home/ubuntu/
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
@@ -1196,7 +1196,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.obj: home/ubuntu/pi
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
@@ -1204,7 +1204,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.i: home/ubuntu/pico
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
@@ -1212,7 +1212,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.s: home/ubuntu/pico
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
@@ -1220,7 +1220,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.obj: home/ubuntu/pic
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
@@ -1228,7 +1228,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.i: home/ubuntu/pico-
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
@@ -1236,7 +1236,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.s: home/ubuntu/pico-
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.obj
@@ -1244,7 +1244,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.obj: home/ubuntu/pico-nex
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.i
@@ -1252,7 +1252,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.i: home/ubuntu/pico-nexmo
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.s
@@ -1260,7 +1260,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.s: home/ubuntu/pico-nexmo
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.obj
@@ -1268,7 +1268,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.obj: home/ubuntu/pico-ne
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.i
@@ -1276,7 +1276,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.i: home/ubuntu/pico-nexm
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.s
@@ -1284,7 +1284,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.s: home/ubuntu/pico-nexm
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.obj
@@ -1292,7 +1292,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.obj: home/ubuntu/pico-n
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.i
@@ -1300,7 +1300,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.i: home/ubuntu/pico-nex
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.s
@@ -1308,7 +1308,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.s: home/ubuntu/pico-nex
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.obj
@@ -1316,7 +1316,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.obj: home/ubuntu/pico-ne
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.i
@@ -1324,7 +1324,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.i: home/ubuntu/pico-nexm
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.s
@@ -1332,7 +1332,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.s: home/ubuntu/pico-nexm
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.obj
@@ -1340,7 +1340,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.obj: home/ubuntu/pico-nex
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.i
@@ -1348,7 +1348,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.i: home/ubuntu/pico-nexmo
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.s
@@ -1356,7 +1356,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.s: home/ubuntu/pico-nexmo
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.obj
@@ -1364,7 +1364,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.obj: home/ubuntu/pico-n
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.i
@@ -1372,7 +1372,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.i: home/ubuntu/pico-nex
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.s
@@ -1380,7 +1380,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.s: home/ubuntu/pico-nex
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.obj
@@ -1388,7 +1388,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.obj: home/ubuntu/pico-nex
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.i
@@ -1396,7 +1396,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.i: home/ubuntu/pico-nexmo
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.s
@@ -1404,7 +1404,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.s: home/ubuntu/pico-nexmo
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.obj
@@ -1412,7 +1412,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.obj: home/ubuntu/pico-nex
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.i
@@ -1420,7 +1420,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.i: home/ubuntu/pico-nexmo
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.s
@@ -1428,7 +1428,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.s: home/ubuntu/pico-nexmo
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
@@ -1436,7 +1436,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.obj: home/ubuntu/pico-
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.i
@@ -1444,7 +1444,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.i: home/ubuntu/pico-ne
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.s
@@ -1452,7 +1452,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.s: home/ubuntu/pico-ne
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
@@ -1460,7 +1460,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.obj: home/ubuntu/pico
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.i
@@ -1468,7 +1468,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.i: home/ubuntu/pico-n
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.s
@@ -1476,7 +1476,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.s: home/ubuntu/pico-n
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.obj
@@ -1484,7 +1484,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.obj: home/ubuntu/pic
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.i
@@ -1492,7 +1492,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.i: home/ubuntu/pico-
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.s
@@ -1500,7 +1500,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.s: home/ubuntu/pico-
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.obj
@@ -1508,7 +1508,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.obj: home/ubuntu/pico-nex
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.i
@@ -1516,7 +1516,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.i: home/ubuntu/pico-nexmo
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.s
@@ -1524,7 +1524,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.s: home/ubuntu/pico-nexmo
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
@@ -1532,7 +1532,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.obj: home/ubuntu/pi
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
@@ -1540,7 +1540,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.i: home/ubuntu/pico
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
@@ -1548,7 +1548,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.s: home/ubuntu/pico
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
@@ -1556,7 +1556,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.obj: home/ubunt
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
@@ -1564,7 +1564,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i: home/ubuntu/
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
@@ -1572,7 +1572,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s: home/ubuntu/
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
@@ -1580,7 +1580,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.obj: home/ubuntu/pi
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.i
@@ -1588,7 +1588,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.i: home/ubuntu/pico
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.s
@@ -1596,7 +1596,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.s: home/ubuntu/pico
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
@@ -1604,7 +1604,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.obj: home/ubuntu/pic
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
@@ -1612,7 +1612,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.i: home/ubuntu/pico-
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
@@ -1620,7 +1620,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.s: home/ubuntu/pico-
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
@@ -1628,7 +1628,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.obj: home/ubuntu
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
@@ -1636,7 +1636,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i: home/ubuntu/p
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
@@ -1644,7 +1644,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s: home/ubuntu/p
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
@@ -1652,7 +1652,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.obj: home/ubu
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
@@ -1660,7 +1660,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.i: home/ubunt
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
@@ -1668,7 +1668,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.s: home/ubunt
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
@@ -1676,7 +1676,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.obj: home/ubuntu/pi
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
@@ -1684,7 +1684,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.i: home/ubuntu/pico
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
@@ -1692,7 +1692,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.s: home/ubuntu/pico
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
@@ -1700,7 +1700,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.obj: home/ubuntu/pic
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
@@ -1708,7 +1708,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.i: home/ubuntu/pico-
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
@@ -1716,7 +1716,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.s: home/ubuntu/pico-
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
@@ -1724,7 +1724,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.obj: home/ubunt
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
@@ -1732,7 +1732,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i: home/ubuntu/
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
@@ -1740,7 +1740,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s: home/ubuntu/
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
@@ -1748,7 +1748,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.obj: home/ubunt
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
@@ -1756,7 +1756,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i: home/ubuntu/
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
@@ -1764,7 +1764,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s: home/ubuntu/
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
@@ -1772,7 +1772,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.obj: home/ubuntu
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
@@ -1780,7 +1780,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i: home/ubuntu/p
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
@@ -1788,7 +1788,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s: home/ubuntu/p
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
@@ -1796,7 +1796,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.obj: home/ubuntu/
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
@@ -1804,7 +1804,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.i: home/ubuntu/pi
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
@@ -1812,7 +1812,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.s: home/ubuntu/pi
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
@@ -1820,7 +1820,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.obj: home/ubuntu/pic
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
@@ -1828,7 +1828,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.i: home/ubuntu/pico-
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
@@ -1836,7 +1836,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.s: home/ubuntu/pico-
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
@@ -1844,7 +1844,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.obj: home/ubuntu/pic
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
@@ -1852,7 +1852,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.i: home/ubuntu/pico-
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
@@ -1860,7 +1860,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.s: home/ubuntu/pico-
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
@@ -1868,7 +1868,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.obj: home/ubuntu/p
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
@@ -1876,7 +1876,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.i: home/ubuntu/pic
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
@@ -1884,7 +1884,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.s: home/ubuntu/pic
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
@@ -1892,7 +1892,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.obj: home/ubuntu/pic
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
@@ -1900,7 +1900,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.i: home/ubuntu/pico-
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
@@ -1908,7 +1908,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.s: home/ubuntu/pico-
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
@@ -1916,7 +1916,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.obj: home/ubuntu/pi
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
@@ -1924,7 +1924,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i: home/ubuntu/pico
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
@@ -1932,7 +1932,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s: home/ubuntu/pico
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
@@ -1940,7 +1940,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.obj: home/ubuntu/
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
@@ -1948,7 +1948,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i: home/ubuntu/pi
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
@@ -1956,7 +1956,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s: home/ubuntu/pi
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
@@ -1964,7 +1964,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.obj: home/ubuntu/pic
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
@@ -1972,7 +1972,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.i: home/ubuntu/pico-
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
@@ -1980,7 +1980,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.s: home/ubuntu/pico-
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
@@ -1988,7 +1988,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.obj: home/ubuntu/p
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
@@ -1996,7 +1996,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.i: home/ubuntu/pic
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
@@ -2004,7 +2004,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.s: home/ubuntu/pic
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
@@ -2012,7 +2012,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.obj: home/ubuntu/pi
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
@@ -2020,7 +2020,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.i: home/ubuntu/pico
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
@@ -2028,7 +2028,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.s: home/ubuntu/pico
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
@@ -2036,7 +2036,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.obj: home/ubun
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
@@ -2044,7 +2044,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.i: home/ubuntu
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
@@ -2052,7 +2052,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.s: home/ubuntu
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
@@ -2060,7 +2060,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.obj: home/
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
@@ -2068,7 +2068,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i: home/ub
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
@@ -2076,7 +2076,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s: home/ub
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
@@ -2084,7 +2084,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.obj: home/u
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
@@ -2092,7 +2092,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i: home/ubu
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
@@ -2100,7 +2100,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s: home/ubu
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
@@ -2108,7 +2108,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.obj: home/u
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
@@ -2116,7 +2116,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i: home/ubu
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
@@ -2124,7 +2124,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s: home/ubu
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
@@ -2132,7 +2132,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.obj: home/u
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
@@ -2140,7 +2140,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i: home/ubu
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
@@ -2148,7 +2148,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s: home/ubu
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
@@ -2156,7 +2156,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.obj: home/
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
@@ -2164,7 +2164,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i: home/ub
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
@@ -2172,7 +2172,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s: home/ub
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
@@ -2180,7 +2180,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.obj: home/ubuntu/pic
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
@@ -2188,7 +2188,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.i: home/ubuntu/pico-
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
@@ -2196,7 +2196,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.s: home/ubuntu/pico-
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
@@ -2204,7 +2204,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.obj: home/ubuntu/
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
@@ -2212,7 +2212,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i: home/ubuntu/pi
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
@@ -2220,7 +2220,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s: home/ubuntu/pi
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
@@ -2228,7 +2228,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.obj: home/ubunt
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
@@ -2236,7 +2236,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i: home/ubuntu/
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
@@ -2244,7 +2244,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s: home/ubuntu/
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
@@ -2252,7 +2252,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.obj: home/ubuntu/p
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
@@ -2260,7 +2260,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i: home/ubuntu/pic
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
@@ -2268,7 +2268,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s: home/ubuntu/pic
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
@@ -2276,7 +2276,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.obj: home/ubunt
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
@@ -2284,7 +2284,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i: home/ubuntu/
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
@@ -2292,7 +2292,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s: home/ubuntu/
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
@@ -2300,7 +2300,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.obj: home/ubuntu/p
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
@@ -2308,7 +2308,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.i: home/ubuntu/pic
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
@@ -2316,7 +2316,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.s: home/ubuntu/pic
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
@@ -2324,7 +2324,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.obj: home/ubuntu/pi
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
@@ -2332,7 +2332,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.i: home/ubuntu/pico
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
@@ -2340,7 +2340,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.s: home/ubuntu/pico
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
@@ -2348,7 +2348,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.obj: home/ubuntu/p
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
@@ -2356,7 +2356,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.i: home/ubuntu/pic
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
@@ -2364,7 +2364,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.s: home/ubuntu/pic
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
@@ -2372,7 +2372,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.obj: home/ubuntu/pico
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
@@ -2380,7 +2380,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.i: home/ubuntu/pico-n
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
@@ -2388,7 +2388,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.s: home/ubuntu/pico-n
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.obj
@@ -2396,7 +2396,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.obj: home/ubuntu/pico
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.i
@@ -2404,7 +2404,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.i: home/ubuntu/pico-n
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.s
@@ -2412,7 +2412,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.s: home/ubuntu/pico-n
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.obj
@@ -2420,7 +2420,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.obj: home/ubuntu/pico-
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.i: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.i
@@ -2428,7 +2428,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.i: home/ubuntu/pico-ne
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.s: home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.s
@@ -2436,7 +2436,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.s: home/ubuntu/pico-ne
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
@@ -2444,7 +2444,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: h
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
@@ -2452,7 +2452,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: hom
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
@@ -2460,7 +2460,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: hom
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
@@ -2468,7 +2468,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: home/
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
@@ -2476,7 +2476,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: home/ub
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
@@ -2484,7 +2484,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: home/ub
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
@@ -2492,7 +2492,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj: home/
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
@@ -2500,7 +2500,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: home/ub
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
@@ -2508,7 +2508,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: home/ub
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
@@ -2516,7 +2516,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: ho
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
@@ -2524,7 +2524,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: home
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
@@ -2532,7 +2532,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: home
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
@@ -2540,7 +2540,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: home/
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
@@ -2548,7 +2548,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: home/ub
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
@@ -2556,7 +2556,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: home/ub
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
@@ -2564,7 +2564,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: hom
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
@@ -2572,7 +2572,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: home/
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
@@ -2580,7 +2580,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: home/
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
@@ -2588,7 +2588,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: home/
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
@@ -2596,7 +2596,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: home/ub
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
@@ -2604,7 +2604,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: home/ub
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
@@ -2612,7 +2612,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj:
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
@@ -2620,7 +2620,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: h
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
@@ -2628,7 +2628,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: h
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
@@ -2636,7 +2636,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj: home/
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
@@ -2644,7 +2644,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: home/ub
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
@@ -2652,7 +2652,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: home/ub
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
@@ -2660,7 +2660,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj:
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
@@ -2668,7 +2668,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: h
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
@@ -2676,7 +2676,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: h
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
@@ -2684,7 +2684,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj:
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
@@ -2692,7 +2692,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: h
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
@@ -2700,7 +2700,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: h
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
@@ -2708,7 +2708,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.obj: h
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
@@ -2716,7 +2716,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.i: hom
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
@@ -2724,7 +2724,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.s: hom
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
@@ -2732,7 +2732,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: home/ubun
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
@@ -2740,7 +2740,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: home/ubuntu
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
@@ -2748,7 +2748,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: home/ubuntu
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
@@ -2756,7 +2756,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.obj: home/ubuntu/pi
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.i
@@ -2764,7 +2764,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.i: home/ubuntu/pico
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.s
@@ -2772,7 +2772,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.s: home/ubuntu/pico
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
@@ -2780,7 +2780,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: home/u
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
@@ -2788,7 +2788,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.i: home/ubu
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
@@ -2796,7 +2796,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.s: home/ubu
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
@@ -2804,7 +2804,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
@@ -2812,7 +2812,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
@@ -2820,7 +2820,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
@@ -2828,7 +2828,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
@@ -2836,7 +2836,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
@@ -2844,7 +2844,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.obj: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.obj
@@ -2852,7 +2852,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.obj: home/ubuntu/pico-nexm
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.i: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.i
@@ -2860,7 +2860,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.i: home/ubuntu/pico-nexmon
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.s: home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.s
@@ -2868,7 +2868,7 @@ home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.s: home/ubuntu/pico-nexmon
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.obj: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj
@@ -2876,7 +2876,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.obj: home
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.i: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.i
@@ -2884,7 +2884,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.i: home/u
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.s: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -2892,7 +2892,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.s: home/u
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.obj: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -2900,7 +2900,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.obj: home/ubuntu
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.i: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.i
@@ -2908,7 +2908,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.i: home/ubuntu/p
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.s: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -2916,7 +2916,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.s: home/ubuntu/p
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.obj: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj
@@ -2924,7 +2924,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.obj: home/ubuntu/pic
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.i: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.i
@@ -2932,7 +2932,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.i: home/ubuntu/pico-
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.s: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -2940,7 +2940,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.s: home/ubuntu/pico-
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.obj: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj
@@ -2948,7 +2948,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.obj: home/ubuntu/pico-
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.i: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.i
@@ -2956,7 +2956,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.i: home/ubuntu/pico-ne
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.s: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.s
@@ -2964,7 +2964,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.s: home/ubuntu/pico-ne
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.obj: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj
@@ -2972,7 +2972,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.obj: home/ubuntu/pico
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.i: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.i
@@ -2980,7 +2980,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.i: home/ubuntu/pico-n
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.s: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.s
@@ -2988,7 +2988,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.s: home/ubuntu/pico-n
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.obj: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj
@@ -2996,7 +2996,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.obj: home/u
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.i: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.i
@@ -3004,7 +3004,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.i: home/ubu
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.s: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -3012,7 +3012,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.s: home/ubu
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.obj: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj
@@ -3020,7 +3020,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.obj: home/ubuntu/
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.i: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.i
@@ -3028,7 +3028,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.i: home/ubuntu/pi
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.s: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.s
@@ -3036,7 +3036,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.s: home/ubuntu/pi
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.obj: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj
@@ -3044,7 +3044,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.obj: home/ubuntu/pic
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.i: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.i
@@ -3052,7 +3052,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.i: home/ubuntu/pico-
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.s: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.s
@@ -3060,7 +3060,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.s: home/ubuntu/pico-
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.obj: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj
@@ -3068,7 +3068,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.obj: home/ubuntu/pic
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.i: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.i
@@ -3076,7 +3076,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.i: home/ubuntu/pico-
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.s: home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.s
@@ -3084,7 +3084,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.s: home/ubuntu/pico-
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
@@ -3092,7 +3092,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.obj: home/ubunt
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
@@ -3100,7 +3100,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.i: home/ubuntu/
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
@@ -3108,7 +3108,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.s: home/ubuntu/
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
@@ -3116,7 +3116,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.obj: home/u
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
@@ -3124,7 +3124,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.i: home/ubu
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
@@ -3132,7 +3132,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.s: home/ubu
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
@@ -3140,7 +3140,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: home
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
@@ -3148,7 +3148,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/u
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -3156,7 +3156,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/u
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
@@ -3164,7 +3164,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.obj: ho
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
@@ -3172,7 +3172,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.obj: home/ubunt
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
@@ -3180,7 +3180,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.i: home/ubuntu/
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
@@ -3188,7 +3188,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.s: home/ubuntu/
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
@@ -3196,7 +3196,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.obj
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
@@ -3204,7 +3204,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.i: 
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
@@ -3212,7 +3212,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.s: 
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
@@ -3220,7 +3220,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.obj: home/u
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
@@ -3228,7 +3228,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.i: home/ubu
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
@@ -3236,7 +3236,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.s: home/ubu
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
@@ -3244,7 +3244,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/ubu
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
@@ -3252,7 +3252,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/ubunt
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -3260,7 +3260,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/ubunt
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
@@ -3268,7 +3268,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/ubunt
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
@@ -3276,7 +3276,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/ubuntu/
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -3284,7 +3284,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/ubuntu/
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
@@ -3292,7 +3292,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
@@ -3300,7 +3300,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.obj: home/ubunt
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
@@ -3308,7 +3308,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.i: home/ubuntu/
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
@@ -3316,7 +3316,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.s: home/ubuntu/
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
@@ -3324,7 +3324,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/ubunt
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
@@ -3332,7 +3332,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/ubuntu/
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -3340,7 +3340,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/ubuntu/
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
@@ -3348,7 +3348,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.obj: home/ubunt
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i
@@ -3356,7 +3356,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.i: home/ubuntu/
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s
@@ -3364,7 +3364,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.s: home/ubuntu/
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
@@ -3372,7 +3372,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.obj: home/ubunt
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
@@ -3380,7 +3380,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.i: home/ubuntu/
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
@@ -3388,7 +3388,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.s: home/ubuntu/
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
@@ -3396,7 +3396,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.obj: home/ubu
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
@@ -3404,7 +3404,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/ubunt
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -3412,7 +3412,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/ubunt
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
@@ -3420,7 +3420,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.obj: home/u
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
@@ -3428,7 +3428,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/ubu
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -3436,7 +3436,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/ubu
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
@@ -3444,7 +3444,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.obj: home/ubu
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
@@ -3452,7 +3452,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/ubunt
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -3460,7 +3460,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/ubunt
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
@@ -3468,7 +3468,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: home/ubu
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
@@ -3476,7 +3476,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/ubunt
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -3484,7 +3484,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/ubunt
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
@@ -3492,7 +3492,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: 
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -3500,7 +3500,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: ho
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -3508,7 +3508,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: ho
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
@@ -3516,7 +3516,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: home/ubu
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
@@ -3524,7 +3524,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/ubunt
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -3532,7 +3532,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/ubunt
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
@@ -3540,7 +3540,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
@@ -3548,7 +3548,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
@@ -3556,7 +3556,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
@@ -3564,7 +3564,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
@@ -3572,7 +3572,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
@@ -3580,7 +3580,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
@@ -3588,7 +3588,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: 
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
@@ -3596,7 +3596,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: home/u
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -3604,7 +3604,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/ubu
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -3612,7 +3612,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/ubu
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
@@ -3620,7 +3620,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj: 
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
@@ -3628,7 +3628,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i: ho
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
@@ -3636,7 +3636,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s: ho
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
@@ -3644,7 +3644,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freer
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
@@ -3652,7 +3652,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freer
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
@@ -3660,7 +3660,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freer
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
@@ -3668,7 +3668,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
@@ -3676,7 +3676,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
@@ -3684,7 +3684,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
@@ -3692,7 +3692,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threa
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
@@ -3700,7 +3700,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threa
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
@@ -3708,7 +3708,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threa
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
@@ -3716,7 +3716,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bu
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
@@ -3724,7 +3724,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bu
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
@@ -3732,7 +3732,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bu
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
@@ -3740,7 +3740,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bu
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
@@ -3748,7 +3748,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bu
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
@@ -3756,7 +3756,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bu
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
@@ -3764,7 +3764,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
@@ -3772,7 +3772,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
@@ -3780,7 +3780,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
@@ -3788,7 +3788,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.o
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
@@ -3796,7 +3796,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
@@ -3804,7 +3804,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
@@ -3812,7 +3812,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.obj: home/u
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
@@ -3820,7 +3820,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: ho
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
@@ -3828,7 +3828,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj:
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
@@ -3836,7 +3836,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: h
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
@@ -3844,7 +3844,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: h
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
@@ -3852,7 +3852,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.obj: hom
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.i
@@ -3860,7 +3860,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.i: home/
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -3868,7 +3868,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.s: home/
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
@@ -3876,7 +3876,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.o
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
@@ -3884,7 +3884,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enume
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
@@ -3892,7 +3892,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enume
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
@@ -3900,7 +3900,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enume
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
@@ -3908,7 +3908,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: home
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
@@ -3916,7 +3916,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: h
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
@@ -3924,7 +3924,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: hom
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
@@ -3932,7 +3932,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: hom
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
@@ -3940,7 +3940,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.obj: home/
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.i
@@ -3948,7 +3948,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.i: home/ub
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -3956,7 +3956,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.s: home/ub
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
@@ -3964,7 +3964,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
@@ -3972,7 +3972,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_ae
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
@@ -3980,7 +3980,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.obj: home/u
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
@@ -3988,7 +3988,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i: home/ubu
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
@@ -3996,7 +3996,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s: home/ubu
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
@@ -4004,7 +4004,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: hom
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
@@ -4012,7 +4012,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: home/
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
@@ -4020,7 +4020,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: home/
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
@@ -4028,7 +4028,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: 
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -4036,7 +4036,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.obj: home
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.i
@@ -4044,7 +4044,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.i: home/u
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.s
@@ -4052,7 +4052,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.s: home/u
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
@@ -4060,7 +4060,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.obj: home/ubu
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.i
@@ -4068,7 +4068,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.i: home/ubunt
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -4076,7 +4076,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.s: home/ubunt
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
@@ -4084,7 +4084,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.obj: home/ubuntu/
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.i
@@ -4092,7 +4092,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.i: home/ubuntu/pi
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.s
@@ -4100,7 +4100,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.s: home/ubuntu/pi
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
@@ -4108,7 +4108,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/u
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
@@ -4116,7 +4116,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/ubu
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -4124,7 +4124,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/ubu
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
@@ -4132,7 +4132,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.o
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
@@ -4140,7 +4140,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
@@ -4148,7 +4148,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -4156,7 +4156,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: hom
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
@@ -4164,7 +4164,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.ob
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
@@ -4172,7 +4172,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i:
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
@@ -4180,7 +4180,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s:
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
@@ -4188,7 +4188,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: home/ubunt
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
@@ -4196,7 +4196,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/ubuntu/
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -4204,7 +4204,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/ubuntu/
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
@@ -4212,7 +4212,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
@@ -4220,7 +4220,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
@@ -4228,7 +4228,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
@@ -4236,7 +4236,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj: ho
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
@@ -4244,7 +4244,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: home
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
@@ -4252,7 +4252,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: home
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
@@ -4260,7 +4260,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descrip
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
@@ -4268,7 +4268,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descrip
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
@@ -4276,7 +4276,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descrip
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -4284,7 +4284,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/ubu
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -4292,7 +4292,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/ubunt
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -4300,7 +4300,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/ubunt
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
@@ -4308,7 +4308,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: ho
 
 # target to build an object file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
@@ -4316,7 +4316,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: home
 
 # target to preprocess a source file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
@@ -4324,7 +4324,7 @@ home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: home
 
 # target to generate assembly for a file
 home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
 main.obj: main.c.obj
@@ -4332,7 +4332,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -4340,7 +4340,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -4348,7 +4348,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/main.c.s
 .PHONY : main.c.s
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.obj: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj
@@ -4356,7 +4356,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.obj: no-OS-FatFS-SD-SPI-RPi
 
 # target to build an object file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.i: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.i
@@ -4364,7 +4364,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.i: no-OS-FatFS-SD-SPI-RPi-P
 
 # target to preprocess a source file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.i
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.i
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.s: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.s
@@ -4372,7 +4372,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.s: no-OS-FatFS-SD-SPI-RPi-P
 
 # target to generate assembly for a file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.s
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.s
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.obj: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj
@@ -4380,7 +4380,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.obj: no-OS-FatFS-SD-S
 
 # target to build an object file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.i: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.i
@@ -4388,7 +4388,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.i: no-OS-FatFS-SD-SPI
 
 # target to preprocess a source file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.i
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.i
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.s: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.s
@@ -4396,7 +4396,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.s: no-OS-FatFS-SD-SPI
 
 # target to generate assembly for a file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.s
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.s
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.obj: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj
@@ -4404,7 +4404,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.obj: no-OS-FatFS-SD-
 
 # target to build an object file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.i: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.i
@@ -4412,7 +4412,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.i: no-OS-FatFS-SD-SP
 
 # target to preprocess a source file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.i
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.i
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.s: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.s
@@ -4420,7 +4420,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.s: no-OS-FatFS-SD-SP
 
 # target to generate assembly for a file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.s
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.s
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.obj: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj
@@ -4428,7 +4428,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.obj: no-OS-FatFS-SD-SPI-RPi-
 
 # target to build an object file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.i: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.i
@@ -4436,7 +4436,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.i: no-OS-FatFS-SD-SPI-RPi-Pi
 
 # target to preprocess a source file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.i
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.i
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.s: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.s
@@ -4444,7 +4444,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.s: no-OS-FatFS-SD-SPI-RPi-Pi
 
 # target to generate assembly for a file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.s
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.s
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.obj: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj
@@ -4452,7 +4452,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.obj: no-OS-FatFS-SD
 
 # target to build an object file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.i: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.i
@@ -4460,7 +4460,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.i: no-OS-FatFS-SD-S
 
 # target to preprocess a source file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.i
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.i
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.s: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.s
@@ -4468,7 +4468,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.s: no-OS-FatFS-SD-S
 
 # target to generate assembly for a file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.s
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.s
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.obj: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj
@@ -4476,7 +4476,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.obj: no-OS-FatFS-SD-SPI-
 
 # target to build an object file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.i: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.i
@@ -4484,7 +4484,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.i: no-OS-FatFS-SD-SPI-RP
 
 # target to preprocess a source file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.i
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.i
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.s: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.s
@@ -4492,7 +4492,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.s: no-OS-FatFS-SD-SPI-RP
 
 # target to generate assembly for a file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.s
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.s
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.obj: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj
@@ -4500,7 +4500,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.obj: no-OS-FatFS-SD-SPI-R
 
 # target to build an object file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.i: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.i
@@ -4508,7 +4508,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.i: no-OS-FatFS-SD-SPI-RPi
 
 # target to preprocess a source file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.i
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.i
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.s: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.s
@@ -4516,7 +4516,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.s: no-OS-FatFS-SD-SPI-RPi
 
 # target to generate assembly for a file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.s
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.s
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.obj: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj
@@ -4524,7 +4524,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.obj: no-OS-FatFS-SD-SPI-RPi-
 
 # target to build an object file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.i: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.i
@@ -4532,7 +4532,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.i: no-OS-FatFS-SD-SPI-RPi-Pi
 
 # target to preprocess a source file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.i
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.i
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.s: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.s
@@ -4540,7 +4540,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.s: no-OS-FatFS-SD-SPI-RPi-Pi
 
 # target to generate assembly for a file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.s
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.s
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.obj: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj
@@ -4548,7 +4548,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.obj: no-OS-FatFS-SD-SPI-RPi-Pic
 
 # target to build an object file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.i: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.i
@@ -4556,7 +4556,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.i: no-OS-FatFS-SD-SPI-RPi-Pico/
 
 # target to preprocess a source file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.i
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.i
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.s: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.s
@@ -4564,7 +4564,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.s: no-OS-FatFS-SD-SPI-RPi-Pico/
 
 # target to generate assembly for a file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.s
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.s
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.obj: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj
@@ -4572,7 +4572,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.obj: no-OS-FatFS-SD-SPI-RPi-P
 
 # target to build an object file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.i: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.i
@@ -4580,7 +4580,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.i: no-OS-FatFS-SD-SPI-RPi-Pic
 
 # target to preprocess a source file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.i
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.i
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.s: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.s
@@ -4588,7 +4588,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.s: no-OS-FatFS-SD-SPI-RPi-Pic
 
 # target to generate assembly for a file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.s
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.s
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.obj: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj
@@ -4596,7 +4596,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.obj: no-OS-FatFS-SD-SPI-RPi-Pico/
 
 # target to build an object file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.i: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.i
@@ -4604,7 +4604,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.i: no-OS-FatFS-SD-SPI-RPi-Pico/Fa
 
 # target to preprocess a source file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.i
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.i
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.s: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.s
@@ -4612,7 +4612,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.s: no-OS-FatFS-SD-SPI-RPi-Pico/Fa
 
 # target to generate assembly for a file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.s
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.s
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.obj: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj
@@ -4620,7 +4620,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.obj: no-OS-FatFS-SD-SPI-RPi-P
 
 # target to build an object file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.i: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.i
@@ -4628,7 +4628,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.i: no-OS-FatFS-SD-SPI-RPi-Pic
 
 # target to preprocess a source file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.i
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.i
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.s: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.s
@@ -4636,7 +4636,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.s: no-OS-FatFS-SD-SPI-RPi-Pic
 
 # target to generate assembly for a file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.s
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.s
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.obj: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj
@@ -4644,7 +4644,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.obj: no-OS-FatFS-SD-SPI-RPi-Pico/F
 
 # target to build an object file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.i: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.i
@@ -4652,7 +4652,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.i: no-OS-FatFS-SD-SPI-RPi-Pico/Fat
 
 # target to preprocess a source file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.i
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.i
 
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.s: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.s
@@ -4660,7 +4660,7 @@ no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.s: no-OS-FatFS-SD-SPI-RPi-Pico/Fat
 
 # target to generate assembly for a file
 no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/webdisplay.dir/build.make CMakeFiles/webdisplay.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico20Proj.dir/build.make CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.s
 .PHONY : no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.s
 
 # Help Target
@@ -4677,7 +4677,7 @@ help:
 	@echo "... bs2_default_padded_checksummed_asm"
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... bs2_default"
-	@echo "... webdisplay"
+	@echo "... pico20Proj"
 	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj"
 	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i"
 	@echo "... home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s"

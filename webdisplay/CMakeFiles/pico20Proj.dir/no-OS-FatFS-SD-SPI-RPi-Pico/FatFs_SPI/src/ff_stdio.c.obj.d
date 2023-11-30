@@ -1,5 +1,5 @@
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj: \
- /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c \
+ /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c \
  /usr/include/newlib/errno.h /usr/include/newlib/sys/errno.h \
  /usr/include/newlib/sys/reent.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
@@ -16,7 +16,7 @@ CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.o
  /usr/include/newlib/alloca.h /usr/include/newlib/string.h \
  /usr/include/newlib/sys/_locale.h /usr/include/newlib/strings.h \
  /usr/include/newlib/sys/string.h \
- /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/my_debug.h \
+ /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/my_debug.h \
  /usr/include/newlib/stdio.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
  /usr/include/newlib/sys/types.h /usr/include/newlib/sys/_stdint.h \
@@ -26,8 +26,8 @@ CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.o
  /usr/include/newlib/sys/timespec.h /usr/include/newlib/sys/_timespec.h \
  /usr/include/newlib/sys/_pthreadtypes.h /usr/include/newlib/sys/sched.h \
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
- /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/f_util.h \
- /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \
- /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h \
+ /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/f_util.h \
+ /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \
+ /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
- /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/ff_stdio.h
+ /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/ff_stdio.h

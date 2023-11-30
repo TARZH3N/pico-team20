@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/pico-team202backup
+CMAKE_SOURCE_DIR = /home/ubuntu/webdisplay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/pico-team202backup
+CMAKE_BINARY_DIR = /home/ubuntu/webdisplay
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pico20Proj.dir/depend.make
@@ -72,21 +72,21 @@ include CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/main.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/main.c.obj: main.c
 CMakeFiles/pico20Proj.dir/main.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pico20Proj.dir/main.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/main.c.obj -MF CMakeFiles/pico20Proj.dir/main.c.obj.d -o CMakeFiles/pico20Proj.dir/main.c.obj -c /home/ubuntu/pico-team202backup/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pico20Proj.dir/main.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/main.c.obj -MF CMakeFiles/pico20Proj.dir/main.c.obj.d -o CMakeFiles/pico20Proj.dir/main.c.obj -c /home/ubuntu/webdisplay/main.c
 
 CMakeFiles/pico20Proj.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/main.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-team202backup/main.c > CMakeFiles/pico20Proj.dir/main.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/webdisplay/main.c > CMakeFiles/pico20Proj.dir/main.c.i
 
 CMakeFiles/pico20Proj.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/main.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-team202backup/main.c -o CMakeFiles/pico20Proj.dir/main.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/webdisplay/main.c -o CMakeFiles/pico20Proj.dir/main.c.s
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -100,7 +100,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_s
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -114,7 +114,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardwa
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
@@ -128,7 +128,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_p
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
@@ -142,7 +142,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardwa
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -156,7 +156,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardwa
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -169,7 +169,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardwa
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -183,7 +183,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardwa
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -197,7 +197,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -211,7 +211,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -225,7 +225,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -239,7 +239,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -253,7 +253,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -267,7 +267,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_time/
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -281,7 +281,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardwa
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -295,7 +295,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -309,7 +309,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -323,7 +323,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_util/
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -337,7 +337,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardwa
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -351,7 +351,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardwa
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -365,7 +365,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardwa
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -379,7 +379,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardwa
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -393,7 +393,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardwa
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -406,7 +406,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardwa
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building ASM object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building ASM object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -420,7 +420,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardwa
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -434,7 +434,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_r
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -447,7 +447,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_p
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -461,7 +461,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_b
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -474,7 +474,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_b
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
@@ -487,7 +487,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_d
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
@@ -501,7 +501,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_d
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
@@ -515,7 +515,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_d
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -528,7 +528,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_d
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
@@ -541,7 +541,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_d
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -554,7 +554,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_i
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
@@ -568,7 +568,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_f
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
@@ -582,7 +582,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_f
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -595,7 +595,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_f
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
@@ -609,7 +609,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_f
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
@@ -622,7 +622,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_m
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -635,7 +635,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_m
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
@@ -649,7 +649,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_s
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
@@ -663,7 +663,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_s
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
@@ -677,7 +677,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_s
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -691,7 +691,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_s
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
@@ -705,7 +705,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_s
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
@@ -719,7 +719,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_s
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
@@ -733,7 +733,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_s
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -747,7 +747,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_u
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -761,7 +761,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardwa
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -775,7 +775,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/porta
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -789,7 +789,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/porta
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -803,7 +803,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/devic
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -817,7 +817,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/devic
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -831,7 +831,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -845,7 +845,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -859,7 +859,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -873,7 +873,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -887,7 +887,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -901,7 +901,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -915,7 +915,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -929,7 +929,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -943,7 +943,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -957,7 +957,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -971,7 +971,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -985,7 +985,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/class
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -999,7 +999,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/tusb.
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -1013,7 +1013,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/tinyusb/src/commo
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -1027,7 +1027,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_f
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
@@ -1041,7 +1041,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardwa
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_spi/spi.c.i: cmake_force
@@ -1055,7 +1055,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardwa
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
@@ -1069,7 +1069,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardwa
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i: cmake_force
@@ -1083,7 +1083,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_l
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i: cmake_force
@@ -1097,7 +1097,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_a
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_rand/rand.c.i: cmake_force
@@ -1111,7 +1111,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_r
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/init.c.i: cmake_force
@@ -1125,7 +1125,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ini
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def.c.i: cmake_force
@@ -1139,7 +1139,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/def
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns.c.i: cmake_force
@@ -1153,7 +1153,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/dns
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/inet_chksum.c.i: cmake_force
@@ -1167,7 +1167,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ine
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.c.i: cmake_force
@@ -1181,7 +1181,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ip.
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem.c.i: cmake_force
@@ -1195,7 +1195,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/memp.c.i: cmake_force
@@ -1209,7 +1209,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/mem
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/netif.c.i: cmake_force
@@ -1223,7 +1223,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/net
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.i: cmake_force
@@ -1237,7 +1237,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbu
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw.c.i: cmake_force
@@ -1251,7 +1251,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/raw
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/stats.c.i: cmake_force
@@ -1265,7 +1265,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sta
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys.c.i: cmake_force
@@ -1279,7 +1279,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/sys
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp.c.i: cmake_force
@@ -1293,7 +1293,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/alt
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i: cmake_force
@@ -1307,7 +1307,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/alt
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i: cmake_force
@@ -1321,7 +1321,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/alt
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp.c.i: cmake_force
@@ -1335,7 +1335,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_in.c.i: cmake_force
@@ -1349,7 +1349,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp_out.c.i: cmake_force
@@ -1363,7 +1363,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tcp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/timeouts.c.i: cmake_force
@@ -1377,7 +1377,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/tim
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp.c.i: cmake_force
@@ -1391,7 +1391,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/udp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i: cmake_force
@@ -1405,7 +1405,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i: cmake_force
@@ -1419,7 +1419,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i: cmake_force
@@ -1433,7 +1433,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i: cmake_force
@@ -1447,7 +1447,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i: cmake_force
@@ -1461,7 +1461,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i: cmake_force
@@ -1475,7 +1475,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i: cmake_force
@@ -1489,7 +1489,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i: cmake_force
@@ -1503,7 +1503,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i: cmake_force
@@ -1517,7 +1517,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i: cmake_force
@@ -1531,7 +1531,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i: cmake_force
@@ -1545,7 +1545,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i: cmake_force
@@ -1559,7 +1559,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i: cmake_force
@@ -1573,7 +1573,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i: cmake_force
@@ -1587,7 +1587,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i: cmake_force
@@ -1601,7 +1601,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i: cmake_force
@@ -1615,7 +1615,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i: cmake_force
@@ -1629,7 +1629,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i: cmake_force
@@ -1643,7 +1643,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/ipv
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_lib.c.i: cmake_force
@@ -1657,7 +1657,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_msg.c.i: cmake_force
@@ -1671,7 +1671,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/api_
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.c.i: cmake_force
@@ -1685,7 +1685,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/err.
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_api.c.i: cmake_force
@@ -1699,7 +1699,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/if_a
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netbuf.c.i: cmake_force
@@ -1713,7 +1713,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netb
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netdb.c.i: cmake_force
@@ -1727,7 +1727,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netd
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/netifapi.c.i: cmake_force
@@ -1741,7 +1741,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/neti
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sockets.c.i: cmake_force
@@ -1755,7 +1755,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/sock
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpip.c.i: cmake_force
@@ -1769,7 +1769,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/api/tcpi
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ethernet.c.i: cmake_force
@@ -1783,7 +1783,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/et
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif.c.i: cmake_force
@@ -1797,7 +1797,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/br
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i: cmake_force
@@ -1811,7 +1811,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/br
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/slipif.c.i: cmake_force
@@ -1825,7 +1825,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/sl
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i: cmake_force
@@ -1839,7 +1839,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lo
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6.c.i: cmake_force
@@ -1853,7 +1853,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lo
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i: cmake_force
@@ -1867,7 +1867,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/lo
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/zepif.c.i: cmake_force
@@ -1881,7 +1881,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ze
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i: cmake_force
@@ -1895,7 +1895,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i: cmake_force
@@ -1909,7 +1909,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i: cmake_force
@@ -1923,7 +1923,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i: cmake_force
@@ -1937,7 +1937,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i: cmake_force
@@ -1951,7 +1951,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i: cmake_force
@@ -1965,7 +1965,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i: cmake_force
@@ -1979,7 +1979,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i: cmake_force
@@ -1993,7 +1993,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i: cmake_force
@@ -2007,7 +2007,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i: cmake_force
@@ -2021,7 +2021,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i: cmake_force
@@ -2035,7 +2035,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i: cmake_force
@@ -2049,7 +2049,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i: cmake_force
@@ -2063,7 +2063,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i: cmake_force
@@ -2077,7 +2077,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i: cmake_force
@@ -2091,7 +2091,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i: cmake_force
@@ -2105,7 +2105,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i: cmake_force
@@ -2119,7 +2119,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i: cmake_force
@@ -2133,7 +2133,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i: cmake_force
@@ -2147,7 +2147,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i: cmake_force
@@ -2161,7 +2161,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i: cmake_force
@@ -2175,7 +2175,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i: cmake_force
@@ -2189,7 +2189,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i: cmake_force
@@ -2203,7 +2203,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i: cmake_force
@@ -2217,7 +2217,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i: cmake_force
@@ -2231,7 +2231,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i: cmake_force
@@ -2245,7 +2245,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i: cmake_force
@@ -2259,7 +2259,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i: cmake_force
@@ -2273,7 +2273,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i: cmake_force
@@ -2287,7 +2287,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i: cmake_force
@@ -2301,7 +2301,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/netif/pp
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i: cmake_force
@@ -2315,7 +2315,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i: cmake_force
@@ -2329,7 +2329,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i: cmake_force
@@ -2343,7 +2343,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i: cmake_force
@@ -2357,7 +2357,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i: cmake_force
@@ -2371,7 +2371,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i: cmake_force
@@ -2385,7 +2385,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i: cmake_force
@@ -2399,7 +2399,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i: cmake_force
@@ -2413,7 +2413,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i: cmake_force
@@ -2427,7 +2427,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/cyw43-driver/src/
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i: cmake_force
@@ -2441,7 +2441,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i: cmake_force
@@ -2455,7 +2455,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
@@ -2469,7 +2469,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardwa
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
@@ -2483,7 +2483,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardwa
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i: cmake_force
@@ -2497,7 +2497,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i: cmake_force
@@ -2511,7 +2511,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_a
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.i: cmake_force
@@ -2525,7 +2525,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/htt
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/fs.c.i: cmake_force
@@ -2539,7 +2539,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/htt
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/http_client.c.i: cmake_force
@@ -2553,7 +2553,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/htt
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/http/httpd.c.i: cmake_force
@@ -2567,189 +2567,189 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/apps/htt
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj -c /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj -c /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.i
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.s
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj -c /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj -c /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.i
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.s
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj -c /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj -c /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.i
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.s
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj -c /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj -c /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.i
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.s
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj -c /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj -c /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.i
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.s
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj -c /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj -c /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.i
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.s
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj -c /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj -c /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.i
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.s
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj -c /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj -c /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.i
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.s
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj -c /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj -c /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.i
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.s
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj -c /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj -c /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.i
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.s
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj -c /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj -c /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.i
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.s
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj -c /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj -c /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.i
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.s
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj: no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj -c /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj -MF CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj.d -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj -c /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c > CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.i
 
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c -o CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.s
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj: CMakeFiles/pico20Proj.dir/flags.make
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj: /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj: CMakeFiles/pico20Proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj -MF CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj.d -o CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj -c /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c
 
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i: cmake_force
@@ -3155,13 +3155,13 @@ pico20Proj.elf: CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/r
 pico20Proj.elf: CMakeFiles/pico20Proj.dir/build.make
 pico20Proj.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 pico20Proj.elf: CMakeFiles/pico20Proj.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/pico-team202backup/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Linking CXX executable pico20Proj.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/webdisplay/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Linking CXX executable pico20Proj.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pico20Proj.dir/link.txt --verbose=$(VERBOSE)
-	/usr/bin/arm-none-eabi-objcopy -Oihex /home/ubuntu/pico-team202backup/pico20Proj.elf pico20Proj.hex
-	/usr/bin/arm-none-eabi-objcopy -Obinary /home/ubuntu/pico-team202backup/pico20Proj.elf pico20Proj.bin
-	/usr/bin/arm-none-eabi-objdump -h /home/ubuntu/pico-team202backup/pico20Proj.elf > pico20Proj.dis
-	/usr/bin/arm-none-eabi-objdump -d /home/ubuntu/pico-team202backup/pico20Proj.elf >> pico20Proj.dis
-	elf2uf2/elf2uf2 /home/ubuntu/pico-team202backup/pico20Proj.elf pico20Proj.uf2
+	/usr/bin/arm-none-eabi-objcopy -Oihex /home/ubuntu/webdisplay/pico20Proj.elf pico20Proj.hex
+	/usr/bin/arm-none-eabi-objcopy -Obinary /home/ubuntu/webdisplay/pico20Proj.elf pico20Proj.bin
+	/usr/bin/arm-none-eabi-objdump -h /home/ubuntu/webdisplay/pico20Proj.elf > pico20Proj.dis
+	/usr/bin/arm-none-eabi-objdump -d /home/ubuntu/webdisplay/pico20Proj.elf >> pico20Proj.dis
+	elf2uf2/elf2uf2 /home/ubuntu/webdisplay/pico20Proj.elf pico20Proj.uf2
 
 # Rule to build all files generated by this target.
 CMakeFiles/pico20Proj.dir/build: pico20Proj.elf
@@ -3172,6 +3172,6 @@ CMakeFiles/pico20Proj.dir/clean:
 .PHONY : CMakeFiles/pico20Proj.dir/clean
 
 CMakeFiles/pico20Proj.dir/depend:
-	cd /home/ubuntu/pico-team202backup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/pico-team202backup /home/ubuntu/pico-team202backup /home/ubuntu/pico-team202backup /home/ubuntu/pico-team202backup /home/ubuntu/pico-team202backup/CMakeFiles/pico20Proj.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/webdisplay && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/webdisplay /home/ubuntu/webdisplay /home/ubuntu/webdisplay /home/ubuntu/webdisplay /home/ubuntu/webdisplay/CMakeFiles/pico20Proj.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pico20Proj.dir/depend
 

@@ -11,9 +11,9 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_c
  /usr/include/newlib/sys/features.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
- /home/ubuntu/pico-team202/generated/pico_base/pico/version.h \
+ /home/ubuntu/webdisplay/generated/pico_base/pico/version.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_base/include/pico/config.h \
- /home/ubuntu/pico-team202/generated/pico_base/pico/config_autogen.h \
+ /home/ubuntu/webdisplay/generated/pico_base/pico/config_autogen.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/boards/include/boards/pico_w.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
@@ -55,7 +55,7 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_c
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
  /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/include/lwip/netif.h \
  /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/include/lwip/opt.h \
- /home/ubuntu/pico-team202/lwipopts.h \
+ /home/ubuntu/webdisplay/lwipopts.h \
  /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/include/lwip/debug.h \
  /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/include/lwip/arch.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/include/arch/cc.h \

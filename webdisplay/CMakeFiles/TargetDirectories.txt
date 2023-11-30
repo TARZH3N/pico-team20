@@ -1,4 +1,4 @@
-/home/ubuntu/webdisplay/CMakeFiles/webdisplay.dir
+/home/ubuntu/webdisplay/CMakeFiles/pico20Proj.dir
 /home/ubuntu/webdisplay/CMakeFiles/ELF2UF2Build.dir
 /home/ubuntu/webdisplay/CMakeFiles/edit_cache.dir
 /home/ubuntu/webdisplay/CMakeFiles/rebuild_cache.dir

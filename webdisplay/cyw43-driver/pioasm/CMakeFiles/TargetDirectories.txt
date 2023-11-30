@@ -1,3 +1,0 @@
-/home/ubuntu/pico-team202/cyw43-driver/pioasm/CMakeFiles/pioasm.dir
-/home/ubuntu/pico-team202/cyw43-driver/pioasm/CMakeFiles/edit_cache.dir
-/home/ubuntu/pico-team202/cyw43-driver/pioasm/CMakeFiles/rebuild_cache.dir

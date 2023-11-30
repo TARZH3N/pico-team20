@@ -1,5 +1,5 @@
 CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj: \
- /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c \
+ /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c \
  /usr/include/newlib/assert.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
@@ -11,9 +11,9 @@ CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.
  /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_base/include/pico/assert.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
- /home/ubuntu/pico-team202backup/generated/pico_base/pico/version.h \
+ /home/ubuntu/webdisplay/generated/pico_base/pico/version.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_base/include/pico/config.h \
- /home/ubuntu/pico-team202backup/generated/pico_base/pico/config_autogen.h \
+ /home/ubuntu/webdisplay/generated/pico_base/pico/config_autogen.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/boards/include/boards/pico_w.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
@@ -49,7 +49,7 @@ CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.
  /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_sync/include/pico/sem.h \
- /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/my_debug.h \
+ /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/my_debug.h \
  /usr/include/newlib/stdio.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
  /usr/include/newlib/sys/reent.h /usr/include/newlib/_ansi.h \
@@ -61,11 +61,11 @@ CMakeFiles/pico20Proj.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.
  /usr/include/newlib/sys/timespec.h /usr/include/newlib/sys/_timespec.h \
  /usr/include/newlib/sys/_pthreadtypes.h /usr/include/newlib/sys/sched.h \
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
- /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/hw_config.h \
- /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \
- /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h \
- /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.h \
- /home/ubuntu/pico-team202backup/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.h \
+ /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/hw_config.h \
+ /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \
+ /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h \
+ /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.h \
+ /home/ubuntu/webdisplay/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \

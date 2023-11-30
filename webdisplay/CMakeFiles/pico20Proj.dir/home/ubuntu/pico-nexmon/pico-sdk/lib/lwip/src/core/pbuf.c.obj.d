@@ -1,7 +1,7 @@
 CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c.obj: \
  /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbuf.c \
  /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/include/lwip/opt.h \
- /home/ubuntu/pico-team202/lwipopts.h \
+ /home/ubuntu/webdisplay/lwipopts.h \
  /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/include/lwip/debug.h \
  /home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/include/lwip/arch.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_lwip/include/arch/cc.h \
@@ -28,9 +28,9 @@ CMakeFiles/pico20Proj.dir/home/ubuntu/pico-nexmon/pico-sdk/lib/lwip/src/core/pbu
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
  /usr/include/newlib/assert.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
- /home/ubuntu/pico-team202/generated/pico_base/pico/version.h \
+ /home/ubuntu/webdisplay/generated/pico_base/pico/version.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/common/pico_base/include/pico/config.h \
- /home/ubuntu/pico-team202/generated/pico_base/pico/config_autogen.h \
+ /home/ubuntu/webdisplay/generated/pico_base/pico/config_autogen.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/boards/include/boards/pico_w.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/ubuntu/pico-nexmon/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
