@@ -14,6 +14,6 @@ Our team has identified that text file storing packets captured in AP Monitor mo
 The following fields in lwiopts.h has been set to the maximum threshold
 
 #define LWIP_HTTPD_MAX_TAG_INSERT_LEN 2048
-#define TCP_MSS                     3000
+#define TCP_MSS 3000
 
 Attempts at pagination with cgi.h were also unsuccessful.
