@@ -1,7 +1,7 @@
 # pico-team20
 INF2004 IS PROJECT
 
-## First Pico - WiFi Sniffing + Web Server 
+## First Pico - WiFi Sniffing
 1. Enables AP and Monitor mode of WiFi module to capture packets from connected clients.
 2. Stores captured packets into SD card.
 3. Receives alert of ICMP flood detection from 2nd pico via i2C (Pico 1 is the i2C Slave). 
@@ -11,6 +11,9 @@ INF2004 IS PROJECT
 1. Enables packet capture from client connected via Ethernet interface.
 2. Analyzes ICMP packets to detect ICMP flood.
 3. Sends ICMP flood detection alert to 1st pico via i2C (Pico 2 is the i2C Master).
+
+## Third Pico - Web Display
+1. Via SSI display SD Card contents
 
 ## Diagrams
 ### Block Diagram for both Picos
