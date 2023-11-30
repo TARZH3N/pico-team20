@@ -23,13 +23,23 @@
 
 #define ICMP_FLOOD_RATE 15
 
+// Variables for I2C master
+//
 static const uint I2C_SLAVE_ADDRESS = 0x17;
 static const uint I2C_BAUDRATE = 100000; // 100 kHz
 static const uint I2C_MASTER_SDA_PIN = 4;
 static const uint I2C_MASTER_SCL_PIN = 5;
+
+// Timer running flag
+//
 uint8_t timer_started = false;
+
+// Incoming ICMP rate
+//
 uint8_t icmp_rate = 0;
 
+// Initialise variable for ip address
+//
 char *ip_address;
 
 static void run_master() {
